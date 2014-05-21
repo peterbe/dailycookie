@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+}
+
+.alternatives li {
+    cursor: pointer;
+    border: 1px solid #efefef;
+    padding: 20px;
+    margin: 20px;
+    list-style: none;
+    display: inline;
+}
+
+.alternatives li.clicked {
+    border: 1px solid black;
+    font-weight: bold;
+}
+
+.alternatives li.clicked.correct {
+    border: 1px solid green;
+}
+
+.alternatives li.clicked.incorrect {
+    border: 1px solid red;
+}

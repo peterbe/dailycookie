@@ -1,0 +1,38 @@
+<div id="play">
+
+    <div ng-show="!question && !finished" class="loading">
+        <p>Loading question...</p>
+    </div>
+
+    <div ng-show="question" class="question">
+        <div class="picture">
+            <img ng-src="{{ question.picture.url }}" width="{{ question.picture.width }}" height="{{ question.picture.height }}">
+        </div>
+
+        <ul class="alternatives">
+            <li ng-repeat="alternative in question.choices" ng-click="submitAnswer(alternative)"
+              ng-class="{clicked: clicked==alternative, correct: isCorrect(alternative), incorrect: isIncorrect(alternative)}">
+                {{ alternative }}
+
+            </li>
+        </ul>
+
+        <div class="answered" ng-show="clicked">
+            <div class="correct" ng-show="clicked && was_correct">
+                <h4>Correct!</h4>
+            </div>
+            <div class="incorrect" ng-show="clicked && !was_correct">
+                <h4>Incorrect!</h4>
+                <p>The right answer was <strong>{{ question.correct }}</strong>.</p>
+            </div>
+            <p><a href="#" ng-click="forwardNextQuestion()">Next question please...</a></p>
+        </div>
+
+    </div>
+
+    <div class="finished" ng-show="finished">
+        <h3>Finished!</h3>
+
+    </div>
+
+</div>
