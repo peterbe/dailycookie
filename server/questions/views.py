@@ -21,21 +21,27 @@ def thumbnail(filename, geometry, **options):
         return thumbnail(filename, geometry, **options)
 
 
+@json_view
 def home(request):
-    group = request.GET.get('group')
+    group = request.GET.get('group', 'swedish')
+    group = QuestionGroup.objects.get(name__icontains=group)
     geometry = request.GET.get('geometry', '200x200')
-    questions_qs = Question.objects.all()
+    questions_qs = Question.objects.filter(group=group)
     questions = []
     for item in questions_qs.order_by('created'):
-        thumb = thumbnail(item.picture)
+        thumb = thumbnail(item.picture, geometry)
         questions.append({
             'picture': {
                 'url': thumb.url,
                 'width': thumb.width,
                 'height': thumb.height
             },
-            'correct': question.correct.word,
-            'incorrect': [x.word for x in question.incorrect.all()]
+            'correct': item.correct,
+            'incorrect': item.incorrect
         })
-
-    return questions
+    context = {
+        'locale': group.locale,
+        'name': group.name,
+        'questions': questions,
+    }
+    return context

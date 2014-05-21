@@ -10,7 +10,6 @@ urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
 )
 
-print (settings.MEDIA_URL, settings.MEDIA_ROOT)
 if settings.DEBUG:
     urlpatterns += static(
         settings.MEDIA_URL,

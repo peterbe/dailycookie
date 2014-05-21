@@ -6,12 +6,21 @@ function shuffle(o){ //v1.0
     return o;
 }
 
-var fallbackSpeechSynthesis = window.speechSynthesis || window.speechSynthesisPolyfill;
-var fallbackSpeechSynthesisUtterance = window.SpeechSynthesisUtterance || window.SpeechSynthesisUtterancePolyfill;
+// console.log(window.speechSynthesis);
+// console.log(window.speechSynthesisPolyfill);
+// var fallbackSpeechSynthesis = window.speechSynthesis || window.speechSynthesisPolyfill;
 
-function playWord(word) {
+// console.log(window.SpeechSynthesisUtterance)
+// console.log(window.SpeechSynthesisUtterancePolyfill)
+// var fallbackSpeechSynthesisUtterance = window.SpeechSynthesisUtterance || window.SpeechSynthesisUtterancePolyfill;
+var fallbackSpeechSynthesis = window.speechSynthesisPolyfill;
+var fallbackSpeechSynthesisUtterance = window.SpeechSynthesisUtterancePolyfill;
+
+function playWord(word, lang) {
+    console.log(word, lang);
     var u = new fallbackSpeechSynthesisUtterance(word);
-    u.lang = 'sv';
+    lang = lang || 'en-US';
+    u.lang = lang;
     u.volume = 1.0;
     u.rate = 1.0;
     // u.onend = function(event) { console.log('Finished in ' + event.elapsedTime + ' seconds.'); };
@@ -52,9 +61,30 @@ app.controller('PlayController',
         $scope.was_correct = false;
         $scope.next_question = 0;
 
-        $http.get('/questions.json', {username: $routeParams.username})
+        $http.get('/questions/', {username: $routeParams.username})
         .success(function(response) {
-            $scope.questions = response.questions;
+            // the database contains multiple correct answers per
+            // every picture, so flatten that list
+            var questions = [];
+            console.log(response);
+            response.questions.forEach(function(question) {
+                // console.log(question);
+                var incorrects = shuffle(question.incorrect.slice());
+
+                question.correct.forEach(function(correct) {
+                    questions.push({
+                        correct: correct,
+                        incorrect: incorrects.slice(0, 4),
+                        picture: question.picture,
+                        locale: response.locale
+                    });
+                });
+            });
+
+            questions = shuffle(questions);
+
+            $scope.questions = questions;
+            $scope.locale = response.locale;
             setNextQuestion();
 
         })
@@ -92,7 +122,7 @@ app.controller('PlayController',
         $scope.submitAnswer = function(answer) {
             if ($scope.clicked) return;
             $scope.clicked = answer;
-            playWord(answer);
+            playWord(answer, $scope.question.locale);
             $scope.was_correct = $scope.question.correct === answer;
             next_timer = $timeout(function() {
                 setNextQuestion();

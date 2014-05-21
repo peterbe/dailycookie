@@ -15,6 +15,7 @@ def now():
 
 class QuestionGroup(models.Model):
     name = models.CharField(max_length=200)
+    locale = models.CharField(max_length=30)
     created = models.DateTimeField(default=now)
 
     def __unicode__(self):
@@ -46,7 +47,6 @@ class Question(models.Model):
     group = models.ForeignKey(QuestionGroup)
     picture = models.ImageField(null=True, blank=True, upload_to=upload_path('pictures'))
     question = models.TextField(null=True, blank=True)
-    #correct = models.CharField(max_length=200)
     correct = JSONField()
     incorrect = JSONField()
     created = models.DateTimeField(default=now)
