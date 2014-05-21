@@ -5,6 +5,19 @@ function shuffle(o){ //v1.0
     for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
     return o;
 }
+
+var fallbackSpeechSynthesis = window.speechSynthesis || window.speechSynthesisPolyfill;
+var fallbackSpeechSynthesisUtterance = window.SpeechSynthesisUtterance || window.SpeechSynthesisUtterancePolyfill;
+
+function playWord(word) {
+    var u = new fallbackSpeechSynthesisUtterance(word);
+    u.lang = 'sv';
+    u.volume = 1.0;
+    u.rate = 1.0;
+    // u.onend = function(event) { console.log('Finished in ' + event.elapsedTime + ' seconds.'); };
+    fallbackSpeechSynthesis.speak(u);
+}
+
 /* Controllers */
 
 var app = angular.module('cookie.controllers', []);
@@ -79,6 +92,7 @@ app.controller('PlayController',
         $scope.submitAnswer = function(answer) {
             if ($scope.clicked) return;
             $scope.clicked = answer;
+            playWord(answer);
             $scope.was_correct = $scope.question.correct === answer;
             next_timer = $timeout(function() {
                 setNextQuestion();
