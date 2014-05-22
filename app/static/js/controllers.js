@@ -6,15 +6,18 @@ function shuffle(o){ //v1.0
     return o;
 }
 
-// console.log(window.speechSynthesis);
-// console.log(window.speechSynthesisPolyfill);
-// var fallbackSpeechSynthesis = window.speechSynthesis || window.speechSynthesisPolyfill;
+// // console.log(window.speechSynthesis);
+// // console.log(window.speechSynthesisPolyfill);
+//  var fallbackSpeechSynthesis = window.speechSynthesis || window.speechSynthesisPolyfill;
+//
+// // console.log(window.SpeechSynthesisUtterance)
+// // console.log(window.SpeechSynthesisUtterancePolyfill)
+//  var fallbackSpeechSynthesisUtterance = window.SpeechSynthesisUtterance || window.SpeechSynthesisUtterancePolyfill;
+// var fallbackSpeechSynthesis = window.speechSynthesisPolyfill;
+// var fallbackSpeechSynthesisUtterance = window.SpeechSynthesisUtterancePolyfill;
 
-// console.log(window.SpeechSynthesisUtterance)
-// console.log(window.SpeechSynthesisUtterancePolyfill)
-// var fallbackSpeechSynthesisUtterance = window.SpeechSynthesisUtterance || window.SpeechSynthesisUtterancePolyfill;
-var fallbackSpeechSynthesis = window.speechSynthesisPolyfill;
-var fallbackSpeechSynthesisUtterance = window.SpeechSynthesisUtterancePolyfill;
+var fallbackSpeechSynthesis = window.getSpeechSynthesis();
+var fallbackSpeechSynthesisUtterance = window.getSpeechSynthesisUtterance();
 
 function playWord(word, lang) {
     console.log(word, lang);
@@ -66,7 +69,6 @@ app.controller('PlayController',
             // the database contains multiple correct answers per
             // every picture, so flatten that list
             var questions = [];
-            console.log(response);
             response.questions.forEach(function(question) {
                 // console.log(question);
                 var incorrects = shuffle(question.incorrect.slice());
@@ -124,9 +126,11 @@ app.controller('PlayController',
             $scope.clicked = answer;
             playWord(answer, $scope.question.locale);
             $scope.was_correct = $scope.question.correct === answer;
-            next_timer = $timeout(function() {
-                setNextQuestion();
-            }, 3 * 1000);
+            if ($scope.was_correct) {
+                next_timer = $timeout(function() {
+                    setNextQuestion();
+                }, 3 * 1000);
+            }
         };
 
         $scope.forwardNextQuestion = function() {
