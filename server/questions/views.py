@@ -1,5 +1,7 @@
+import os
 import functools
 import time
+import stat
 
 from django.db.utils import IntegrityError
 from django.contrib.sites.models import RequestSite
@@ -31,6 +33,7 @@ def thumbnail(filename, geometry, **options):
         time.sleep(1)
         return thumbnail(filename, geometry, **options)
 
+
 @add_CORS_header
 @json_view
 def home(request):
@@ -50,20 +53,54 @@ def home(request):
             url = base_url + url
         return url
 
+    def serialize_word(word):
+        data = {
+            'word': word.word,
+            'id': word.id,
+        }
+        if word.explanation:
+            data['explanation'] = word.explanation
+        if word.mp3file:
+            data['mp3file'] = absolute_url(word.mp3file.url)
+        if word.oggfile:
+            data['oggfile'] = absolute_url(word.oggfile.url)
+        return data
+
     for item in questions_qs.order_by('created'):
         thumb = thumbnail(item.picture, geometry)
-        questions.append({
+        question = {
             'picture': {
                 'url': absolute_url(thumb.url),
                 'width': thumb.width,
                 'height': thumb.height
             },
-            'correct': item.correct,
-            'incorrect': item.incorrect
-        })
+            'correct': [],
+            'incorrect': [],
+        }
+        for word in item.correct.all():
+            if has_audio_file(word):
+                question['correct'].append(serialize_word(word))
+        for word in item.incorrect.all():
+            if has_audio_file(word):
+                question['incorrect'].append(serialize_word(word))
+
+        if question['correct'] and question['incorrect']:
+            questions.append(question)
+
     context = {
-        'locale': group.locale,
+        'locale': group.locale.code,
         'name': group.name,
         'questions': questions,
     }
     return context
+
+
+def has_audio_file(word):
+    if word.mp3file:
+        if os.path.isfile(word.mp3file.path):
+            if os.stat(word.mp3file.path)[stat.ST_SIZE]:
+                return True
+            else:
+                word.mp3file = None
+                word.save()
+    return False

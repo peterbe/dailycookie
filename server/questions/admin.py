@@ -4,7 +4,7 @@ from django.conf import settings
 
 from sorl.thumbnail import get_thumbnail
 
-from .models import Question, QuestionGroup
+from .models import Locale, Question, QuestionGroup, Word
 
 
 class ArrayInput(forms.widgets.Textarea):
@@ -21,26 +21,27 @@ class ArrayInput(forms.widgets.Textarea):
         raise Exception(value)
 
 
+
 class QuestionAdminForm(forms.ModelForm):
 
     class Meta:
         model = Question
-        widgets = {
-            'incorrect': ArrayInput,
-            'correct': ArrayInput,
-        }
+        # widgets = {
+        #     'incorrect': ArrayInput,
+        #     'correct': ArrayInput,
+        # }
 
 
 class QuestionAdmin(admin.ModelAdmin):
     list_display = ('picture_', 'correct_', 'incorrect_')
-    exclude = ('created',)
+    exclude = ('created', 'modified')
     form = QuestionAdminForm
 
     def correct_(self, obj):
-        return ', '.join(obj.correct)
+        return ', '.join(x.word for x in obj.correct.all())
 
     def incorrect_(self, obj):
-        return ', '.join(obj.incorrect)
+        return ', '.join(x.word for x in obj.incorrect.all())
 
     def picture_(self, obj):
         thumb = get_thumbnail(obj.picture, '64x64')
@@ -49,8 +50,35 @@ class QuestionAdmin(admin.ModelAdmin):
 
 
 class QuestionGroupAdmin(admin.ModelAdmin):
-    exclude = ('created',)
+    exclude = ('created', 'modified')
+    list_display = ('name', 'locale')
+
+
+class LocaleAdmin(admin.ModelAdmin):
+    list_display = ('code', 'name')
+
+
+class WordAdmin(admin.ModelAdmin):
+    list_display = ('word', 'explanation', 'mp3file_')
+    exclude = ('created', 'modified')
+
+    def mp3file_(self, obj):
+        if obj.mp3file:
+            html = '<audio id="audio-%s" src="%s"></audio>' % (
+                obj.id,
+                obj.mp3file.url,
+            )
+            html += (
+                '<a href="#" onclick="document.getElementById(\'audio-%s\')'
+                '.play();return false">play</a>'
+                % obj.id
+            )
+            return html
+        return ''
+    mp3file_.allow_tags = True
 
 
 admin.site.register(Question, QuestionAdmin)
 admin.site.register(QuestionGroup, QuestionGroupAdmin)
+admin.site.register(Locale, LocaleAdmin)
+admin.site.register(Word, WordAdmin)

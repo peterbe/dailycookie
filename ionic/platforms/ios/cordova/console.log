@@ -81,3 +81,848 @@ objc[53446]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.a
 2014-05-24 11:47:30.912 HelloCordova[53446:70b] Trappa sv
 2014-05-24 11:47:33.918 HelloCordova[53446:70b] Question [object Object]
 Terminating in response to SpringBoard's termination.
+objc[39427]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-01 12:36:27.709 HelloCordova[39427:70b] Cannot find executable for CFBundle 0xa3be3a0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-01 12:36:27.715 HelloCordova[39427:70b] Cannot find executable for CFBundle 0xa78f180 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-01 12:36:27.747 HelloCordova[39427:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-01 12:36:27.774 HelloCordova[39427:70b] Unlimited access to network resources
+2014-06-01 12:36:27.894 HelloCordova[39427:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-01 12:36:27.894 HelloCordova[39427:70b] [CDVTimer][statusbar] 0.404000ms
+2014-06-01 12:36:27.895 HelloCordova[39427:70b] [CDVTimer][TotalPluginStartup] 0.756025ms
+2014-06-01 12:36:28.004 HelloCordova[39427:70b] Resetting plugins due to page load.
+2014-06-01 12:36:28.218 HelloCordova[39427:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+2014-06-01 12:36:35.148 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.303 HelloCordova[39427:70b] Downloaded 39 questions
+2014-06-01 12:36:35.304 HelloCordova[39427:70b] Picked questions 5
+2014-06-01 12:36:35.317 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.363 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.369 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.385 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.391 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.397 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.404 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.410 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.417 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.422 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.428 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.434 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.440 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.446 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.452 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.458 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.465 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.471 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.481 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.486 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.494 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.501 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.508 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.514 HelloCordova[39427:70b] setting movie path: 
+2014-06-01 12:36:35.521 HelloCordova[39427:70b] setting movie path: 
+objc[39940]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-01 12:37:40.974 HelloCordova[39940:70b] Cannot find executable for CFBundle 0xa457f70 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-01 12:37:40.978 HelloCordova[39940:70b] Cannot find executable for CFBundle 0xe7a3eb0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-01 12:37:40.999 HelloCordova[39940:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-01 12:37:41.004 HelloCordova[39940:70b] Unlimited access to network resources
+2014-06-01 12:37:41.026 HelloCordova[39940:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-01 12:37:41.027 HelloCordova[39940:70b] [CDVTimer][statusbar] 0.321984ms
+2014-06-01 12:37:41.027 HelloCordova[39940:70b] [CDVTimer][TotalPluginStartup] 0.617981ms
+2014-06-01 12:37:41.071 HelloCordova[39940:70b] Resetting plugins due to page load.
+2014-06-01 12:37:41.184 HelloCordova[39940:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+2014-06-01 12:39:00.995 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.109 HelloCordova[39940:70b] Downloaded 39 questions
+2014-06-01 12:39:01.109 HelloCordova[39940:70b] Picked questions 5
+2014-06-01 12:39:01.144 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.187 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.193 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.200 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.208 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.213 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.220 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.227 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.233 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.239 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.244 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.251 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.257 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.263 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.269 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.276 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.281 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.288 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.294 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.301 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.307 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.314 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.324 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.330 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:39:01.337 HelloCordova[39940:70b] setting movie path: 
+2014-06-01 12:55:39.112 HelloCordova[39940:70b] Received memory warning.
+objc[41210]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-01 12:56:24.125 HelloCordova[41210:70b] Cannot find executable for CFBundle 0xa26bc10 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-01 12:56:24.131 HelloCordova[41210:70b] Cannot find executable for CFBundle 0xa3577d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-01 12:56:24.157 HelloCordova[41210:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-01 12:56:24.162 HelloCordova[41210:70b] Unlimited access to network resources
+2014-06-01 12:56:24.181 HelloCordova[41210:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-01 12:56:24.181 HelloCordova[41210:70b] [CDVTimer][statusbar] 0.207007ms
+2014-06-01 12:56:24.182 HelloCordova[41210:70b] [CDVTimer][TotalPluginStartup] 0.434995ms
+2014-06-01 12:56:24.255 HelloCordova[41210:70b] Resetting plugins due to page load.
+2014-06-01 12:56:24.394 HelloCordova[41210:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+objc[41662]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-01 13:00:50.907 HelloCordova[41662:70b] Cannot find executable for CFBundle 0xa5c5980 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-01 13:00:50.910 HelloCordova[41662:70b] Cannot find executable for CFBundle 0xa5e09f0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-01 13:00:50.933 HelloCordova[41662:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-01 13:00:50.938 HelloCordova[41662:70b] Unlimited access to network resources
+2014-06-01 13:00:50.953 HelloCordova[41662:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-01 13:00:50.954 HelloCordova[41662:70b] [CDVTimer][statusbar] 0.194967ms
+2014-06-01 13:00:50.954 HelloCordova[41662:70b] [CDVTimer][TotalPluginStartup] 0.342011ms
+2014-06-01 13:00:51.027 HelloCordova[41662:70b] Resetting plugins due to page load.
+2014-06-01 13:00:51.163 HelloCordova[41662:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+2014-06-01 13:00:53.050 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.143 HelloCordova[41662:70b] Downloaded 39 questions
+2014-06-01 13:00:53.143 HelloCordova[41662:70b] Picked questions 5
+2014-06-01 13:00:53.153 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.193 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.200 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.205 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.211 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.218 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.225 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.231 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.236 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.242 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.248 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.255 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.261 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.267 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.274 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.279 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.286 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.291 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.299 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.304 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:53.312 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:00:57.291 HelloCordova[41662:70b] $scope.attempts [object Object]
+2014-06-01 13:01:04.870 HelloCordova[41662:70b] $scope.attempts [object Object]
+2014-06-01 13:01:20.703 HelloCordova[41662:70b] $scope.attempts [object Object]
+2014-06-01 13:01:30.046 HelloCordova[41662:70b] $scope.attempts [object Object]
+2014-06-01 13:01:36.903 HelloCordova[41662:70b] $scope.attempts [object Object]
+2014-06-01 13:01:38.925 HelloCordova[41662:70b] 0
+2014-06-01 13:01:38.925 HelloCordova[41662:70b] 1
+2014-06-01 13:01:38.925 HelloCordova[41662:70b] 1
+2014-06-01 13:01:38.925 HelloCordova[41662:70b] 1
+2014-06-01 13:01:38.925 HelloCordova[41662:70b] 2
+2014-06-01 13:01:38.925 HelloCordova[41662:70b] 1
+2014-06-01 13:01:38.926 HelloCordova[41662:70b] 3
+2014-06-01 13:01:38.926 HelloCordova[41662:70b] 1
+2014-06-01 13:01:38.926 HelloCordova[41662:70b] 4
+2014-06-01 13:01:38.926 HelloCordova[41662:70b] 1
+2014-06-01 13:05:26.900 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:26.974 HelloCordova[41662:70b] Downloaded 39 questions
+2014-06-01 13:05:26.974 HelloCordova[41662:70b] Picked questions 5
+2014-06-01 13:05:26.981 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:26.987 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:26.995 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.000 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.009 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.015 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.022 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.030 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.035 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.043 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.049 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.056 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.062 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.070 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.076 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.083 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.090 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.097 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.103 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.111 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:27.118 HelloCordova[41662:70b] setting movie path: 
+2014-06-01 13:05:29.653 HelloCordova[41662:70b] $scope.attempts [object Object]
+objc[76002]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-02 13:45:40.948 HelloCordova[76002:70b] Cannot find executable for CFBundle 0xa2647e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-02 13:45:40.952 HelloCordova[76002:70b] Cannot find executable for CFBundle 0xa27cac0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-02 13:45:40.983 HelloCordova[76002:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-02 13:45:40.987 HelloCordova[76002:70b] Unlimited access to network resources
+2014-06-02 13:45:41.002 HelloCordova[76002:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-02 13:45:41.003 HelloCordova[76002:70b] [CDVTimer][statusbar] 0.196993ms
+2014-06-02 13:45:41.003 HelloCordova[76002:70b] [CDVTimer][TotalPluginStartup] 0.337958ms
+2014-06-02 13:45:41.137 HelloCordova[76002:70b] Resetting plugins due to page load.
+2014-06-02 13:45:41.260 HelloCordova[76002:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+objc[85803]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-02 18:02:09.456 HelloCordova[85803:70b] Cannot find executable for CFBundle 0xa7697e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-02 18:02:09.463 HelloCordova[85803:70b] Cannot find executable for CFBundle 0xa83fd80 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-02 18:02:09.501 HelloCordova[85803:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-02 18:02:09.506 HelloCordova[85803:70b] Unlimited access to network resources
+2014-06-02 18:02:09.524 HelloCordova[85803:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-02 18:02:09.524 HelloCordova[85803:70b] [CDVTimer][statusbar] 0.352025ms
+2014-06-02 18:02:09.529 HelloCordova[85803:70b] [CDVTimer][TotalPluginStartup] 4.624009ms
+2014-06-02 18:02:09.606 HelloCordova[85803:70b] Resetting plugins due to page load.
+2014-06-02 18:02:09.760 HelloCordova[85803:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+2014-06-02 18:02:18.500 HelloCordova[85803:70b] config now [object Object]
+2014-06-02 18:02:18.500 HelloCordova[85803:70b] getting key batch_size 7
+2014-06-02 18:02:18.500 HelloCordova[85803:70b] getting key next_question_delay 4
+2014-06-02 18:02:23.705 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:23.714 HelloCordova[85803:4717] ERROR: unable to get the receiver data from the DB!
+2014-06-02 18:02:23.842 HelloCordova[85803:70b] Downloaded 39 questions
+2014-06-02 18:02:23.883 HelloCordova[85803:70b] config now [object Object]
+2014-06-02 18:02:23.884 HelloCordova[85803:70b] getting key batch_size 7
+2014-06-02 18:02:23.884 HelloCordova[85803:70b] getting key batch_size 7
+2014-06-02 18:02:23.898 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:23.951 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:23.956 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:23.963 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:23.969 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:23.975 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:23.980 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:23.989 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:23.995 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.003 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.010 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.018 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.024 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.031 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.038 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.046 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.052 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.058 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.064 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.070 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.076 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.082 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.089 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.094 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.101 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.106 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.113 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.119 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.126 HelloCordova[85803:70b] setting movie path: 
+2014-06-02 18:02:24.132 HelloCordova[85803:70b] setting movie path: 
+objc[89422]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-02 21:32:05.579 HelloCordova[89422:70b] Cannot find executable for CFBundle 0xa45c3c0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-02 21:32:05.585 HelloCordova[89422:70b] Cannot find executable for CFBundle 0xa556960 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-02 21:32:05.640 HelloCordova[89422:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-02 21:32:05.648 HelloCordova[89422:70b] Unlimited access to network resources
+2014-06-02 21:32:05.664 HelloCordova[89422:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-02 21:32:05.664 HelloCordova[89422:70b] [CDVTimer][statusbar] 0.200033ms
+2014-06-02 21:32:05.664 HelloCordova[89422:70b] [CDVTimer][TotalPluginStartup] 0.358999ms
+2014-06-02 21:32:05.744 HelloCordova[89422:70b] Resetting plugins due to page load.
+2014-06-02 21:32:05.936 HelloCordova[89422:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+2014-06-02 21:32:51.688 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.695 HelloCordova[89422:640f] ERROR: unable to get the receiver data from the DB!
+2014-06-02 21:32:51.758 HelloCordova[89422:70b] Downloaded 39 questions
+2014-06-02 21:32:51.799 HelloCordova[89422:70b] config now [object Object]
+2014-06-02 21:32:51.799 HelloCordova[89422:70b] getting key batch_size 7
+2014-06-02 21:32:51.799 HelloCordova[89422:70b] getting key batch_size 7
+2014-06-02 21:32:51.807 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.848 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.854 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.860 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.866 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.871 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.879 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.885 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.891 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.897 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.903 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.910 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.917 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.922 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.929 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.934 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.941 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.948 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.957 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.964 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.971 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.978 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.987 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:51.995 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:52.001 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:52.012 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:32:52.018 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.698 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.746 HelloCordova[89422:70b] Downloaded 39 questions
+2014-06-02 21:34:09.783 HelloCordova[89422:70b] config now [object Object]
+2014-06-02 21:34:09.783 HelloCordova[89422:70b] getting key batch_size 7
+2014-06-02 21:34:09.783 HelloCordova[89422:70b] getting key batch_size 7
+2014-06-02 21:34:09.789 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.795 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.803 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.809 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.817 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.824 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.831 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.837 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.843 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.850 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.857 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.864 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.871 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.877 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.885 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.891 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.899 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.906 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.913 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.920 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.927 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.933 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.941 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.947 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.955 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.962 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.969 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.976 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.985 HelloCordova[89422:70b] setting movie path: 
+2014-06-02 21:34:09.992 HelloCordova[89422:70b] setting movie path: 
+Terminating in response to SpringBoard's termination.
+objc[89958]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-02 21:39:18.878 HelloCordova[89958:70b] Cannot find executable for CFBundle 0xa37fe90 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-02 21:39:18.882 HelloCordova[89958:70b] Cannot find executable for CFBundle 0xa4921a0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-02 21:39:18.905 HelloCordova[89958:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-02 21:39:18.912 HelloCordova[89958:70b] Unlimited access to network resources
+2014-06-02 21:39:18.926 HelloCordova[89958:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-02 21:39:18.927 HelloCordova[89958:70b] [CDVTimer][statusbar] 0.406027ms
+2014-06-02 21:39:18.927 HelloCordova[89958:70b] [CDVTimer][TotalPluginStartup] 0.699997ms
+2014-06-02 21:39:18.994 HelloCordova[89958:70b] Resetting plugins due to page load.
+2014-06-02 21:39:19.148 HelloCordova[89958:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+2014-06-02 21:39:22.756 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:22.764 HelloCordova[89958:430b] ERROR: unable to get the receiver data from the DB!
+2014-06-02 21:39:22.837 HelloCordova[89958:70b] Downloaded 39 questions
+2014-06-02 21:39:22.847 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:22.928 HelloCordova[89958:70b] config now [object Object]
+2014-06-02 21:39:22.928 HelloCordova[89958:70b] getting key batch_size 7
+2014-06-02 21:39:22.928 HelloCordova[89958:70b] getting key batch_size 7
+2014-06-02 21:39:22.937 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:22.951 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:22.957 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:22.964 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:22.971 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:22.976 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:22.982 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:22.989 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:22.994 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.001 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.007 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.014 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.023 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.030 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.035 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.043 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.053 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.061 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.068 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.078 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.085 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.091 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.097 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.104 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.110 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.117 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.124 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.130 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.137 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.143 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.150 HelloCordova[89958:70b] setting movie path: 
+2014-06-02 21:39:23.153 HelloCordova[89958:70b] setting movie path: 
+objc[90190]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-02 21:40:04.056 HelloCordova[90190:70b] Cannot find executable for CFBundle 0xa642f10 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-02 21:40:04.059 HelloCordova[90190:70b] Cannot find executable for CFBundle 0xa65b1a0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-02 21:40:04.075 HelloCordova[90190:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-02 21:40:04.080 HelloCordova[90190:70b] Unlimited access to network resources
+2014-06-02 21:40:04.092 HelloCordova[90190:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-02 21:40:04.092 HelloCordova[90190:70b] [CDVTimer][statusbar] 0.322998ms
+2014-06-02 21:40:04.092 HelloCordova[90190:70b] [CDVTimer][TotalPluginStartup] 0.597000ms
+2014-06-02 21:40:04.123 HelloCordova[90190:70b] Resetting plugins due to page load.
+2014-06-02 21:40:04.249 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:40:04.259 HelloCordova[90190:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+Jun  2 21:42:35 mpb.local HelloCordova[90190] <Error>: CGImageCreate: invalid image size: 0 x 0.
+2014-06-02 21:42:43.040 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.055 HelloCordova[90190:170b] ERROR: unable to get the receiver data from the DB!
+2014-06-02 21:42:43.116 HelloCordova[90190:70b] Downloaded 39 questions
+2014-06-02 21:42:43.166 HelloCordova[90190:70b] config now [object Object]
+2014-06-02 21:42:43.166 HelloCordova[90190:70b] getting key batch_size 7
+2014-06-02 21:42:43.166 HelloCordova[90190:70b] getting key batch_size 7
+2014-06-02 21:42:43.172 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.177 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.183 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.189 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.196 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.200 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.207 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.213 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.219 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.225 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.231 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.238 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.244 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.252 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.258 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.264 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.271 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.276 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.283 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.289 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.295 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.302 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.307 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.314 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.321 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.328 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.333 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.341 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.346 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.353 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.359 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.366 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.373 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.380 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:43.386 HelloCordova[90190:70b] setting movie path: 
+2014-06-02 21:42:45.408 HelloCordova[90190:70b] setting movie path: 
+objc[90547]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-02 21:43:53.274 HelloCordova[90547:70b] Cannot find executable for CFBundle 0xa2808a0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-02 21:43:53.277 HelloCordova[90547:70b] Cannot find executable for CFBundle 0xa66f3c0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-02 21:43:53.295 HelloCordova[90547:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-02 21:43:53.299 HelloCordova[90547:70b] Unlimited access to network resources
+2014-06-02 21:43:53.313 HelloCordova[90547:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-02 21:43:53.313 HelloCordova[90547:70b] [CDVTimer][statusbar] 0.346959ms
+2014-06-02 21:43:53.314 HelloCordova[90547:70b] [CDVTimer][TotalPluginStartup] 0.738978ms
+2014-06-02 21:43:53.345 HelloCordova[90547:70b] Resetting plugins due to page load.
+2014-06-02 21:43:53.478 HelloCordova[90547:70b] setting movie path: 
+2014-06-02 21:43:53.489 HelloCordova[90547:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+Jun  2 21:44:09 mpb.local HelloCordova[90547] <Error>: CGImageCreate: invalid image size: 0 x 0.
+objc[90819]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-02 21:45:07.118 HelloCordova[90819:70b] Cannot find executable for CFBundle 0xa777f00 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-02 21:45:07.121 HelloCordova[90819:70b] Cannot find executable for CFBundle 0xa36d4b0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-02 21:45:07.150 HelloCordova[90819:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-02 21:45:07.155 HelloCordova[90819:70b] Unlimited access to network resources
+2014-06-02 21:45:07.169 HelloCordova[90819:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-02 21:45:07.169 HelloCordova[90819:70b] [CDVTimer][statusbar] 0.445008ms
+2014-06-02 21:45:07.170 HelloCordova[90819:70b] [CDVTimer][TotalPluginStartup] 0.729024ms
+2014-06-02 21:45:07.221 HelloCordova[90819:70b] Resetting plugins due to page load.
+2014-06-02 21:45:07.358 HelloCordova[90819:70b] setting movie path: 
+2014-06-02 21:45:07.370 HelloCordova[90819:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+2014-06-02 21:45:07.404 HelloCordova[90819:70b] setting movie path: http://cookie/words-mp3/2014/06/01/05a4cf56e53ee4edb1ffe8bd0c7db262.mp3
+2014-06-02 21:45:07.423 HelloCordova[90819:4713] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-02 21:45:07.425 HelloCordova[90819:70b] setting movie path: 
+2014-06-02 21:45:07.460 HelloCordova[90819:70b] setting movie path: http://cookie/words-mp3/2014/06/01/05a4cf56e53ee4edb1ffe8bd0c7db262.mp3
+2014-06-02 21:45:07.461 HelloCordova[90819:7703] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-02 21:45:09.556 HelloCordova[90819:70b] Took background task assertion (9) for playback stall
+objc[91193]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-02 21:49:15.376 HelloCordova[91193:70b] Cannot find executable for CFBundle 0xa23ee20 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-02 21:49:15.380 HelloCordova[91193:70b] Cannot find executable for CFBundle 0xa387f70 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-02 21:49:15.397 HelloCordova[91193:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-02 21:49:15.401 HelloCordova[91193:70b] Unlimited access to network resources
+2014-06-02 21:49:15.414 HelloCordova[91193:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-02 21:49:15.414 HelloCordova[91193:70b] [CDVTimer][statusbar] 0.322998ms
+2014-06-02 21:49:15.414 HelloCordova[91193:70b] [CDVTimer][TotalPluginStartup] 0.594974ms
+2014-06-02 21:49:15.444 HelloCordova[91193:70b] Resetting plugins due to page load.
+2014-06-02 21:49:15.572 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:15.583 HelloCordova[91193:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+2014-06-02 21:49:15.615 HelloCordova[91193:70b] setting movie path: http://cookie/words-mp3/2014/06/01/05a4cf56e53ee4edb1ffe8bd0c7db262.mp3
+2014-06-02 21:49:15.617 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:15.652 HelloCordova[91193:70b] setting movie path: http://cookie/words-mp3/2014/06/01/05a4cf56e53ee4edb1ffe8bd0c7db262.mp3
+2014-06-02 21:49:15.655 HelloCordova[91193:6307] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-02 21:49:17.579 HelloCordova[91193:70b] Took background task assertion (9) for playback stall
+Jun  2 21:49:36 mpb.local HelloCordova[91193] <Error>: CGImageCreate: invalid image size: 0 x 0.
+2014-06-02 21:49:38.608 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.678 HelloCordova[91193:70b] Downloaded 39 questions
+2014-06-02 21:49:38.718 HelloCordova[91193:70b] config now [object Object]
+2014-06-02 21:49:38.718 HelloCordova[91193:70b] getting key batch_size 7
+2014-06-02 21:49:38.718 HelloCordova[91193:70b] getting key batch_size 7
+2014-06-02 21:49:38.725 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.731 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.738 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.744 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.749 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.756 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.761 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.768 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.774 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.780 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.786 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.792 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.797 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.804 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.810 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.817 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.823 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.829 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.835 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.841 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.847 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.853 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.860 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.866 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.873 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.879 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.886 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.892 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.898 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:38.905 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:40.185 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:49:40.192 HelloCordova[91193:70b] getting key next_question_delay 4
+2014-06-02 21:49:40.192 HelloCordova[91193:70b] getting key batch_size 7
+2014-06-02 21:49:44.200 HelloCordova[91193:70b] getting key batch_size 7
+2014-06-02 21:50:05.214 HelloCordova[91193:70b] setting movie path: 
+2014-06-02 21:50:05.221 HelloCordova[91193:70b] getting key next_question_delay 4
+2014-06-02 21:50:05.221 HelloCordova[91193:70b] getting key batch_size 7
+2014-06-02 21:50:09.227 HelloCordova[91193:70b] getting key batch_size 7
+objc[91447]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-02 21:50:36.055 HelloCordova[91447:70b] Cannot find executable for CFBundle 0xa3b7840 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-02 21:50:36.059 HelloCordova[91447:70b] Cannot find executable for CFBundle 0xa59b720 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-02 21:50:36.075 HelloCordova[91447:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-02 21:50:36.080 HelloCordova[91447:70b] Unlimited access to network resources
+2014-06-02 21:50:36.092 HelloCordova[91447:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-02 21:50:36.092 HelloCordova[91447:70b] [CDVTimer][statusbar] 0.329018ms
+2014-06-02 21:50:36.092 HelloCordova[91447:70b] [CDVTimer][TotalPluginStartup] 0.621021ms
+2014-06-02 21:50:36.124 HelloCordova[91447:70b] Resetting plugins due to page load.
+2014-06-02 21:50:36.236 HelloCordova[91447:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+objc[91649]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-02 21:50:49.169 HelloCordova[91649:70b] Cannot find executable for CFBundle 0xc04a530 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-02 21:50:49.172 HelloCordova[91649:70b] Cannot find executable for CFBundle 0xda2f550 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-02 21:50:49.189 HelloCordova[91649:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-02 21:50:49.194 HelloCordova[91649:70b] Unlimited access to network resources
+2014-06-02 21:50:49.207 HelloCordova[91649:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-02 21:50:49.207 HelloCordova[91649:70b] [CDVTimer][statusbar] 0.433028ms
+2014-06-02 21:50:49.208 HelloCordova[91649:70b] [CDVTimer][TotalPluginStartup] 0.779033ms
+2014-06-02 21:50:49.240 HelloCordova[91649:70b] Resetting plugins due to page load.
+2014-06-02 21:50:49.348 HelloCordova[91649:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+2014-06-02 21:50:58.625 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.633 HelloCordova[91649:5a0b] ERROR: unable to get the receiver data from the DB!
+2014-06-02 21:50:58.693 HelloCordova[91649:70b] Downloaded 39 questions
+2014-06-02 21:50:58.742 HelloCordova[91649:70b] config now [object Object]
+2014-06-02 21:50:58.742 HelloCordova[91649:70b] getting key batch_size 7
+2014-06-02 21:50:58.743 HelloCordova[91649:70b] getting key batch_size 7
+2014-06-02 21:50:58.752 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.792 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.798 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.804 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.809 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.815 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.821 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.827 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.833 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.839 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.845 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.850 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.856 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.862 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.868 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.874 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.879 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.886 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.892 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.898 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.904 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.910 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.916 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.922 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.929 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.936 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.947 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.954 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.961 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.967 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.974 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.980 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.987 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:58.993 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:50:59.000 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:51:01.423 HelloCordova[91649:70b] setting movie path: 
+2014-06-02 21:51:01.433 HelloCordova[91649:70b] About to play 
+2014-06-02 21:51:01.433 HelloCordova[91649:70b] getting key next_question_delay 4
+2014-06-02 21:51:01.433 HelloCordova[91649:70b] getting key batch_size 7
+2014-06-02 21:51:05.435 HelloCordova[91649:70b] getting key batch_size 7
+objc[91879]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-02 21:51:46.688 HelloCordova[91879:70b] Cannot find executable for CFBundle 0xa28ab80 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-02 21:51:46.692 HelloCordova[91879:70b] Cannot find executable for CFBundle 0xa584fe0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-02 21:51:46.709 HelloCordova[91879:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-02 21:51:46.713 HelloCordova[91879:70b] Unlimited access to network resources
+2014-06-02 21:51:46.726 HelloCordova[91879:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-02 21:51:46.726 HelloCordova[91879:70b] [CDVTimer][statusbar] 0.413954ms
+2014-06-02 21:51:46.726 HelloCordova[91879:70b] [CDVTimer][TotalPluginStartup] 0.737965ms
+2014-06-02 21:51:46.757 HelloCordova[91879:70b] Resetting plugins due to page load.
+2014-06-02 21:51:46.865 HelloCordova[91879:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+2014-06-02 21:51:53.955 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:53.963 HelloCordova[91879:5903] ERROR: unable to get the receiver data from the DB!
+2014-06-02 21:51:54.029 HelloCordova[91879:70b] Downloaded 39 questions
+2014-06-02 21:51:54.073 HelloCordova[91879:70b] config now [object Object]
+2014-06-02 21:51:54.073 HelloCordova[91879:70b] getting key batch_size 7
+2014-06-02 21:51:54.073 HelloCordova[91879:70b] getting key batch_size 7
+2014-06-02 21:51:54.081 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.121 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.126 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.132 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.137 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.143 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.149 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.155 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.161 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.166 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.172 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.177 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.184 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.189 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.195 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.200 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.207 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.214 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.220 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.226 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.232 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.239 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.244 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.250 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.257 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.263 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.269 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.276 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.287 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.292 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.299 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.305 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.313 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.319 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:51:54.326 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:52:13.754 HelloCordova[91879:70b] setting movie path: 
+2014-06-02 21:52:13.763 HelloCordova[91879:70b] About to play  http://cookie/words-mp3/2014/06/01/73e4f02ecde1cdbebee0dc5e594d6b48.mp3
+2014-06-02 21:52:13.763 HelloCordova[91879:70b] getting key next_question_delay 4
+2014-06-02 21:52:13.764 HelloCordova[91879:70b] getting key batch_size 7
+2014-06-02 21:52:17.768 HelloCordova[91879:70b] getting key batch_size 7
+objc[92140]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-02 21:53:25.889 HelloCordova[92140:70b] Cannot find executable for CFBundle 0xa38b730 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-02 21:53:25.892 HelloCordova[92140:70b] Cannot find executable for CFBundle 0xa77ec90 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-02 21:53:25.909 HelloCordova[92140:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-02 21:53:25.914 HelloCordova[92140:70b] Unlimited access to network resources
+2014-06-02 21:53:25.927 HelloCordova[92140:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-02 21:53:25.927 HelloCordova[92140:70b] [CDVTimer][statusbar] 0.331998ms
+2014-06-02 21:53:25.928 HelloCordova[92140:70b] [CDVTimer][TotalPluginStartup] 0.627995ms
+2014-06-02 21:53:25.962 HelloCordova[92140:70b] Resetting plugins due to page load.
+2014-06-02 21:53:26.079 HelloCordova[92140:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+2014-06-02 21:53:29.632 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.643 HelloCordova[92140:1203] ERROR: unable to get the receiver data from the DB!
+2014-06-02 21:53:29.720 HelloCordova[92140:70b] Downloaded 39 questions
+2014-06-02 21:53:29.786 HelloCordova[92140:70b] config now [object Object]
+2014-06-02 21:53:29.786 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:53:29.786 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:53:29.799 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.863 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.872 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.879 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.886 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.892 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.898 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.903 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.909 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.915 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.920 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.926 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.932 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.938 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.944 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.954 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.960 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.966 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.974 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.979 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.985 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.992 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:29.998 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:30.004 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:30.011 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:30.017 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:30.024 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:30.031 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:30.037 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:30.044 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:30.050 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:30.057 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:30.064 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:30.070 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:30.079 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:31.500 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:31.510 HelloCordova[92140:70b] About to play http://cookie/words-mp3/2014/05/26/da76e92c9a17f347f7c5d76e01f479dc.mp3
+2014-06-02 21:53:31.510 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:53:31.510 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:53:31.526 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/da76e92c9a17f347f7c5d76e01f479dc.mp3
+2014-06-02 21:53:31.529 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:31.530 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/da76e92c9a17f347f7c5d76e01f479dc.mp3
+2014-06-02 21:53:31.535 HelloCordova[92140:6107] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-02 21:53:33.477 HelloCordova[92140:70b] Took background task assertion (84) for playback stall
+2014-06-02 21:53:35.515 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:53:38.027 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:38.036 HelloCordova[92140:70b] About to play http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-02 21:53:38.036 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:53:38.037 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:53:38.050 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-02 21:53:38.051 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:38.053 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-02 21:53:39.641 HelloCordova[92140:70b] Took background task assertion (92) for playback stall
+2014-06-02 21:53:42.045 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:53:46.973 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:46.983 HelloCordova[92140:70b] About to play http://cookie/words-mp3/2014/06/01/1bf978d7e09c26ee3e5cff6f5bb1b28b.mp3
+2014-06-02 21:53:46.983 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:53:46.983 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:53:46.995 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/06/01/1bf978d7e09c26ee3e5cff6f5bb1b28b.mp3
+2014-06-02 21:53:46.996 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:46.997 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/06/01/1bf978d7e09c26ee3e5cff6f5bb1b28b.mp3
+2014-06-02 21:53:48.405 HelloCordova[92140:70b] Took background task assertion (136) for playback stall
+2014-06-02 21:53:50.982 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:53:58.845 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:58.851 HelloCordova[92140:70b] About to play http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-02 21:53:58.852 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:53:58.852 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:53:58.861 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-02 21:53:58.862 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:53:58.863 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-02 21:54:00.457 HelloCordova[92140:70b] Took background task assertion (146) for playback stall
+2014-06-02 21:54:02.856 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:05.741 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:05.747 HelloCordova[92140:70b] About to play http://cookie/words-mp3/2014/05/26/56f864b629f02d3d90fdae098ede178d.mp3
+2014-06-02 21:54:05.747 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:54:05.748 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:05.759 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/56f864b629f02d3d90fdae098ede178d.mp3
+2014-06-02 21:54:05.759 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:05.761 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/56f864b629f02d3d90fdae098ede178d.mp3
+2014-06-02 21:54:07.516 HelloCordova[92140:70b] Took background task assertion (155) for playback stall
+2014-06-02 21:54:09.752 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:12.117 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:12.123 HelloCordova[92140:70b] About to play http://cookie/words-mp3/2014/05/26/02cfbf319d8bb14ac303f3fed7f33310.mp3
+2014-06-02 21:54:12.124 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:54:12.124 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:12.135 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/02cfbf319d8bb14ac303f3fed7f33310.mp3
+2014-06-02 21:54:12.136 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:12.138 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/02cfbf319d8bb14ac303f3fed7f33310.mp3
+2014-06-02 21:54:13.807 HelloCordova[92140:70b] Took background task assertion (163) for playback stall
+2014-06-02 21:54:16.124 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:23.152 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:23.159 HelloCordova[92140:70b] About to play http://cookie/words-mp3/2014/05/26/2801c429f42552fc79c22c75021eccca.mp3
+2014-06-02 21:54:23.159 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:54:23.160 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:23.171 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/2801c429f42552fc79c22c75021eccca.mp3
+2014-06-02 21:54:23.172 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:23.173 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/2801c429f42552fc79c22c75021eccca.mp3
+2014-06-02 21:54:24.849 HelloCordova[92140:70b] Took background task assertion (173) for playback stall
+2014-06-02 21:54:27.166 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:28.449 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:28.456 HelloCordova[92140:70b] About to play http://cookie/words-mp3/2014/06/01/0a683bed2a48f284473f7ce68503372c.mp3
+2014-06-02 21:54:28.456 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:54:28.457 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:28.466 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/06/01/0a683bed2a48f284473f7ce68503372c.mp3
+2014-06-02 21:54:28.467 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:28.468 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/06/01/0a683bed2a48f284473f7ce68503372c.mp3
+2014-06-02 21:54:30.200 HelloCordova[92140:70b] Took background task assertion (182) for playback stall
+2014-06-02 21:54:32.452 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:34.709 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:34.717 HelloCordova[92140:70b] About to play http://cookie/words-mp3/2014/05/26/c51062e84ecd162d7ce8f3f37a1785f1.mp3
+2014-06-02 21:54:34.717 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:54:34.717 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:34.729 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/c51062e84ecd162d7ce8f3f37a1785f1.mp3
+2014-06-02 21:54:34.730 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:34.731 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/c51062e84ecd162d7ce8f3f37a1785f1.mp3
+2014-06-02 21:54:36.586 HelloCordova[92140:70b] Took background task assertion (190) for playback stall
+2014-06-02 21:54:38.718 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:41.884 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:41.890 HelloCordova[92140:70b] About to play http://cookie/words-mp3/2014/05/26/2801c429f42552fc79c22c75021eccca.mp3
+2014-06-02 21:54:41.890 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:54:41.891 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:41.900 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/2801c429f42552fc79c22c75021eccca.mp3
+2014-06-02 21:54:41.901 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:41.903 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/2801c429f42552fc79c22c75021eccca.mp3
+2014-06-02 21:54:43.575 HelloCordova[92140:70b] Took background task assertion (199) for playback stall
+2014-06-02 21:54:45.897 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:48.498 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:48.505 HelloCordova[92140:70b] About to play http://cookie/words-mp3/2014/05/26/da76e92c9a17f347f7c5d76e01f479dc.mp3
+2014-06-02 21:54:48.505 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:54:48.505 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:48.515 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/da76e92c9a17f347f7c5d76e01f479dc.mp3
+2014-06-02 21:54:48.516 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:48.517 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/da76e92c9a17f347f7c5d76e01f479dc.mp3
+2014-06-02 21:54:50.320 HelloCordova[92140:70b] Took background task assertion (208) for playback stall
+2014-06-02 21:54:52.506 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:54.278 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:54.285 HelloCordova[92140:70b] About to play http://cookie/words-mp3/2014/05/26/02cfbf319d8bb14ac303f3fed7f33310.mp3
+2014-06-02 21:54:54.285 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:54:54.285 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:54:54.294 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/02cfbf319d8bb14ac303f3fed7f33310.mp3
+2014-06-02 21:54:54.295 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:54:54.296 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/02cfbf319d8bb14ac303f3fed7f33310.mp3
+2014-06-02 21:54:55.963 HelloCordova[92140:70b] Took background task assertion (217) for playback stall
+2014-06-02 21:54:58.288 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:55:00.469 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:55:00.476 HelloCordova[92140:70b] About to play http://cookie/words-mp3/2014/05/26/56f864b629f02d3d90fdae098ede178d.mp3
+2014-06-02 21:55:00.476 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:55:00.476 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:55:00.486 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/56f864b629f02d3d90fdae098ede178d.mp3
+2014-06-02 21:55:00.487 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:55:00.488 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/56f864b629f02d3d90fdae098ede178d.mp3
+2014-06-02 21:55:02.245 HelloCordova[92140:70b] Took background task assertion (226) for playback stall
+2014-06-02 21:55:04.478 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:55:06.842 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:55:06.848 HelloCordova[92140:70b] About to play http://cookie/words-mp3/2014/06/01/44695ac93774571516df3053a487f7cf.mp3
+2014-06-02 21:55:06.848 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:55:06.848 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:55:06.860 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/06/01/44695ac93774571516df3053a487f7cf.mp3
+2014-06-02 21:55:06.860 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:55:06.861 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/06/01/44695ac93774571516df3053a487f7cf.mp3
+2014-06-02 21:55:08.792 HelloCordova[92140:70b] Took background task assertion (235) for playback stall
+2014-06-02 21:55:10.852 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:55:13.968 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:55:13.974 HelloCordova[92140:70b] About to play http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-02 21:55:13.974 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:55:13.984 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-02 21:55:13.985 HelloCordova[92140:70b] setting movie path: 
+2014-06-02 21:55:13.986 HelloCordova[92140:70b] setting movie path: http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-02 21:55:15.571 HelloCordova[92140:70b] Took background task assertion (244) for playback stall
+2014-06-02 21:55:17.984 HelloCordova[92140:70b] 0
+2014-06-02 21:55:17.984 HelloCordova[92140:70b] 0.5
+2014-06-02 21:55:17.985 HelloCordova[92140:70b] 1
+2014-06-02 21:55:17.985 HelloCordova[92140:70b] 1
+2014-06-02 21:55:17.985 HelloCordova[92140:70b] 2
+2014-06-02 21:55:17.985 HelloCordova[92140:70b] 1
+2014-06-02 21:55:17.985 HelloCordova[92140:70b] 3
+2014-06-02 21:55:17.985 HelloCordova[92140:70b] 1
+2014-06-02 21:55:17.985 HelloCordova[92140:70b] 4
+2014-06-02 21:55:17.986 HelloCordova[92140:70b] 1
+2014-06-02 21:55:17.986 HelloCordova[92140:70b] 5
+2014-06-02 21:55:17.986 HelloCordova[92140:70b] 0.5
+2014-06-02 21:55:17.986 HelloCordova[92140:70b] 6
+2014-06-02 21:55:17.986 HelloCordova[92140:70b] 1
+2014-06-02 21:55:25.340 HelloCordova[92140:70b] config now [object Object]
+2014-06-02 21:55:25.340 HelloCordova[92140:70b] getting key batch_size 7
+2014-06-02 21:55:25.341 HelloCordova[92140:70b] getting key next_question_delay 4
+2014-06-02 21:58:33.471 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
+2014-06-02 21:58:33.573 HelloCordova[92140:70b] Ending background task assertion (84) for playback stall
+2014-06-02 21:58:39.635 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
+2014-06-02 21:58:39.735 HelloCordova[92140:70b] Ending background task assertion (92) for playback stall
+2014-06-02 21:58:48.399 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
+2014-06-02 21:58:48.500 HelloCordova[92140:70b] Ending background task assertion (136) for playback stall
+2014-06-02 21:59:00.451 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
+2014-06-02 21:59:00.552 HelloCordova[92140:70b] Ending background task assertion (146) for playback stall
+2014-06-02 21:59:07.511 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
+2014-06-02 21:59:07.612 HelloCordova[92140:70b] Ending background task assertion (155) for playback stall
+2014-06-02 21:59:13.801 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
+2014-06-02 21:59:13.901 HelloCordova[92140:70b] Ending background task assertion (163) for playback stall
+2014-06-02 21:59:24.842 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
+2014-06-02 21:59:24.943 HelloCordova[92140:70b] Ending background task assertion (173) for playback stall
+2014-06-02 21:59:30.194 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
+2014-06-02 21:59:30.295 HelloCordova[92140:70b] Ending background task assertion (182) for playback stall
+2014-06-02 21:59:36.580 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
+2014-06-02 21:59:36.681 HelloCordova[92140:70b] Ending background task assertion (190) for playback stall
+2014-06-02 21:59:43.569 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
+2014-06-02 21:59:43.670 HelloCordova[92140:70b] Ending background task assertion (199) for playback stall
+2014-06-02 21:59:50.315 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
+2014-06-02 21:59:50.415 HelloCordova[92140:70b] Ending background task assertion (208) for playback stall
+2014-06-02 21:59:55.958 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
+2014-06-02 21:59:56.059 HelloCordova[92140:70b] Ending background task assertion (217) for playback stall
+2014-06-02 22:00:02.239 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
+2014-06-02 22:00:02.341 HelloCordova[92140:70b] Ending background task assertion (226) for playback stall
+2014-06-02 22:00:08.786 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
+2014-06-02 22:00:08.887 HelloCordova[92140:70b] Ending background task assertion (235) for playback stall
+2014-06-02 22:00:15.566 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
+2014-06-02 22:00:15.666 HelloCordova[92140:70b] Ending background task assertion (244) for playback stall

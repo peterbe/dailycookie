@@ -5,7 +5,12 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
+angular.module('starter', [
+    'ionic',
+    'starter.controllers',
+    'starter.services',
+    'LocalForageModule'
+])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -32,6 +37,13 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
         }
     };
 }])
+
+.config(function($localForageProvider) {
+    $localForageProvider.config({
+        //driver      : 'localStorageWrapper', // if you want to force a driver
+        name        : 'cookie', // name of the database and prefix for your data
+    });
+})
 
 .config(function($stateProvider, $urlRouterProvider) {
 

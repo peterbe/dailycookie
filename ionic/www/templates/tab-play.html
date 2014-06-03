@@ -1,4 +1,4 @@
-<ion-view title="Play">
+<ion-view title="{{ temporary_title || title }}">
   <ion-content class="has-header padding">
 
     <div ng-show="showLoading()" class="loading">
@@ -7,15 +7,29 @@
 
     <div ng-show="question" class="question">
         <div class="picture">
-            <img ng-src="{{ question.picture.url }}" width="{{ question.picture.width }}" height="{{ question.picture.height }}"></img>
+            <img ng-src="{{ question.picture.url }}"
+            style="height: 200px"
+            ></img>
         </div>
 
-        <ion-list>
+        <!-- <ion-list>
             <ion-item ng-repeat="alternative in question.choices" ng-click="submitAnswer(alternative)"
               ng-class="{clicked: clicked==alternative, correct: isCorrect(alternative), incorrect: isIncorrect(alternative)}">
-                {{ alternative }}
+                {{ alternative.word }}
             </ion-item>
-        </ion-list>
+        </ion-list> -->
+        <div class="list">
+
+          <div class="item item-button-right item-outline"
+               ng-class="{'item-assertive': isIncorrect(alternative), 'item-balanced': isCorrect(alternative)}"
+               ng-repeat="alternative in question.choices" ng-click="submitAnswer(alternative)">
+            {{ alternative.word }}
+            <span class="item-note" ng-if="isClicked(alternative)">
+              {{ alternative.explanation }}
+            </span>
+          </div>
+
+        </div>
 
         <div class="answered" ng-show="clicked">
             <div class="correct" ng-show="showCorrect()">
@@ -23,17 +37,36 @@
             </div>
             <div class="incorrect" ng-show="showIncorrect()">
                 <h4>Incorrect!</h4>
-                <p>The right answer was <strong>{{ question.correct }}</strong>.</p>
+                <p>The right answer was <strong>{{ question.correct.word }}</strong>.</p>
             </div>
-            <p><a href="#" ng-click="forwardNextQuestion()">Next question please...</a></p>
+            <p>
+              <button class="button button-positive icon-right ion-chevron-right" ng-click="forwardNextQuestion()">
+              Next question please...
+              </button>
+            </p>
         </div>
 
     </div>
 
     <div class="finished" ng-show="finished">
-        <h3>Finished!</h3>
+        <p>You have finished your daily exercise. Well done!</p>
+        <p>Here, have a cookie:</p>
+        <code>{{ attempts }}</code>
+        <ion-list>
+          <ion-item ng-repeat="question in questions">
+            <b>{{ question.correct.word }}</b> {{ 100 * question._correct_rate }}%
+          </ion-item>
+        </ion-list>
 
     </div>
+
+    <!-- preloading -->
+    <img ng-repeat="picture in pictures"
+         ng-src="{{ picture.url }}" style="display:none">
+    <audio ng-repeat="word in words"
+           ng-src="{{ word.mp3file }}"
+           id="audio-{{ word.id }}"></audio>
+    <!-- end preloading -->
 
   </ion-content>
 </ion-view>

@@ -16,11 +16,9 @@ function shuffle(o){ //v1.0
 // var fallbackSpeechSynthesis = window.speechSynthesisPolyfill;
 // var fallbackSpeechSynthesisUtterance = window.SpeechSynthesisUtterancePolyfill;
 
-var fallbackSpeechSynthesis = window.getSpeechSynthesis();
-var fallbackSpeechSynthesisUtterance = window.getSpeechSynthesisUtterance();
-
 function playWord(word, lang) {
     console.log(word, lang);
+    return;
     var u = new fallbackSpeechSynthesisUtterance(word);
     lang = lang || 'en-US';
     u.lang = lang;
@@ -99,11 +97,13 @@ app.controller('PlayController',
                 finishedQuestions();
                 return;
             }
+
             // do some resetting
             $scope.clicked = null;
             $scope.question = null;
             $scope.was_correct = false;
             var question = $scope.questions[$scope.next_question];
+            console.log(question);
 
             console.log('Question', question);
             $scope.next_question++;
@@ -124,7 +124,7 @@ app.controller('PlayController',
         $scope.submitAnswer = function(answer) {
             if ($scope.clicked) return;
             $scope.clicked = answer;
-            playWord(answer, $scope.question.locale);
+            playWord(answer.word, $scope.question.locale);
             $scope.was_correct = $scope.question.correct === answer;
             if ($scope.was_correct) {
                 next_timer = $timeout(function() {
