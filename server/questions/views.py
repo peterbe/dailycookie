@@ -48,6 +48,7 @@ def home(request):
         request.is_secure() and 'https' or 'http',
         RequestSite(request).domain
     )
+    #base_url='http://192.168.42.90'
     def absolute_url(url):
         if '://' not in url:
             url = base_url + url

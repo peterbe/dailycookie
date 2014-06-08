@@ -45,10 +45,11 @@ def upload_path(tag):
         path = os.path.join(
             _now.strftime('%Y'),
             _now.strftime('%m'),
+            _now.strftime('%d'),
         )
         hashed_filename = (
             hashlib.md5(filename + str(now().microsecond)).hexdigest()
-        )[:12]
+        )[:5]
         __, extension = os.path.splitext(filename)
         return os.path.join(tag, path, hashed_filename + extension)
     return _upload_path_tagged

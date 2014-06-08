@@ -25,6 +25,10 @@ function _playWord(word) {
 
 angular.module('starter.controllers', [])
 
+.controller('TabsController', function($scope) {
+    $scope.show = false;
+})
+
 .controller('DashCtrl', function($scope) {
     // my_media = new Media('/words-mp3/2014/06/01/05a4cf56e53ee4edb1ffe8bd0c7db262.mp3',
     //     function() {
@@ -56,7 +60,8 @@ angular.module('starter.controllers', [])
     Config.load().then(function() {
         $scope.loading = false;
         $scope.settings.batch_size = Config.get('batch_size');
-        $scope.settings.next_question_delay =  Config.get('next_question_delay');
+        $scope.settings.next_question_delay = Config.get('next_question_delay');
+        $scope.settings.playsounds = Config.get('playsounds');
     });
 
     $scope.saveSettings = function() {
@@ -128,7 +133,7 @@ angular.module('starter.controllers', [])
 })
 
 
-.controller('PlayCtrl', function($scope, $http, $location, $timeout, Config) {
+.controller('PlayCtrl', function($scope, $http, $location, $timeout, $interval, $ionicModal, Config) {
 
     // a database of ALL questions
     $scope.all_questions = [];
@@ -302,13 +307,78 @@ angular.module('starter.controllers', [])
         });
     };
 
+    $ionicModal.fromTemplateUrl('modal.html', {
+        scope: $scope,
+        // backdropClickToClose: false,
+        // animation: 'fade-'
+        animation: 'slide-in-up'
+    }).then(function(modal) {
+        $scope.modal = modal;
+    });
+    $scope.openModal = function() {
+        $scope.modal.show();
+    };
+    $scope.closeModal = function() {
+        $scope.modal.hide();
+    };
+    // //Cleanup the modal when we're done with it!
+    // $scope.$on('$destroy', function() {
+    //     $scope.modal.remove();
+    // });
+    // // Execute action on hide modal
+    // $scope.$on('modal.hide', function() {
+    //     // Execute action
+    //     $scope.forwardNextQuestion();
+    // });
+    // // Execute action on remove modal
+    // $scope.$on('modal.removed', function() {
+    //   // Execute action
+    // });
+
+    $scope.closeModalAndNextQuestion = function() {
+        if (next_question_timeout) {
+            $timeout.cancel(next_question_timeout);
+        }
+        $scope.modal.hide();
+        $timeout(function() {
+            $scope.forwardNextQuestion();
+        }, 500);
+    };
+
+    $scope.modal_close_time_left = null;
+    var close_countdown = null;
+    var next_question_timeout = null;
+    $scope.startModalCloseCountdown = function() {
+        $scope.modal_close_time_left = Config.get('next_question_delay');
+        console.log("Start next in ", Config.get('next_question_delay'), "seconds");
+        next_question_timeout = $timeout(function() {
+            console.log('Timeout!');
+            $scope.closeModalAndNextQuestion();
+            if (close_countdown) {
+                $interval.cancel(close_countdown);
+            }
+        }, Config.get('next_question_delay') * 1000);
+        if (close_countdown) {
+            $interval.cancel(close_countdown);
+        }
+        close_countdown = $interval(function() {
+            $scope.modal_close_time_left--;
+        }, 1000);
+    };
+
     var next_timer;
 
     $scope.submitAnswer = function(answer) {
         if ($scope.clicked) return;
         $scope.clicked = answer;
-        $scope.playWord(answer);
+        if (Config.get('playsounds')) {
+            $scope.playWord(answer);
+        }
         $scope.was_correct = $scope.question.correct === answer;
+
+        $scope.modal.show();
+        $scope.startModalCloseCountdown();
+
         // console.log('$scope.attempts', $scope.attempts);
         // the `0 + bool` turns the bool into 0 or 1
         $scope.attempts[$scope.question.correct.id].push(0 + $scope.was_correct);
@@ -319,18 +389,18 @@ angular.module('starter.controllers', [])
             _temporaryPageTitle('Correct!', next_question_delay);
             $scope.streak++;
             $scope.next_question++;
-            next_timer = $timeout(function() {
-                setNextQuestion();
-            }, next_question_delay * 1000);
+            // next_timer = $timeout(function() {
+            //     setNextQuestion();
+            // }, next_question_delay * 1000);
         } else {
             // start over!
             _temporaryPageTitle('Starting over', next_question_delay);
             $scope.streak = 0;
             $scope.next_question = 0;
             $scope.questions = shuffle($scope.questions);
-            next_timer = $timeout(function() {
-                setNextQuestion();
-            }, next_question_delay * 1000);
+            // next_timer = $timeout(function() {
+            //     setNextQuestion();
+            // }, next_question_delay * 1000);
         }
         _updatePageTitle();
     };

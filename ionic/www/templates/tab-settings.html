@@ -16,7 +16,17 @@
           <span class="input-label">Delay to next word</span>
           <input type="text" ng-model="settings.next_question_delay">
         </label>
+        <li class="item item-toggle">
+           Play sounds
+           <label class="toggle toggle-balanced">
+             <input type="checkbox" ng-model="settings.playsounds">
+             <div class="track">
+               <div class="handle"></div>
+             </div>
+           </label>
+        </li>
       </div>
+
       <div class="padding">
         <button class="button button-block button-positive"
            ng-click="saveSettings()">Save

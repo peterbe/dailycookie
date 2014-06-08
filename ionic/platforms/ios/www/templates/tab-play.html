@@ -7,9 +7,7 @@
 
     <div ng-show="question" class="question">
         <div class="picture">
-            <img ng-src="{{ question.picture.url }}"
-            style="height: 200px"
-            ></img>
+            <img ng-src="{{ question.picture.url }}"></img>
         </div>
 
         <!-- <ion-list>
@@ -24,14 +22,14 @@
                ng-class="{'item-assertive': isIncorrect(alternative), 'item-balanced': isCorrect(alternative)}"
                ng-repeat="alternative in question.choices" ng-click="submitAnswer(alternative)">
             {{ alternative.word }}
-            <span class="item-note" ng-if="isClicked(alternative)">
+            <!-- <span class="item-note" ng-if="isClicked(alternative)">
               {{ alternative.explanation }}
-            </span>
+            </span> -->
           </div>
 
         </div>
 
-        <div class="answered" ng-show="clicked">
+        <!-- <div class="answered" ng-show="clicked">
             <div class="correct" ng-show="showCorrect()">
                 <h4>Correct!</h4>
             </div>
@@ -44,7 +42,7 @@
               Next question please...
               </button>
             </p>
-        </div>
+        </div> -->
 
     </div>
 
@@ -70,3 +68,27 @@
 
   </ion-content>
 </ion-view>
+
+<script id="modal.html" type="text/ng-template">
+    <div class="modal">
+        <ion-header-bar class="bar-header"
+         ng-class="{'bar-balanced': was_correct, 'bar-assertive': !was_correct}">
+            <h1 class="title" ng-show="was_correct">Correct!</h1>
+            <h1 class="title" ng-show="!was_correct">Incorrect</h1>
+        </ion-header-bar>
+        <ion-content>
+          <div class="picture">
+              <img ng-src="{{ question.picture.url }}"></img>
+          </div>
+            <p ng-show="!was_correct">The right answer was <strong>{{ question.correct.word }}</strong>.
+            You clicked on <strong>{{ clicked.word }}</strong>.</p>
+            <p ng-show="question.correct.explanation">
+              Explanation: <strong>{{ question.correct.explanation }}</strong>
+            </p>
+            <button class="button button-block button-positive icon-right ion-chevron-right"
+              ng-click="closeModalAndNextQuestion()">
+            Next question in <b>{{ modal_close_time_left }}</b>
+            </button>
+        </ion-content>
+    </div>
+</script>

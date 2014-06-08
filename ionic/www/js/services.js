@@ -32,6 +32,7 @@ angular.module('starter.services', [])
     // defaults
     config.batch_size = 5;
     config.next_question_delay = 2;
+    config.playsounds = true;
 
     return {
         get: function(key) {

@@ -926,3 +926,997 @@ objc[92140]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.a
 2014-06-02 22:00:08.887 HelloCordova[92140:70b] Ending background task assertion (235) for playback stall
 2014-06-02 22:00:15.566 HelloCordova[92140:70b] Disabling autoplay after buffer stall timeout
 2014-06-02 22:00:15.666 HelloCordova[92140:70b] Ending background task assertion (244) for playback stall
+2014-06-02 22:06:03.708 HelloCordova[92140:1a997] 22:06:03.708 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-02 22:06:08.338 HelloCordova[92140:19673] 22:06:08.338 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 07:40:17.128 HelloCordova[92140:19677] 07:40:17.128 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 07:41:32.179 HelloCordova[92140:11133] 07:41:32.179 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 07:41:32.189 HelloCordova[92140:11133] 07:41:32.189 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 09:31:38.357 HelloCordova[92140:f517] 09:31:38.357 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 09:31:38.868 HelloCordova[92140:fd13] 09:31:38.868 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 09:31:38.873 HelloCordova[92140:fd13] 09:31:38.873 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 09:31:38.899 HelloCordova[92140:186b7] 09:31:38.898 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 09:31:59.189 HelloCordova[92140:1642f] 09:31:59.189 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 09:31:59.208 HelloCordova[92140:1660f] 09:31:59.208 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 09:31:59.212 HelloCordova[92140:1460f] 09:31:59.212 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 10:00:10.161 HelloCordova[92140:19a83] 10:00:10.161 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 10:00:10.675 HelloCordova[92140:1c517] 10:00:10.675 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 10:00:10.679 HelloCordova[92140:ea1f] 10:00:10.679 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 10:00:10.705 HelloCordova[92140:19a83] 10:00:10.705 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 10:00:24.322 HelloCordova[92140:5f7f] 10:00:24.322 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 10:00:24.339 HelloCordova[92140:1dc17] 10:00:24.339 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 10:00:24.342 HelloCordova[92140:11b1f] 10:00:24.342 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 10:00:24.429 HelloCordova[92140:11147] 10:00:24.429 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 10:10:21.376 HelloCordova[92140:e037] 10:10:21.376 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 10:10:21.393 HelloCordova[92140:11b23] 10:10:21.393 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 10:10:21.394 HelloCordova[92140:11153] 10:10:21.394 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 10:10:21.396 HelloCordova[92140:f527] 10:10:21.396 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 10:28:42.379 HelloCordova[92140:18d2f] 10:28:42.379 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 10:28:42.381 HelloCordova[92140:1661f] 10:28:42.381 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 10:28:42.462 HelloCordova[92140:17663] 10:28:42.462 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 12:10:48.876 HelloCordova[92140:70b] setting movie path: 
+2014-06-03 12:10:48.892 HelloCordova[92140:70b] ERROR: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.6.0</center>
+</body>
+</html>
+objc[10281]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-03 12:15:32.248 HelloCordova[10281:70b] Cannot find executable for CFBundle 0xa5443f0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-03 12:15:32.252 HelloCordova[10281:70b] Cannot find executable for CFBundle 0xc118470 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-03 12:15:32.286 HelloCordova[10281:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-03 12:15:32.293 HelloCordova[10281:70b] Unlimited access to network resources
+2014-06-03 12:15:32.306 HelloCordova[10281:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-03 12:15:32.306 HelloCordova[10281:70b] [CDVTimer][statusbar] 0.279963ms
+2014-06-03 12:15:32.307 HelloCordova[10281:70b] [CDVTimer][TotalPluginStartup] 0.558019ms
+2014-06-03 12:15:32.424 HelloCordova[10281:70b] Resetting plugins due to page load.
+2014-06-03 12:15:32.554 HelloCordova[10281:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/tab/dash
+2014-06-03 12:15:58.976 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:58.985 HelloCordova[10281:5d0f] ERROR: unable to get the receiver data from the DB!
+2014-06-03 12:15:59.126 HelloCordova[10281:70b] Downloaded 39 questions
+2014-06-03 12:15:59.209 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.340 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.346 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.352 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.357 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.363 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.368 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.374 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.380 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.386 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.392 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.398 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.404 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.410 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.416 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.422 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.428 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.435 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.441 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.447 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.453 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.460 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.466 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.473 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.479 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.485 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.491 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.498 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.506 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.511 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.518 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.525 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.532 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.538 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:15:59.545 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:12.223 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:12.231 HelloCordova[10281:70b] About to play http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3
+2014-06-03 12:16:12.254 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3
+2014-06-03 12:16:12.256 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:12.258 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3
+2014-06-03 12:16:12.289 HelloCordova[10281:7f03] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 12:16:13.897 HelloCordova[10281:70b] Took background task assertion (84) for playback stall
+2014-06-03 12:16:28.485 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:28.494 HelloCordova[10281:70b] About to play http://cookie/words-mp3/2014/05/26/876235a2a721433fcb79bb0137f9dfad.mp3
+2014-06-03 12:16:28.503 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/876235a2a721433fcb79bb0137f9dfad.mp3
+2014-06-03 12:16:28.504 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:28.506 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/876235a2a721433fcb79bb0137f9dfad.mp3
+2014-06-03 12:16:30.428 HelloCordova[10281:70b] Took background task assertion (129) for playback stall
+2014-06-03 12:16:34.376 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:34.382 HelloCordova[10281:70b] About to play http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-03 12:16:34.399 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-03 12:16:34.400 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:34.401 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-03 12:16:35.990 HelloCordova[10281:70b] Took background task assertion (137) for playback stall
+2014-06-03 12:16:38.965 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:38.972 HelloCordova[10281:70b] About to play http://cookie/words-mp3/2014/05/26/bd234bb2efe9b3c5b4c9e035e146ed51.mp3
+2014-06-03 12:16:38.982 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/bd234bb2efe9b3c5b4c9e035e146ed51.mp3
+2014-06-03 12:16:38.983 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:38.984 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/bd234bb2efe9b3c5b4c9e035e146ed51.mp3
+2014-06-03 12:16:41.004 HelloCordova[10281:70b] Took background task assertion (145) for playback stall
+2014-06-03 12:16:41.744 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:41.752 HelloCordova[10281:70b] About to play http://cookie/words-mp3/2014/06/01/0a683bed2a48f284473f7ce68503372c.mp3
+2014-06-03 12:16:41.762 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/06/01/0a683bed2a48f284473f7ce68503372c.mp3
+2014-06-03 12:16:41.763 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:41.764 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/06/01/0a683bed2a48f284473f7ce68503372c.mp3
+2014-06-03 12:16:43.478 HelloCordova[10281:70b] Took background task assertion (153) for playback stall
+2014-06-03 12:16:45.650 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:45.657 HelloCordova[10281:70b] About to play http://cookie/words-mp3/2014/05/26/d8cb8cc296e12c5f72b3a802d8af2602.mp3
+2014-06-03 12:16:45.669 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/d8cb8cc296e12c5f72b3a802d8af2602.mp3
+2014-06-03 12:16:45.670 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:45.671 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/d8cb8cc296e12c5f72b3a802d8af2602.mp3
+2014-06-03 12:16:47.298 HelloCordova[10281:70b] Took background task assertion (162) for playback stall
+2014-06-03 12:16:49.825 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:49.832 HelloCordova[10281:70b] About to play http://cookie/words-mp3/2014/06/01/256629c49ad0d49d743972c97a8d41cb.mp3
+2014-06-03 12:16:49.844 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/06/01/256629c49ad0d49d743972c97a8d41cb.mp3
+2014-06-03 12:16:49.845 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:49.846 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/06/01/256629c49ad0d49d743972c97a8d41cb.mp3
+2014-06-03 12:16:51.441 HelloCordova[10281:70b] Took background task assertion (171) for playback stall
+2014-06-03 12:16:54.693 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:54.700 HelloCordova[10281:70b] About to play http://cookie/words-mp3/2014/05/26/bfc479ec9e1386c1b8862f157f928a5e.mp3
+2014-06-03 12:16:54.712 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/bfc479ec9e1386c1b8862f157f928a5e.mp3
+2014-06-03 12:16:54.713 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:16:54.714 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/bfc479ec9e1386c1b8862f157f928a5e.mp3
+2014-06-03 12:16:56.366 HelloCordova[10281:70b] Took background task assertion (180) for playback stall
+2014-06-03 12:17:08.273 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:17:08.280 HelloCordova[10281:70b] About to play http://cookie/words-mp3/2014/05/26/876235a2a721433fcb79bb0137f9dfad.mp3
+2014-06-03 12:17:08.290 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/876235a2a721433fcb79bb0137f9dfad.mp3
+2014-06-03 12:17:08.291 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:17:08.292 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/876235a2a721433fcb79bb0137f9dfad.mp3
+2014-06-03 12:17:10.228 HelloCordova[10281:70b] Took background task assertion (191) for playback stall
+2014-06-03 12:17:14.194 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:17:14.201 HelloCordova[10281:70b] About to play http://cookie/words-mp3/2014/05/26/f8476d20091fae5eaaccd479205bf7c0.mp3
+2014-06-03 12:17:14.211 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/f8476d20091fae5eaaccd479205bf7c0.mp3
+2014-06-03 12:17:14.212 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:17:14.213 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/f8476d20091fae5eaaccd479205bf7c0.mp3
+2014-06-03 12:17:16.427 HelloCordova[10281:70b] Took background task assertion (200) for playback stall
+2014-06-03 12:17:18.921 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:17:18.928 HelloCordova[10281:70b] About to play http://cookie/words-mp3/2014/05/26/bd234bb2efe9b3c5b4c9e035e146ed51.mp3
+2014-06-03 12:17:18.938 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/bd234bb2efe9b3c5b4c9e035e146ed51.mp3
+2014-06-03 12:17:18.939 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:17:18.940 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/bd234bb2efe9b3c5b4c9e035e146ed51.mp3
+2014-06-03 12:17:20.944 HelloCordova[10281:70b] Took background task assertion (208) for playback stall
+2014-06-03 12:17:23.853 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:17:23.859 HelloCordova[10281:70b] About to play http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-03 12:17:23.872 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-03 12:17:23.873 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:17:23.874 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-03 12:17:25.472 HelloCordova[10281:70b] Took background task assertion (217) for playback stall
+2014-06-03 12:17:28.149 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:17:28.156 HelloCordova[10281:70b] About to play http://cookie/words-mp3/2014/06/01/6faf3eb1d4c037ad02d7d3bdef3a7927.mp3
+2014-06-03 12:17:28.169 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/06/01/6faf3eb1d4c037ad02d7d3bdef3a7927.mp3
+2014-06-03 12:17:28.169 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:17:28.171 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/06/01/6faf3eb1d4c037ad02d7d3bdef3a7927.mp3
+2014-06-03 12:17:30.081 HelloCordova[10281:70b] Took background task assertion (225) for playback stall
+2014-06-03 12:17:32.078 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:17:32.085 HelloCordova[10281:70b] About to play http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3
+2014-06-03 12:17:32.094 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3
+2014-06-03 12:17:32.095 HelloCordova[10281:70b] setting movie path: 
+2014-06-03 12:17:32.097 HelloCordova[10281:70b] setting movie path: http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3
+2014-06-03 12:17:33.540 HelloCordova[10281:70b] Took background task assertion (234) for playback stall
+2014-06-03 12:17:34.092 HelloCordova[10281:70b] 0
+2014-06-03 12:17:34.092 HelloCordova[10281:70b] 1
+2014-06-03 12:17:34.092 HelloCordova[10281:70b] 1
+2014-06-03 12:17:34.092 HelloCordova[10281:70b] 1
+2014-06-03 12:17:34.092 HelloCordova[10281:70b] 2
+2014-06-03 12:17:34.092 HelloCordova[10281:70b] 1
+2014-06-03 12:17:34.092 HelloCordova[10281:70b] 3
+2014-06-03 12:17:34.093 HelloCordova[10281:70b] 1
+2014-06-03 12:17:34.093 HelloCordova[10281:70b] 4
+2014-06-03 12:17:34.093 HelloCordova[10281:70b] 0.6666666666666666
+2014-06-03 12:17:34.093 HelloCordova[10281:70b] 5
+2014-06-03 12:17:34.093 HelloCordova[10281:70b] 0.3333333333333333
+2014-06-03 12:17:34.093 HelloCordova[10281:70b] 6
+2014-06-03 12:17:34.093 HelloCordova[10281:70b] 1
+2014-06-03 12:21:13.891 HelloCordova[10281:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 12:21:13.992 HelloCordova[10281:70b] Ending background task assertion (84) for playback stall
+2014-06-03 12:21:30.422 HelloCordova[10281:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 12:21:30.523 HelloCordova[10281:70b] Ending background task assertion (129) for playback stall
+2014-06-03 12:21:35.984 HelloCordova[10281:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 12:21:36.085 HelloCordova[10281:70b] Ending background task assertion (137) for playback stall
+2014-06-03 12:21:40.999 HelloCordova[10281:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 12:21:41.100 HelloCordova[10281:70b] Ending background task assertion (145) for playback stall
+2014-06-03 12:21:43.471 HelloCordova[10281:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 12:21:43.572 HelloCordova[10281:70b] Ending background task assertion (153) for playback stall
+2014-06-03 12:21:47.291 HelloCordova[10281:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 12:21:47.392 HelloCordova[10281:70b] Ending background task assertion (162) for playback stall
+2014-06-03 12:21:51.436 HelloCordova[10281:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 12:21:51.537 HelloCordova[10281:70b] Ending background task assertion (171) for playback stall
+2014-06-03 12:21:56.360 HelloCordova[10281:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 12:21:56.461 HelloCordova[10281:70b] Ending background task assertion (180) for playback stall
+2014-06-03 12:22:10.222 HelloCordova[10281:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 12:22:10.323 HelloCordova[10281:70b] Ending background task assertion (191) for playback stall
+2014-06-03 12:22:16.421 HelloCordova[10281:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 12:22:16.521 HelloCordova[10281:70b] Ending background task assertion (200) for playback stall
+2014-06-03 12:22:20.937 HelloCordova[10281:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 12:22:21.038 HelloCordova[10281:70b] Ending background task assertion (208) for playback stall
+2014-06-03 12:22:25.466 HelloCordova[10281:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 12:22:25.566 HelloCordova[10281:70b] Ending background task assertion (217) for playback stall
+2014-06-03 12:22:30.075 HelloCordova[10281:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 12:22:30.177 HelloCordova[10281:70b] Ending background task assertion (225) for playback stall
+2014-06-03 12:22:33.534 HelloCordova[10281:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 12:22:33.635 HelloCordova[10281:70b] Ending background task assertion (234) for playback stall
+2014-06-03 12:39:28.053 HelloCordova[10281:f607] 12:39:28.053 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 12:39:29.475 HelloCordova[10281:1d507] 12:39:29.474 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 12:39:32.802 HelloCordova[10281:1a123] 12:39:32.802 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 12:39:56.821 HelloCordova[10281:17f27] 12:39:56.821 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 19:46:40.407 HelloCordova[10281:e31f] 19:46:40.379 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 19:46:45.249 HelloCordova[10281:f697] 19:46:45.249 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-03 20:16:37.133 HelloCordova[10281:1c81b] 20:16:37.133 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+objc[41637]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-03 20:40:48.212 HelloCordova[41637:70b] Cannot find executable for CFBundle 0xa247430 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-03 20:40:48.228 HelloCordova[41637:70b] Cannot find executable for CFBundle 0xa558860 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-03 20:40:48.343 HelloCordova[41637:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-03 20:40:48.366 HelloCordova[41637:70b] Unlimited access to network resources
+2014-06-03 20:40:48.491 HelloCordova[41637:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-03 20:40:48.491 HelloCordova[41637:70b] [CDVTimer][statusbar] 0.398040ms
+2014-06-03 20:40:48.492 HelloCordova[41637:70b] [CDVTimer][TotalPluginStartup] 0.714004ms
+2014-06-03 20:40:48.671 HelloCordova[41637:70b] Resetting plugins due to page load.
+2014-06-03 20:40:48.837 HelloCordova[41637:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/dash
+2014-06-03 20:41:18.609 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.620 HelloCordova[41637:6f07] ERROR: unable to get the receiver data from the DB!
+2014-06-03 20:41:18.681 HelloCordova[41637:70b] Downloaded 39 questions
+2014-06-03 20:41:18.747 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.805 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.811 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.817 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.824 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.830 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.835 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.842 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.848 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.854 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.861 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.866 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.873 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.879 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.886 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.891 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.898 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.905 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.911 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.917 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.924 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.931 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.937 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.944 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.950 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.957 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.963 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.969 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.976 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.982 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:18.989 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:25.532 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:25.541 HelloCordova[41637:70b] About to play http://cookie/words-mp3/2014/05/26/2d9758c5d1d14c4e9c8ce791bd1defe0.mp3
+2014-06-03 20:41:25.559 HelloCordova[41637:70b] setting movie path: http://cookie/words-mp3/2014/05/26/2d9758c5d1d14c4e9c8ce791bd1defe0.mp3
+2014-06-03 20:41:25.563 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:25.564 HelloCordova[41637:70b] setting movie path: http://cookie/words-mp3/2014/05/26/2d9758c5d1d14c4e9c8ce791bd1defe0.mp3
+2014-06-03 20:41:25.569 HelloCordova[41637:672b] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:41:27.591 HelloCordova[41637:672b] RTCReporting(getSvrConfig): error resolving with lookup server http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:41:27.591 HelloCordova[41637:672b] RTCReporting(getSvrConfig): sendSynchronousRequest error Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo=0xa3cf5f0 {NSErrorFailingURLStringKey=http://pancake.apple.com/bags/hls?version=4.12, NSErrorFailingURLKey=http://pancake.apple.com/bags/hls?version=4.12, NSLocalizedDescription=The Internet connection appears to be offline., NSUnderlyingError=0x1535fdb0 "The Internet connection appears to be offline."}
+2014-06-03 20:41:27.591 HelloCordova[41637:672b] RTCReporting: can't get storebag from the server
+2014-06-03 20:41:27.647 HelloCordova[41637:70b] Took background task assertion (77) for playback stall
+2014-06-03 20:41:39.834 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:39.842 HelloCordova[41637:70b] About to play http://cookie/words-mp3/2014/05/26/06e5fc43914140902dcdc3920713a66a.mp3
+2014-06-03 20:41:39.854 HelloCordova[41637:70b] setting movie path: http://cookie/words-mp3/2014/05/26/06e5fc43914140902dcdc3920713a66a.mp3
+2014-06-03 20:41:39.855 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:39.856 HelloCordova[41637:70b] setting movie path: http://cookie/words-mp3/2014/05/26/06e5fc43914140902dcdc3920713a66a.mp3
+2014-06-03 20:41:39.861 HelloCordova[41637:1100b] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:41:39.862 HelloCordova[41637:1100b] RTCReporting(getSvrConfig): error resolving with lookup server http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:41:39.863 HelloCordova[41637:1100b] RTCReporting(getSvrConfig): sendSynchronousRequest error Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo=0x15363910 {NSErrorFailingURLStringKey=http://pancake.apple.com/bags/hls?version=4.12, NSErrorFailingURLKey=http://pancake.apple.com/bags/hls?version=4.12, NSLocalizedDescription=The Internet connection appears to be offline., NSUnderlyingError=0x15363790 "The Internet connection appears to be offline."}
+2014-06-03 20:41:39.863 HelloCordova[41637:1100b] RTCReporting: can't get storebag from the server
+2014-06-03 20:41:41.785 HelloCordova[41637:70b] Took background task assertion (117) for playback stall
+2014-06-03 20:41:49.867 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:49.874 HelloCordova[41637:70b] About to play http://cookie/words-mp3/2014/05/26/f8476d20091fae5eaaccd479205bf7c0.mp3
+2014-06-03 20:41:49.886 HelloCordova[41637:70b] setting movie path: http://cookie/words-mp3/2014/05/26/f8476d20091fae5eaaccd479205bf7c0.mp3
+2014-06-03 20:41:49.891 HelloCordova[41637:965f] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:41:49.893 HelloCordova[41637:965f] RTCReporting(getSvrConfig): error resolving with lookup server http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:41:49.893 HelloCordova[41637:965f] RTCReporting(getSvrConfig): sendSynchronousRequest error Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo=0xa3e7bb0 {NSErrorFailingURLStringKey=http://pancake.apple.com/bags/hls?version=4.12, NSErrorFailingURLKey=http://pancake.apple.com/bags/hls?version=4.12, NSLocalizedDescription=The Internet connection appears to be offline., NSUnderlyingError=0xa38b570 "The Internet connection appears to be offline."}
+2014-06-03 20:41:49.893 HelloCordova[41637:965f] RTCReporting: can't get storebag from the server
+2014-06-03 20:41:55.087 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:55.094 HelloCordova[41637:70b] About to play http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3
+2014-06-03 20:41:55.104 HelloCordova[41637:70b] setting movie path: http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3
+2014-06-03 20:41:55.105 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:55.106 HelloCordova[41637:70b] setting movie path: http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3
+2014-06-03 20:41:55.112 HelloCordova[41637:10a0f] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:41:55.114 HelloCordova[41637:10a0f] RTCReporting(getSvrConfig): error resolving with lookup server http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:41:55.114 HelloCordova[41637:10a0f] RTCReporting(getSvrConfig): sendSynchronousRequest error Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo=0xa3f09f0 {NSErrorFailingURLStringKey=http://pancake.apple.com/bags/hls?version=4.12, NSErrorFailingURLKey=http://pancake.apple.com/bags/hls?version=4.12, NSLocalizedDescription=The Internet connection appears to be offline., NSUnderlyingError=0xa6a4ad0 "The Internet connection appears to be offline."}
+2014-06-03 20:41:55.114 HelloCordova[41637:10a0f] RTCReporting: can't get storebag from the server
+2014-06-03 20:41:56.552 HelloCordova[41637:70b] Took background task assertion (131) for playback stall
+2014-06-03 20:41:59.306 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:59.313 HelloCordova[41637:70b] About to play http://cookie/words-mp3/2014/05/26/c51062e84ecd162d7ce8f3f37a1785f1.mp3
+2014-06-03 20:41:59.324 HelloCordova[41637:70b] setting movie path: http://cookie/words-mp3/2014/05/26/c51062e84ecd162d7ce8f3f37a1785f1.mp3
+2014-06-03 20:41:59.325 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:41:59.326 HelloCordova[41637:70b] setting movie path: http://cookie/words-mp3/2014/05/26/c51062e84ecd162d7ce8f3f37a1785f1.mp3
+2014-06-03 20:41:59.330 HelloCordova[41637:1100b] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:41:59.331 HelloCordova[41637:1100b] RTCReporting(getSvrConfig): error resolving with lookup server http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:41:59.332 HelloCordova[41637:1100b] RTCReporting(getSvrConfig): sendSynchronousRequest error Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo=0x10531060 {NSErrorFailingURLStringKey=http://pancake.apple.com/bags/hls?version=4.12, NSErrorFailingURLKey=http://pancake.apple.com/bags/hls?version=4.12, NSLocalizedDescription=The Internet connection appears to be offline., NSUnderlyingError=0xd9453b0 "The Internet connection appears to be offline."}
+2014-06-03 20:41:59.332 HelloCordova[41637:1100b] RTCReporting: can't get storebag from the server
+2014-06-03 20:42:01.186 HelloCordova[41637:70b] Took background task assertion (140) for playback stall
+2014-06-03 20:42:04.026 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:42:04.033 HelloCordova[41637:70b] About to play http://cookie/words-mp3/2014/05/26/7f76156c46f25a7c747566faa31e279c.mp3
+2014-06-03 20:42:04.048 HelloCordova[41637:70b] setting movie path: http://cookie/words-mp3/2014/05/26/7f76156c46f25a7c747566faa31e279c.mp3
+2014-06-03 20:42:04.049 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:42:04.050 HelloCordova[41637:70b] setting movie path: http://cookie/words-mp3/2014/05/26/7f76156c46f25a7c747566faa31e279c.mp3
+2014-06-03 20:42:04.055 HelloCordova[41637:a653] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:42:04.057 HelloCordova[41637:a653] RTCReporting(getSvrConfig): error resolving with lookup server http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:42:04.057 HelloCordova[41637:a653] RTCReporting(getSvrConfig): sendSynchronousRequest error Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo=0x104352c0 {NSErrorFailingURLStringKey=http://pancake.apple.com/bags/hls?version=4.12, NSErrorFailingURLKey=http://pancake.apple.com/bags/hls?version=4.12, NSLocalizedDescription=The Internet connection appears to be offline., NSUnderlyingError=0x10435420 "The Internet connection appears to be offline."}
+2014-06-03 20:42:04.057 HelloCordova[41637:a653] RTCReporting: can't get storebag from the server
+2014-06-03 20:42:05.772 HelloCordova[41637:70b] Took background task assertion (149) for playback stall
+2014-06-03 20:42:08.192 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:42:08.198 HelloCordova[41637:70b] About to play http://cookie/words-mp3/2014/05/26/ab85307a5951e4a3bd15895ff3c6ef89.mp3
+2014-06-03 20:42:08.210 HelloCordova[41637:70b] setting movie path: http://cookie/words-mp3/2014/05/26/ab85307a5951e4a3bd15895ff3c6ef89.mp3
+2014-06-03 20:42:08.211 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:42:08.212 HelloCordova[41637:70b] setting movie path: http://cookie/words-mp3/2014/05/26/ab85307a5951e4a3bd15895ff3c6ef89.mp3
+2014-06-03 20:42:08.217 HelloCordova[41637:10a0f] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:42:08.218 HelloCordova[41637:10a0f] RTCReporting(getSvrConfig): error resolving with lookup server http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:42:08.218 HelloCordova[41637:10a0f] RTCReporting(getSvrConfig): sendSynchronousRequest error Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo=0xa5e4160 {NSErrorFailingURLStringKey=http://pancake.apple.com/bags/hls?version=4.12, NSErrorFailingURLKey=http://pancake.apple.com/bags/hls?version=4.12, NSLocalizedDescription=The Internet connection appears to be offline., NSUnderlyingError=0xa5e4da0 "The Internet connection appears to be offline."}
+2014-06-03 20:42:08.218 HelloCordova[41637:10a0f] RTCReporting: can't get storebag from the server
+2014-06-03 20:42:10.171 HelloCordova[41637:70b] Took background task assertion (157) for playback stall
+2014-06-03 20:42:21.982 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:42:21.989 HelloCordova[41637:70b] About to play http://cookie/words-mp3/2014/06/01/f21da7286472c06db7ff6be29e27df88.mp3
+2014-06-03 20:42:22.000 HelloCordova[41637:70b] setting movie path: http://cookie/words-mp3/2014/06/01/f21da7286472c06db7ff6be29e27df88.mp3
+2014-06-03 20:42:22.000 HelloCordova[41637:70b] setting movie path: 
+2014-06-03 20:42:22.002 HelloCordova[41637:70b] setting movie path: http://cookie/words-mp3/2014/06/01/f21da7286472c06db7ff6be29e27df88.mp3
+2014-06-03 20:42:22.005 HelloCordova[41637:12203] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:42:23.700 HelloCordova[41637:70b] Took background task assertion (168) for playback stall
+2014-06-03 20:42:23.993 HelloCordova[41637:70b] 0
+2014-06-03 20:42:23.993 HelloCordova[41637:70b] 1
+2014-06-03 20:42:23.993 HelloCordova[41637:70b] 1
+2014-06-03 20:42:23.993 HelloCordova[41637:70b] 1
+2014-06-03 20:42:23.993 HelloCordova[41637:70b] 2
+2014-06-03 20:42:23.993 HelloCordova[41637:70b] 1
+2014-06-03 20:42:23.994 HelloCordova[41637:70b] 3
+2014-06-03 20:42:23.994 HelloCordova[41637:70b] 1
+2014-06-03 20:42:23.994 HelloCordova[41637:70b] 4
+2014-06-03 20:42:23.994 HelloCordova[41637:70b] 0.5
+2014-06-03 20:42:23.994 HelloCordova[41637:70b] 5
+2014-06-03 20:42:23.994 HelloCordova[41637:70b] 1
+2014-06-03 20:42:23.994 HelloCordova[41637:70b] 6
+2014-06-03 20:42:23.994 HelloCordova[41637:70b] 1
+2014-06-03 20:42:24.107 HelloCordova[41637:12203] RTCReporting(getSvrConfig): error resolving with lookup server http://pancake.apple.com/bags/hls?version=4.12
+2014-06-03 20:42:24.107 HelloCordova[41637:12203] RTCReporting(getSvrConfig): sendSynchronousRequest error Error Domain=NSURLErrorDomain Code=-1009 "The Internet connection appears to be offline." UserInfo=0xa6b79c0 {NSErrorFailingURLStringKey=http://pancake.apple.com/bags/hls?version=4.12, NSErrorFailingURLKey=http://pancake.apple.com/bags/hls?version=4.12, NSLocalizedDescription=The Internet connection appears to be offline., NSUnderlyingError=0xa6b86d0 "The Internet connection appears to be offline."}
+2014-06-03 20:42:24.108 HelloCordova[41637:12203] RTCReporting: can't get storebag from the server
+2014-06-03 20:46:27.641 HelloCordova[41637:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 20:46:27.742 HelloCordova[41637:70b] Ending background task assertion (77) for playback stall
+2014-06-03 20:46:41.778 HelloCordova[41637:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 20:46:41.880 HelloCordova[41637:70b] Ending background task assertion (117) for playback stall
+2014-06-03 20:46:56.546 HelloCordova[41637:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 20:46:56.647 HelloCordova[41637:70b] Ending background task assertion (131) for playback stall
+2014-06-03 20:47:01.180 HelloCordova[41637:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 20:47:01.280 HelloCordova[41637:70b] Ending background task assertion (140) for playback stall
+2014-06-03 20:47:05.765 HelloCordova[41637:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 20:47:05.866 HelloCordova[41637:70b] Ending background task assertion (149) for playback stall
+2014-06-03 20:47:10.165 HelloCordova[41637:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 20:47:10.266 HelloCordova[41637:70b] Ending background task assertion (157) for playback stall
+2014-06-03 20:47:23.694 HelloCordova[41637:70b] Disabling autoplay after buffer stall timeout
+2014-06-03 20:47:23.795 HelloCordova[41637:70b] Ending background task assertion (168) for playback stall
+2014-06-03 21:18:31.113 HelloCordova[41637:1730b] 21:18:31.113 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:26:11.131 HelloCordova[41637:10dab] 08:26:11.131 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:31:22.619 HelloCordova[41637:1182f] 08:31:22.619 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:31:23.131 HelloCordova[41637:1716b] 08:31:23.131 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:31:23.135 HelloCordova[41637:a42f] 08:31:23.135 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:31:23.184 HelloCordova[41637:1182f] 08:31:23.184 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:34:44.196 HelloCordova[41637:14933] 08:34:44.196 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:34:44.196 HelloCordova[41637:14933] 08:34:44.196 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:34:44.203 HelloCordova[41637:fb13] 08:34:44.203 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:34:44.203 HelloCordova[41637:f827] 08:34:44.203 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:34:44.227 HelloCordova[41637:f827] 08:34:44.227 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:34:44.350 HelloCordova[41637:fb13] 08:34:44.350 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:34:45.016 HelloCordova[41637:1451b] 08:34:45.016 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:34:45.027 HelloCordova[41637:6057] 08:34:45.027 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:34:45.029 HelloCordova[41637:f827] 08:34:45.029 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:34:45.067 HelloCordova[41637:fb13] 08:34:45.067 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:35:52.680 HelloCordova[41637:e517] 08:35:52.680 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:35:52.698 HelloCordova[41637:e517] 08:35:52.698 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:35:52.699 HelloCordova[41637:13013] 08:35:52.699 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:35:52.700 HelloCordova[41637:b01f] 08:35:52.700 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:35:56.895 HelloCordova[41637:f91b] 08:35:56.895 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:35:57.405 HelloCordova[41637:13013] 08:35:57.405 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:35:57.409 HelloCordova[41637:fb1b] 08:35:57.409 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:38:44.715 HelloCordova[41637:14757] 08:38:44.715 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:38:44.732 HelloCordova[41637:13017] 08:38:44.732 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:38:44.733 HelloCordova[41637:a16f] 08:38:44.733 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:38:44.734 HelloCordova[41637:a16f] 08:38:44.734 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:38:58.011 HelloCordova[41637:1475b] 08:38:58.011 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:38:58.521 HelloCordova[41637:17323] 08:38:58.521 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 08:38:58.525 HelloCordova[41637:1475b] 08:38:58.525 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 09:10:45.948 HelloCordova[41637:147db] 09:10:45.948 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 09:10:45.966 HelloCordova[41637:864b] 09:10:45.965 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 09:10:45.966 HelloCordova[41637:10a57] 09:10:45.966 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 09:10:45.968 HelloCordova[41637:e523] 09:10:45.968 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 09:23:25.535 HelloCordova[41637:8683] 09:23:25.535 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 09:23:26.042 HelloCordova[41637:fb2b] 09:23:26.042 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 09:23:26.047 HelloCordova[41637:10d33] 09:23:26.047 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 10:14:18.101 HelloCordova[41637:a49b] 10:14:18.101 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 10:14:18.118 HelloCordova[41637:1102b] 10:14:18.117 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 10:14:18.118 HelloCordova[41637:f83f] 10:14:18.118 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 10:14:18.120 HelloCordova[41637:171d7] 10:14:18.120 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 11:57:38.116 HelloCordova[41637:10d17] 11:57:38.116 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 11:57:38.122 HelloCordova[41637:10d17] 11:57:38.122 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 11:57:38.123 HelloCordova[41637:10d17] 11:57:38.123 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 12:00:58.957 HelloCordova[41637:fa47] 12:00:58.957 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 12:00:58.957 HelloCordova[41637:fa47] 12:00:58.957 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 12:00:58.960 HelloCordova[41637:1349b] 12:00:58.960 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 12:00:58.961 HelloCordova[41637:1349b] 12:00:58.960 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 16:36:00.583 HelloCordova[41637:145af] 16:36:00.583 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 16:36:00.669 HelloCordova[41637:134f3] 16:36:00.669 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-04 16:36:34.677 HelloCordova[41637:dc23] 16:36:34.677 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 07:20:55.469 HelloCordova[41637:b0e3] 07:20:55.469 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 07:22:28.027 HelloCordova[41637:f81f] 07:22:28.027 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 07:35:18.986 HelloCordova[41637:dc2f] 07:35:18.986 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 07:35:18.991 HelloCordova[41637:dc2f] 07:35:18.991 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 07:35:18.991 HelloCordova[41637:dc2f] 07:35:18.991 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 07:35:18.992 HelloCordova[41637:dc2f] 07:35:18.992 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 07:35:19.800 HelloCordova[41637:1739b] 07:35:19.800 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 07:35:19.807 HelloCordova[41637:dc2f] 07:35:19.807 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 07:35:19.808 HelloCordova[41637:fa63] 07:35:19.808 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 07:37:39.839 HelloCordova[41637:600f] 07:37:39.839 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 07:37:40.350 HelloCordova[41637:600f] 07:37:40.350 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 07:37:40.353 HelloCordova[41637:600f] 07:37:40.353 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:13:25.130 HelloCordova[41637:8657] 08:13:25.130 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:13:28.389 HelloCordova[41637:11047] 08:13:28.389 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:30:37.918 HelloCordova[41637:8627] 08:30:37.918 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:30:37.936 HelloCordova[41637:e793] 08:30:37.936 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:30:37.937 HelloCordova[41637:149ab] 08:30:37.937 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:30:37.938 HelloCordova[41637:149ab] 08:30:37.938 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:31:52.998 HelloCordova[41637:f373] 08:31:52.998 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:31:53.509 HelloCordova[41637:e553] 08:31:53.509 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:31:53.514 HelloCordova[41637:1472b] 08:31:53.513 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:32:21.849 HelloCordova[41637:fa7f] 08:32:21.849 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:32:21.863 HelloCordova[41637:11053] 08:32:21.863 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:32:21.867 HelloCordova[41637:13423] 08:32:21.867 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:32:21.869 HelloCordova[41637:11053] 08:32:21.869 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:39:34.058 HelloCordova[41637:173ff] 08:39:34.058 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:39:34.564 HelloCordova[41637:dd3f] 08:39:34.564 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 08:39:34.568 HelloCordova[41637:fb77] 08:39:34.568 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 09:00:52.771 HelloCordova[41637:fb7b] 09:00:52.771 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 09:00:52.786 HelloCordova[41637:17303] 09:00:52.786 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 09:00:52.791 HelloCordova[41637:17303] 09:00:52.791 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 09:00:52.792 HelloCordova[41637:17303] 09:00:52.792 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 09:07:12.845 HelloCordova[41637:1105f] 09:07:12.845 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 09:07:12.850 HelloCordova[41637:fbcf] 09:07:12.850 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 09:07:12.933 HelloCordova[41637:fbcf] 09:07:12.933 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 09:24:54.911 HelloCordova[41637:8087] 09:24:54.911 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 09:24:54.911 HelloCordova[41637:8087] 09:24:54.911 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 10:40:10.660 HelloCordova[41637:130af] 10:40:10.660 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 10:40:10.677 HelloCordova[41637:130af] 10:40:10.677 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 11:59:30.895 HelloCordova[41637:149e7] 11:59:30.895 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 11:59:30.980 HelloCordova[41637:dd9b] 11:59:30.980 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 12:03:22.339 HelloCordova[41637:10d9b] 12:03:22.339 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 12:03:22.339 HelloCordova[41637:10d9b] 12:03:22.339 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 12:03:22.341 HelloCordova[41637:10abb] 12:03:22.341 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 12:03:22.341 HelloCordova[41637:1106f] 12:03:22.341 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 12:03:23.157 HelloCordova[41637:10d9b] 12:03:23.157 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 12:03:23.162 HelloCordova[41637:1343f] 12:03:23.162 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 12:03:23.164 HelloCordova[41637:10abb] 12:03:23.164 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 12:03:33.672 HelloCordova[41637:11073] 12:03:33.672 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 12:03:34.183 HelloCordova[41637:11863] 12:03:34.183 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 12:03:34.188 HelloCordova[41637:11863] 12:03:34.188 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 12:26:20.381 HelloCordova[41637:14797] 12:26:20.381 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 12:26:20.389 HelloCordova[41637:86a7] 12:26:20.389 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 12:26:20.393 HelloCordova[41637:112f7] 12:26:20.393 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 12:26:20.394 HelloCordova[41637:112f7] 12:26:20.394 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 13:36:06.449 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:06.506 HelloCordova[41637:70b] ERROR: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.6.0</center>
+</body>
+</html>
+2014-06-05 13:36:28.335 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.480 HelloCordova[41637:70b] Downloaded 39 questions
+2014-06-05 13:36:28.555 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.562 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.572 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.580 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.587 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.597 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.604 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.613 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.621 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.628 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.636 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.643 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.651 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.659 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.667 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.675 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.683 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.690 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.700 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.708 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.717 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.725 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.733 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.741 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.750 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.758 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.766 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.775 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.782 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.791 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.800 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.809 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.817 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 13:36:28.826 HelloCordova[41637:70b] setting movie path: 
+2014-06-05 21:19:18.618 HelloCordova[41637:1480f] 21:19:18.582 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 21:19:18.640 HelloCordova[41637:1480f] 21:19:18.639 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 21:19:18.673 HelloCordova[41637:e7c3] 21:19:18.673 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 22:14:42.972 HelloCordova[41637:fabb] 22:14:42.972 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-05 22:14:48.007 HelloCordova[41637:992f] 22:14:48.007 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 06:30:31.133 HelloCordova[41637:fabf] 06:30:31.133 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 06:30:59.331 HelloCordova[41637:fbd3] 06:30:59.331 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 06:30:59.356 HelloCordova[41637:fbd3] 06:30:59.356 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 06:31:27.801 HelloCordova[41637:e70f] 06:31:27.801 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 08:04:33.910 HelloCordova[41637:e73f] 08:04:33.910 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 08:04:39.159 HelloCordova[41637:e73f] 08:04:39.159 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 08:27:10.134 HelloCordova[41637:dc7b] 08:27:10.134 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 09:01:16.068 HelloCordova[41637:13083] 09:01:16.068 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 09:01:16.069 HelloCordova[41637:149b7] 09:01:16.069 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 09:01:16.078 HelloCordova[41637:12e57] 09:01:16.078 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 09:01:16.082 HelloCordova[41637:958f] 09:01:16.082 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 09:41:57.992 HelloCordova[41637:1109f] 09:41:57.992 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 10:29:44.446 HelloCordova[41637:122d3] 10:29:44.446 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 10:29:44.752 HelloCordova[41637:1706b] 10:29:44.752 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 10:29:44.754 HelloCordova[41637:147ff] 10:29:44.753 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 10:51:04.233 HelloCordova[41637:5edb] 10:51:04.233 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 10:53:46.152 HelloCordova[41637:11bef] 10:53:46.152 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 10:54:12.254 HelloCordova[41637:110ab] 10:54:12.254 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 10:54:14.016 HelloCordova[41637:11bfb] 10:54:14.016 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 10:54:53.398 HelloCordova[41637:f9b3] 10:54:53.398 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 11:08:06.134 HelloCordova[41637:f2a3] 11:08:06.134 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 11:13:29.425 HelloCordova[41637:110bb] 11:13:29.425 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 11:13:29.425 HelloCordova[41637:110bb] 11:13:29.425 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 11:13:29.428 HelloCordova[41637:14843] 11:13:29.428 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 11:13:29.429 HelloCordova[41637:14843] 11:13:29.429 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 12:25:29.745 HelloCordova[41637:dcff] 12:25:29.745 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 12:50:25.438 HelloCordova[41637:60f7] 12:50:25.438 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 12:50:25.745 HelloCordova[41637:f8fb] 12:50:25.745 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 12:50:25.746 HelloCordova[41637:1707b] 12:50:25.746 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 12:50:53.764 HelloCordova[41637:11b1f] 12:50:53.764 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 12:50:53.780 HelloCordova[41637:12e67] 12:50:53.780 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 12:51:32.466 HelloCordova[41637:f803] 12:51:32.466 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 12:51:34.189 HelloCordova[41637:14587] 12:51:34.189 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 12:51:35.574 HelloCordova[41637:f803] 12:51:35.574 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 13:48:20.502 HelloCordova[41637:99f3] 13:48:20.502 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 13:48:20.507 HelloCordova[41637:99f3] 13:48:20.507 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 13:48:20.508 HelloCordova[41637:f2db] 13:48:20.508 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 13:49:15.526 HelloCordova[41637:14583] 13:49:15.526 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 13:49:16.035 HelloCordova[41637:109af] 13:49:16.035 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 13:49:16.045 HelloCordova[41637:f2e3] 13:49:16.045 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 14:56:44.108 HelloCordova[41637:99fb] 14:56:44.108 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 14:56:44.128 HelloCordova[41637:f2e7] 14:56:44.128 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 14:56:44.130 HelloCordova[41637:1718f] 14:56:44.130 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 16:48:25.592 HelloCordova[41637:17343] 16:48:25.592 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-06 16:48:25.611 HelloCordova[41637:17343] 16:48:25.611 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 06:17:46.224 HelloCordova[41637:1734b] 06:17:46.224 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 06:17:46.231 HelloCordova[41637:1734b] 06:17:46.231 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 06:17:46.309 HelloCordova[41637:f8d7] 06:17:46.309 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 06:17:48.327 HelloCordova[41637:f36f] 06:17:48.327 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 06:17:53.257 HelloCordova[41637:f8d7] 06:17:53.257 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 06:17:53.266 HelloCordova[41637:f8d7] 06:17:53.266 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 08:41:43.128 HelloCordova[41637:f8eb] 08:41:43.128 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 08:42:04.005 HelloCordova[41637:f8ef] 08:42:04.005 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 08:42:04.022 HelloCordova[41637:1466b] 08:42:04.022 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 08:42:23.544 HelloCordova[41637:f8f3] 08:42:23.544 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 08:42:24.974 HelloCordova[41637:130b3] 08:42:24.974 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 08:42:26.574 HelloCordova[41637:12e6f] 08:42:26.574 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+objc[10257]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-07 08:58:51.187 HelloCordova[10257:70b] Cannot find executable for CFBundle 0xa366270 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-07 08:58:51.203 HelloCordova[10257:70b] Cannot find executable for CFBundle 0xa5231f0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-07 08:58:51.277 HelloCordova[10257:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 08:58:51.303 HelloCordova[10257:70b] Unlimited access to network resources
+2014-06-07 08:58:51.428 HelloCordova[10257:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-07 08:58:51.428 HelloCordova[10257:70b] [CDVTimer][statusbar] 0.358999ms
+2014-06-07 08:58:51.428 HelloCordova[10257:70b] [CDVTimer][TotalPluginStartup] 0.644982ms
+2014-06-07 08:58:51.625 HelloCordova[10257:70b] Resetting plugins due to page load.
+2014-06-07 08:58:51.901 HelloCordova[10257:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/dash
+2014-06-07 08:59:08.217 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.233 HelloCordova[10257:4717] ERROR: unable to get the receiver data from the DB!
+2014-06-07 08:59:08.338 HelloCordova[10257:70b] Downloaded 39 questions
+2014-06-07 08:59:08.413 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.465 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.472 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.476 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.484 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.490 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.496 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.502 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.509 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.515 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.522 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.528 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.534 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.540 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.546 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.552 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.558 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.564 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.571 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.577 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.584 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.590 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.596 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.603 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.609 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.616 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:08.622 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:11.194 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:11.205 HelloCordova[10257:70b] About to play http://cookie/words-mp3/2014/06/01/e76cbe9d22e7d44bbfa78a2834d7c0f8.mp3
+2014-06-07 08:59:11.240 HelloCordova[10257:70b] setting movie path: http://cookie/words-mp3/2014/06/01/e76cbe9d22e7d44bbfa78a2834d7c0f8.mp3
+2014-06-07 08:59:11.256 HelloCordova[10257:5a0b] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-07 08:59:11.257 HelloCordova[10257:70b] setting movie path: 
+2014-06-07 08:59:11.260 HelloCordova[10257:70b] setting movie path: http://cookie/words-mp3/2014/06/01/e76cbe9d22e7d44bbfa78a2834d7c0f8.mp3
+2014-06-07 08:59:11.261 HelloCordova[10257:4717] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-07 08:59:13.183 HelloCordova[10257:70b] Took background task assertion (68) for playback stall
+2014-06-07 09:04:13.177 HelloCordova[10257:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 09:04:13.277 HelloCordova[10257:70b] Ending background task assertion (68) for playback stall
+objc[11009]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-07 09:11:17.769 HelloCordova[11009:70b] Cannot find executable for CFBundle 0xa28fd20 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-07 09:11:17.772 HelloCordova[11009:70b] Cannot find executable for CFBundle 0xa3b8480 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-07 09:11:17.793 HelloCordova[11009:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 09:11:17.797 HelloCordova[11009:70b] Unlimited access to network resources
+2014-06-07 09:11:17.811 HelloCordova[11009:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-07 09:11:17.812 HelloCordova[11009:70b] [CDVTimer][statusbar] 0.398040ms
+2014-06-07 09:11:17.812 HelloCordova[11009:70b] [CDVTimer][TotalPluginStartup] 0.693977ms
+2014-06-07 09:11:17.875 HelloCordova[11009:70b] Resetting plugins due to page load.
+2014-06-07 09:11:17.971 HelloCordova[11009:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/dash
+2014-06-07 09:11:21.345 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.361 HelloCordova[11009:4713] ERROR: unable to get the receiver data from the DB!
+2014-06-07 09:11:21.442 HelloCordova[11009:70b] Downloaded 39 questions
+2014-06-07 09:11:21.489 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.533 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.538 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.545 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.551 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.560 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.567 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.572 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.580 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.588 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.595 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.601 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.608 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.614 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.622 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.628 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.634 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.643 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.649 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.658 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.666 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.673 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.680 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.686 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.693 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.699 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.706 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.712 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.719 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.726 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.733 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.739 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.746 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:21.753 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:32.910 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:32.919 HelloCordova[11009:70b] About to play http://cookie/words-mp3/2014/05/26/c3cc5eadaa7ad0b7bfc515e2ac5c30ab.mp3
+2014-06-07 09:11:32.935 HelloCordova[11009:70b] setting movie path: http://cookie/words-mp3/2014/05/26/c3cc5eadaa7ad0b7bfc515e2ac5c30ab.mp3
+2014-06-07 09:11:32.937 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:32.938 HelloCordova[11009:70b] setting movie path: http://cookie/words-mp3/2014/05/26/c3cc5eadaa7ad0b7bfc515e2ac5c30ab.mp3
+2014-06-07 09:11:32.945 HelloCordova[11009:4713] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-07 09:11:34.737 HelloCordova[11009:70b] Took background task assertion (82) for playback stall
+2014-06-07 09:11:44.068 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:44.077 HelloCordova[11009:70b] About to play http://cookie/words-mp3/2014/05/26/56f864b629f02d3d90fdae098ede178d.mp3
+2014-06-07 09:11:44.092 HelloCordova[11009:70b] setting movie path: http://cookie/words-mp3/2014/05/26/56f864b629f02d3d90fdae098ede178d.mp3
+2014-06-07 09:11:44.093 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:44.094 HelloCordova[11009:70b] setting movie path: http://cookie/words-mp3/2014/05/26/56f864b629f02d3d90fdae098ede178d.mp3
+2014-06-07 09:11:45.847 HelloCordova[11009:70b] Took background task assertion (124) for playback stall
+2014-06-07 09:11:48.990 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:48.997 HelloCordova[11009:70b] About to play http://cookie/words-mp3/2014/05/26/3159008b9a7df7805a2cf5ee85759ff0.mp3
+2014-06-07 09:11:49.012 HelloCordova[11009:70b] setting movie path: http://cookie/words-mp3/2014/05/26/3159008b9a7df7805a2cf5ee85759ff0.mp3
+2014-06-07 09:11:49.013 HelloCordova[11009:70b] setting movie path: 
+2014-06-07 09:11:49.014 HelloCordova[11009:70b] setting movie path: http://cookie/words-mp3/2014/05/26/3159008b9a7df7805a2cf5ee85759ff0.mp3
+2014-06-07 09:11:50.538 HelloCordova[11009:70b] Took background task assertion (134) for playback stall
+2014-06-07 09:16:34.730 HelloCordova[11009:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 09:16:34.831 HelloCordova[11009:70b] Ending background task assertion (82) for playback stall
+2014-06-07 09:16:45.841 HelloCordova[11009:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 09:16:45.942 HelloCordova[11009:70b] Ending background task assertion (124) for playback stall
+2014-06-07 09:16:50.532 HelloCordova[11009:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 09:16:50.633 HelloCordova[11009:70b] Ending background task assertion (134) for playback stall
+objc[11611]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-07 09:21:09.626 HelloCordova[11611:70b] Cannot find executable for CFBundle 0xa36e6d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-07 09:21:09.630 HelloCordova[11611:70b] Cannot find executable for CFBundle 0xff59b60 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-07 09:21:09.652 HelloCordova[11611:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 09:21:09.657 HelloCordova[11611:70b] Unlimited access to network resources
+2014-06-07 09:21:09.670 HelloCordova[11611:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-07 09:21:09.670 HelloCordova[11611:70b] [CDVTimer][statusbar] 0.369012ms
+2014-06-07 09:21:09.671 HelloCordova[11611:70b] [CDVTimer][TotalPluginStartup] 0.633001ms
+2014-06-07 09:21:09.728 HelloCordova[11611:70b] Resetting plugins due to page load.
+2014-06-07 09:21:09.822 HelloCordova[11611:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/dash
+2014-06-07 09:21:14.750 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:14.763 HelloCordova[11611:4713] ERROR: unable to get the receiver data from the DB!
+2014-06-07 09:21:14.882 HelloCordova[11611:70b] Downloaded 39 questions
+2014-06-07 09:21:14.923 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:14.970 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:14.980 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:14.986 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:14.992 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:14.998 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.005 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.010 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.016 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.023 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.028 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.036 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.042 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.048 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.055 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.062 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.067 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.075 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.081 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.087 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.094 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.100 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.106 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.113 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.119 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.126 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:15.133 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:16.435 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:16.444 HelloCordova[11611:70b] About to play http://cookie/words-mp3/2014/05/26/d55f46df70393dea5794bdfc609faba5.mp3
+2014-06-07 09:21:16.456 HelloCordova[11611:70b] setting movie path: http://cookie/words-mp3/2014/05/26/d55f46df70393dea5794bdfc609faba5.mp3
+2014-06-07 09:21:16.458 HelloCordova[11611:70b] setting movie path: 
+2014-06-07 09:21:16.459 HelloCordova[11611:70b] setting movie path: http://cookie/words-mp3/2014/05/26/d55f46df70393dea5794bdfc609faba5.mp3
+2014-06-07 09:21:16.481 HelloCordova[11611:7807] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-07 09:21:18.296 HelloCordova[11611:70b] Took background task assertion (68) for playback stall
+objc[12022]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-07 09:26:03.680 HelloCordova[12022:70b] Cannot find executable for CFBundle 0xa286e60 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-07 09:26:03.683 HelloCordova[12022:70b] Cannot find executable for CFBundle 0xa7b9640 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-07 09:26:03.703 HelloCordova[12022:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 09:26:03.708 HelloCordova[12022:70b] Unlimited access to network resources
+2014-06-07 09:26:03.721 HelloCordova[12022:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-07 09:26:03.721 HelloCordova[12022:70b] [CDVTimer][statusbar] 0.371993ms
+2014-06-07 09:26:03.721 HelloCordova[12022:70b] [CDVTimer][TotalPluginStartup] 0.716984ms
+2014-06-07 09:26:03.769 HelloCordova[12022:70b] Resetting plugins due to page load.
+2014-06-07 09:26:03.876 HelloCordova[12022:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/dash
+objc[14771]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-07 09:59:31.259 HelloCordova[14771:70b] Cannot find executable for CFBundle 0xa2462f0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-07 09:59:31.262 HelloCordova[14771:70b] Cannot find executable for CFBundle 0xa471160 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-07 09:59:31.285 HelloCordova[14771:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 09:59:31.290 HelloCordova[14771:70b] Unlimited access to network resources
+2014-06-07 09:59:31.304 HelloCordova[14771:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-07 09:59:31.304 HelloCordova[14771:70b] [CDVTimer][statusbar] 0.396013ms
+2014-06-07 09:59:31.305 HelloCordova[14771:70b] [CDVTimer][TotalPluginStartup] 0.660002ms
+2014-06-07 09:59:31.378 HelloCordova[14771:70b] Resetting plugins due to page load.
+2014-06-07 09:59:31.477 HelloCordova[14771:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/dash
+2014-06-07 09:59:33.821 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:33.834 HelloCordova[14771:5f0b] ERROR: unable to get the receiver data from the DB!
+2014-06-07 09:59:33.941 HelloCordova[14771:70b] Downloaded 39 questions
+2014-06-07 09:59:33.981 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.024 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.030 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.036 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.044 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.051 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.056 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.063 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.069 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.077 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.085 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.090 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.099 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.105 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.112 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.121 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.128 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.134 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.142 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.150 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.159 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.168 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.174 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.181 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.189 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.195 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.202 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.208 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.215 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.221 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:34.228 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:36.831 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:36.839 HelloCordova[14771:70b] About to play http://cookie/words-mp3/2014/05/26/f200a2a0dc8e4e217c52c41789fbaaf5.mp3
+2014-06-07 09:59:36.859 HelloCordova[14771:70b] setting movie path: http://cookie/words-mp3/2014/05/26/f200a2a0dc8e4e217c52c41789fbaaf5.mp3
+2014-06-07 09:59:36.861 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:36.862 HelloCordova[14771:70b] setting movie path: http://cookie/words-mp3/2014/05/26/f200a2a0dc8e4e217c52c41789fbaaf5.mp3
+2014-06-07 09:59:36.882 HelloCordova[14771:8b23] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-07 09:59:38.806 HelloCordova[14771:70b] Took background task assertion (76) for playback stall
+2014-06-07 09:59:43.141 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:43.151 HelloCordova[14771:70b] About to play http://cookie/words-mp3/2014/05/26/497716e2108c75bb6516506d54423e38.mp3
+2014-06-07 09:59:43.168 HelloCordova[14771:70b] setting movie path: http://cookie/words-mp3/2014/05/26/497716e2108c75bb6516506d54423e38.mp3
+2014-06-07 09:59:43.168 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 09:59:43.169 HelloCordova[14771:70b] setting movie path: http://cookie/words-mp3/2014/05/26/497716e2108c75bb6516506d54423e38.mp3
+2014-06-07 09:59:45.342 HelloCordova[14771:70b] Took background task assertion (84) for playback stall
+2014-06-07 10:00:34.454 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 10:00:34.465 HelloCordova[14771:70b] About to play http://cookie/words-mp3/2014/05/26/4a50efb6bd73f875edd8dec777f8ba1e.mp3
+2014-06-07 10:00:34.483 HelloCordova[14771:70b] setting movie path: http://cookie/words-mp3/2014/05/26/4a50efb6bd73f875edd8dec777f8ba1e.mp3
+2014-06-07 10:00:34.484 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 10:00:34.485 HelloCordova[14771:70b] setting movie path: http://cookie/words-mp3/2014/05/26/4a50efb6bd73f875edd8dec777f8ba1e.mp3
+2014-06-07 10:00:36.309 HelloCordova[14771:70b] Took background task assertion (126) for playback stall
+2014-06-07 10:02:56.436 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 10:02:56.445 HelloCordova[14771:70b] About to play http://cookie/words-mp3/2014/05/26/6ea2f297b178595ac3f248cd2def679c.mp3
+2014-06-07 10:02:56.459 HelloCordova[14771:70b] setting movie path: http://cookie/words-mp3/2014/05/26/6ea2f297b178595ac3f248cd2def679c.mp3
+2014-06-07 10:02:56.460 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 10:02:56.461 HelloCordova[14771:70b] setting movie path: http://cookie/words-mp3/2014/05/26/6ea2f297b178595ac3f248cd2def679c.mp3
+2014-06-07 10:02:58.179 HelloCordova[14771:70b] Took background task assertion (135) for playback stall
+2014-06-07 10:03:01.416 HelloCordova[14771:70b] setting movie path: 
+2014-06-07 10:03:01.424 HelloCordova[14771:70b] About to play http://cookie/words-mp3/2014/05/26/8d6f0716e45608f2134b341e37319351.mp3
+2014-06-07 10:03:01.435 HelloCordova[14771:70b] setting movie path: http://cookie/words-mp3/2014/05/26/8d6f0716e45608f2134b341e37319351.mp3
+2014-06-07 10:04:38.800 HelloCordova[14771:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 10:04:38.901 HelloCordova[14771:70b] Ending background task assertion (76) for playback stall
+2014-06-07 10:04:45.336 HelloCordova[14771:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 10:04:45.436 HelloCordova[14771:70b] Ending background task assertion (84) for playback stall
+2014-06-07 10:05:36.303 HelloCordova[14771:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 10:05:36.403 HelloCordova[14771:70b] Ending background task assertion (126) for playback stall
+2014-06-07 10:07:58.173 HelloCordova[14771:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 10:07:58.274 HelloCordova[14771:70b] Ending background task assertion (135) for playback stall
+objc[15903]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-07 10:20:05.463 HelloCordova[15903:70b] Cannot find executable for CFBundle 0xa472e10 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-07 10:20:05.466 HelloCordova[15903:70b] Cannot find executable for CFBundle 0xba677d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-07 10:20:05.488 HelloCordova[15903:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 10:20:05.493 HelloCordova[15903:70b] Unlimited access to network resources
+2014-06-07 10:20:05.506 HelloCordova[15903:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-07 10:20:05.506 HelloCordova[15903:70b] [CDVTimer][statusbar] 0.343978ms
+2014-06-07 10:20:05.506 HelloCordova[15903:70b] [CDVTimer][TotalPluginStartup] 0.613987ms
+2014-06-07 10:20:05.560 HelloCordova[15903:70b] Resetting plugins due to page load.
+2014-06-07 10:20:05.658 HelloCordova[15903:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/dash
+objc[16887]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-07 10:30:34.621 HelloCordova[16887:70b] Cannot find executable for CFBundle 0xa3342e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-07 10:30:34.625 HelloCordova[16887:70b] Cannot find executable for CFBundle 0xa623e70 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-07 10:30:34.647 HelloCordova[16887:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 10:30:34.651 HelloCordova[16887:70b] Unlimited access to network resources
+2014-06-07 10:30:34.664 HelloCordova[16887:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-07 10:30:34.664 HelloCordova[16887:70b] [CDVTimer][statusbar] 0.407040ms
+2014-06-07 10:30:34.665 HelloCordova[16887:70b] [CDVTimer][TotalPluginStartup] 0.685990ms
+2014-06-07 10:30:34.715 HelloCordova[16887:70b] Resetting plugins due to page load.
+2014-06-07 10:30:34.811 HelloCordova[16887:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/dash
+2014-06-07 10:30:38.647 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.660 HelloCordova[16887:1203] ERROR: unable to get the receiver data from the DB!
+2014-06-07 10:30:38.721 HelloCordova[16887:70b] Downloaded 39 questions
+2014-06-07 10:30:38.765 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.804 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.810 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.816 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.822 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.828 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.834 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.840 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.846 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.853 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.859 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.865 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.872 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.879 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.884 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.891 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.898 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.904 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.911 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.917 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.922 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.931 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.937 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.944 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.949 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.957 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.962 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.970 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.976 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.983 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.989 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:38.995 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:39.002 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:39.009 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:39.015 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:41.026 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:41.039 HelloCordova[16887:70b] About to play http://cookie/words-mp3/2014/05/26/0db49378fad66646cb050bf197ba093f.mp3
+2014-06-07 10:30:41.040 HelloCordova[16887:70b] Start next in  4 seconds
+2014-06-07 10:30:41.058 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/05/26/0db49378fad66646cb050bf197ba093f.mp3
+2014-06-07 10:30:41.060 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:41.062 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/05/26/0db49378fad66646cb050bf197ba093f.mp3
+2014-06-07 10:30:41.068 HelloCordova[16887:5703] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-07 10:30:42.760 HelloCordova[16887:70b] Took background task assertion (84) for playback stall
+2014-06-07 10:30:49.076 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:49.086 HelloCordova[16887:70b] About to play http://cookie/words-mp3/2014/05/26/06e5fc43914140902dcdc3920713a66a.mp3
+2014-06-07 10:30:49.086 HelloCordova[16887:70b] Start next in  4 seconds
+2014-06-07 10:30:49.102 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/05/26/06e5fc43914140902dcdc3920713a66a.mp3
+2014-06-07 10:30:49.103 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:49.104 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/05/26/06e5fc43914140902dcdc3920713a66a.mp3
+2014-06-07 10:30:51.027 HelloCordova[16887:70b] Took background task assertion (92) for playback stall
+2014-06-07 10:30:53.803 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:53.813 HelloCordova[16887:70b] About to play http://cookie/words-mp3/2014/06/01/256acc7da0bb568019760950476b1c40.mp3
+2014-06-07 10:30:53.813 HelloCordova[16887:70b] Start next in  4 seconds
+2014-06-07 10:30:53.824 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/06/01/256acc7da0bb568019760950476b1c40.mp3
+2014-06-07 10:30:53.825 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:30:53.826 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/06/01/256acc7da0bb568019760950476b1c40.mp3
+2014-06-07 10:30:55.995 HelloCordova[16887:70b] Took background task assertion (135) for playback stall
+2014-06-07 10:30:57.803 HelloCordova[16887:70b] Timeout!
+2014-06-07 10:31:09.865 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:31:09.878 HelloCordova[16887:70b] About to play http://cookie/words-mp3/2014/05/26/b6976182d2619b6069b0ad87e927d3f5.mp3
+2014-06-07 10:31:09.878 HelloCordova[16887:70b] Start next in  4 seconds
+2014-06-07 10:31:09.892 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/05/26/b6976182d2619b6069b0ad87e927d3f5.mp3
+2014-06-07 10:31:09.892 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:31:09.893 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/05/26/b6976182d2619b6069b0ad87e927d3f5.mp3
+2014-06-07 10:31:11.586 HelloCordova[16887:70b] Took background task assertion (147) for playback stall
+2014-06-07 10:31:18.805 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:31:18.814 HelloCordova[16887:70b] About to play http://cookie/words-mp3/2014/06/01/ead6c2a0d929266c889341926429fe04.mp3
+2014-06-07 10:31:18.815 HelloCordova[16887:70b] Start next in  4 seconds
+2014-06-07 10:31:18.830 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/06/01/ead6c2a0d929266c889341926429fe04.mp3
+2014-06-07 10:31:18.831 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:31:18.832 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/06/01/ead6c2a0d929266c889341926429fe04.mp3
+2014-06-07 10:31:20.631 HelloCordova[16887:70b] Took background task assertion (155) for playback stall
+2014-06-07 10:31:22.803 HelloCordova[16887:70b] Timeout!
+2014-06-07 10:31:26.017 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:31:26.029 HelloCordova[16887:70b] About to play http://cookie/words-mp3/2014/05/26/0db49378fad66646cb050bf197ba093f.mp3
+2014-06-07 10:31:26.029 HelloCordova[16887:70b] Start next in  4 seconds
+2014-06-07 10:31:26.043 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/05/26/0db49378fad66646cb050bf197ba093f.mp3
+2014-06-07 10:31:26.044 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:31:26.045 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/05/26/0db49378fad66646cb050bf197ba093f.mp3
+2014-06-07 10:31:27.690 HelloCordova[16887:70b] Took background task assertion (164) for playback stall
+2014-06-07 10:31:29.161 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:31:29.163 HelloCordova[16887:70b] About to play http://cookie/words-mp3/2014/05/26/56f864b629f02d3d90fdae098ede178d.mp3
+2014-06-07 10:31:29.163 HelloCordova[16887:70b] Start next in  4 seconds
+2014-06-07 10:31:29.173 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/05/26/56f864b629f02d3d90fdae098ede178d.mp3
+2014-06-07 10:31:29.174 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:31:29.175 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/05/26/56f864b629f02d3d90fdae098ede178d.mp3
+2014-06-07 10:31:30.929 HelloCordova[16887:70b] Took background task assertion (172) for playback stall
+2014-06-07 10:31:31.139 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:31:31.141 HelloCordova[16887:70b] About to play http://cookie/words-mp3/2014/05/26/30fd3f5b67bf233d87b36c830448e7c9.mp3
+2014-06-07 10:31:31.141 HelloCordova[16887:70b] Start next in  4 seconds
+2014-06-07 10:31:31.150 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/05/26/30fd3f5b67bf233d87b36c830448e7c9.mp3
+2014-06-07 10:31:31.151 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:31:31.152 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/05/26/30fd3f5b67bf233d87b36c830448e7c9.mp3
+2014-06-07 10:31:32.740 HelloCordova[16887:70b] Took background task assertion (180) for playback stall
+2014-06-07 10:31:35.139 HelloCordova[16887:70b] Timeout!
+2014-06-07 10:31:37.603 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:31:37.604 HelloCordova[16887:70b] About to play http://cookie/words-mp3/2014/05/26/f97e7bc1993a5fde1fcb8cc1f3fe61be.mp3
+2014-06-07 10:31:37.604 HelloCordova[16887:70b] Start next in  4 seconds
+2014-06-07 10:31:37.621 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/05/26/f97e7bc1993a5fde1fcb8cc1f3fe61be.mp3
+2014-06-07 10:31:37.622 HelloCordova[16887:70b] setting movie path: 
+2014-06-07 10:31:37.623 HelloCordova[16887:70b] setting movie path: http://cookie/words-mp3/2014/05/26/f97e7bc1993a5fde1fcb8cc1f3fe61be.mp3
+2014-06-07 10:31:39.346 HelloCordova[16887:70b] Took background task assertion (189) for playback stall
+2014-06-07 10:31:41.599 HelloCordova[16887:70b] Timeout!
+2014-06-07 10:32:14.624 HelloCordova[16887:9f53] 10:32:14.624 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 10:32:19.498 HelloCordova[16887:f607] 10:32:19.498 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 10:35:16.125 HelloCordova[16887:9f5b] 10:35:16.125 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 10:35:39.879 HelloCordova[16887:10517] 10:35:39.879 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 10:35:41.607 HelloCordova[16887:f60f] 10:35:41.607 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 10:35:43.665 HelloCordova[16887:10517] 10:35:43.665 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 10:38:01.945 HelloCordova[16887:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 10:38:02.046 HelloCordova[16887:70b] Ending background task assertion (84) for playback stall
+2014-06-07 10:38:10.211 HelloCordova[16887:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 10:38:10.312 HelloCordova[16887:70b] Ending background task assertion (92) for playback stall
+2014-06-07 10:38:15.180 HelloCordova[16887:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 10:38:15.282 HelloCordova[16887:70b] Ending background task assertion (135) for playback stall
+2014-06-07 10:38:30.772 HelloCordova[16887:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 10:38:30.872 HelloCordova[16887:70b] Ending background task assertion (147) for playback stall
+2014-06-07 10:38:39.817 HelloCordova[16887:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 10:38:39.918 HelloCordova[16887:70b] Ending background task assertion (155) for playback stall
+2014-06-07 10:38:46.875 HelloCordova[16887:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 10:38:46.977 HelloCordova[16887:70b] Ending background task assertion (164) for playback stall
+2014-06-07 10:38:50.113 HelloCordova[16887:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 10:38:50.213 HelloCordova[16887:70b] Ending background task assertion (172) for playback stall
+2014-06-07 10:38:51.926 HelloCordova[16887:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 10:38:52.026 HelloCordova[16887:70b] Ending background task assertion (180) for playback stall
+2014-06-07 10:38:58.531 HelloCordova[16887:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 10:38:58.632 HelloCordova[16887:70b] Ending background task assertion (189) for playback stall
+2014-06-07 11:33:04.698 HelloCordova[16887:1072b] 11:33:04.698 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 11:33:10.537 HelloCordova[16887:16167] 11:33:10.537 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 19:29:39.136 HelloCordova[16887:1617f] 19:29:39.136 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 19:30:15.954 HelloCordova[16887:1470b] 19:30:15.954 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 19:30:15.958 HelloCordova[16887:1470b] 19:30:15.958 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 19:30:17.243 HelloCordova[16887:13757] 19:30:17.243 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-07 19:30:18.995 HelloCordova[16887:11f0b] 19:30:18.995 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.

@@ -32,10 +32,10 @@ angular.module('starter.services', [])
     // defaults
     config.batch_size = 5;
     config.next_question_delay = 2;
+    config.playsounds = true;
 
     return {
         get: function(key) {
-            console.log('getting key', key, config[key]);
             return config[key];
         },
         set: function(key, value) {
@@ -52,7 +52,6 @@ angular.module('starter.services', [])
                     }
                     config[key] = new_value;
                 }
-                console.log('config now', config);
             });
         }
     };

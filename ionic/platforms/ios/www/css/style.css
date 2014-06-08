@@ -1,1 +1,21 @@
 /* Empty. Add your own CSS if you like */
+.item-note {
+    color: #333;
+}
+
+.picture {
+    text-align: center;
+}
+.picture img {
+    border-radius: 3px;
+}
+.question .picture img {
+    height: 200px;
+}
+
+.modal .picture {
+    padding: 3px;
+}
+.modal p {
+    text-align: center;
+}
