@@ -11,51 +11,27 @@
             <img ng-src="{{ question.picture.url }}"></img>
         </div>
 
-        <!-- <ion-list>
-            <ion-item ng-repeat="alternative in question.choices" ng-click="submitAnswer(alternative)"
-              ng-class="{clicked: clicked==alternative, correct: isCorrect(alternative), incorrect: isIncorrect(alternative)}">
-                {{ alternative.word }}
-            </ion-item>
-        </ion-list> -->
         <div class="list">
 
           <div class="item item-button-right item-outline"
                ng-class="{'item-assertive': isIncorrect(alternative), 'item-balanced': isCorrect(alternative)}"
-               ng-repeat="alternative in question.choices" ng-click="submitAnswer(alternative)">
+               ng-repeat="alternative in question.choices track by alternative.id"
+               ng-click="submitAnswer(alternative)">
             {{ alternative.word }}
-            <!-- <span class="item-note" ng-if="isClicked(alternative)">
-              {{ alternative.explanation }}
-            </span> -->
           </div>
 
         </div>
-
-        <!-- <div class="answered" ng-show="clicked">
-            <div class="correct" ng-show="showCorrect()">
-                <h4>Correct!</h4>
-            </div>
-            <div class="incorrect" ng-show="showIncorrect()">
-                <h4>Incorrect!</h4>
-                <p>The right answer was <strong>{{ question.correct.word }}</strong>.</p>
-            </div>
-            <p>
-              <button class="button button-positive icon-right ion-chevron-right" ng-click="forwardNextQuestion()">
-              Next question please...
-              </button>
-            </p>
-        </div> -->
 
     </div>
 
     <div class="finished" ng-show="finished">
         <p>You have finished your daily exercise. Well done!</p>
         <p>Here, have a cookie:</p>
-        <code>{{ attempts }}</code>
-        <ion-list>
-          <ion-item ng-repeat="question in questions">
-            <b>{{ question.correct.word }}</b> {{ 100 * question._correct_rate }}%
-          </ion-item>
-        </ion-list>
+        <div class="list">
+          <a class="item" ng-repeat="question in questions" ng-click="openWordModal(question.correct.id)">
+            <b>{{ question.correct.word }}</b> {{ 100 * question._correct_rate | number:0 }}%
+          </a>
+        </div>
 
     </div>
 
@@ -81,14 +57,39 @@
           <div class="picture">
               <img ng-src="{{ question.picture.url }}"></img>
           </div>
-            <p ng-show="!was_correct">The right answer was <strong>{{ question.correct.word }}</strong>.<br>
-            You clicked on <strong>{{ clicked.word }}</strong>.</p>
+            <p ng-show="!was_correct">
+              The right answer was <strong>{{ question.correct.word }}</strong>.<br>
+              <span ng-show="!question.correct.explanation">
+                You clicked on <strong>{{ clicked.word }}</strong>.
+              </span>
+            </p>
             <p ng-show="question.correct.explanation">
-              Explanation: <strong>{{ question.correct.explanation }}</strong>
+              <strong>{{ clicked.word }}</strong> means <strong>{{ question.correct.explanation }}</strong>
             </p>
             <button class="button button-block button-positive icon-right ion-chevron-right"
               ng-click="closeModalAndNextQuestion()">
             Next question in <b>{{ modal_close_time_left }}</b>
+            </button>
+        </ion-content>
+    </div>
+</script>
+
+<script id="word-modal.html" type="text/ng-template">
+    <div class="modal">
+        <ion-header-bar class="bar-header">
+            <h1 class="title">{{ word.word }}</h1>
+        </ion-header-bar>
+        <ion-content>
+
+            <p>
+            You get this word right <strong>{{ 100 * correct_rate | number:0 }}%</strong> of the time.
+            </p>
+
+            <button class="button icon ion-volume-medium" ng-click="playWord(word)"></button>
+
+            <button class="button button-full button-positive"
+              ng-click="closeWordModal()">
+              Close
             </button>
         </ion-content>
     </div>

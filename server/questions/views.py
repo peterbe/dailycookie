@@ -8,7 +8,7 @@ from django.contrib.sites.models import RequestSite
 from jsonview.decorators import json_view
 from sorl.thumbnail import get_thumbnail
 
-from .models import Question, QuestionGroup
+from .models import Question, QuestionGroup, Word
 
 
 def add_CORS_header(f):
@@ -43,7 +43,6 @@ def home(request):
     questions_qs = Question.objects.filter(group=group)
     questions = []
 
-
     base_url = '%s://%s' % (
         request.is_secure() and 'https' or 'http',
         RequestSite(request).domain
@@ -76,22 +75,30 @@ def home(request):
                 'height': thumb.height
             },
             'correct': [],
-            'incorrect': [],
+            # 'incorrect': [],
         }
         for word in item.correct.all():
             if has_audio_file(word):
-                question['correct'].append(serialize_word(word))
-        for word in item.incorrect.all():
-            if has_audio_file(word):
-                question['incorrect'].append(serialize_word(word))
+                question['correct'].append(word.id)
+        # for word in item.incorrect.all():
+        #     if has_audio_file(word):
+        #         question['incorrect'].append(serialize_word(word))
 
-        if question['correct'] and question['incorrect']:
+        # if question['correct'] and question['incorrect']:
+        if question['correct']:
             questions.append(question)
+
+    words = {}
+    words_qs = Word.objects.filter(locale=group.locale, mp3file__isnull=False)
+    for word in words_qs:
+        if has_audio_file(word):
+            words[word.id] = serialize_word(word)
 
     context = {
         'locale': group.locale.code,
         'name': group.name,
         'questions': questions,
+        'words': words,
     }
     return context
 

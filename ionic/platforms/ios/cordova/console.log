@@ -1920,3 +1920,244 @@ objc[16887]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.a
 2014-06-07 19:30:15.958 HelloCordova[16887:1470b] 19:30:15.958 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
 2014-06-07 19:30:17.243 HelloCordova[16887:13757] 19:30:17.243 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
 2014-06-07 19:30:18.995 HelloCordova[16887:11f0b] 19:30:18.995 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+objc[23282]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-07 20:12:54.670 HelloCordova[23282:70b] Cannot find executable for CFBundle 0xa224820 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-07 20:12:54.674 HelloCordova[23282:70b] Cannot find executable for CFBundle 0xa326210 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-07 20:12:54.703 HelloCordova[23282:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 20:12:54.707 HelloCordova[23282:70b] Unlimited access to network resources
+2014-06-07 20:12:54.720 HelloCordova[23282:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-07 20:12:54.721 HelloCordova[23282:70b] [CDVTimer][statusbar] 0.339985ms
+2014-06-07 20:12:54.721 HelloCordova[23282:70b] [CDVTimer][TotalPluginStartup] 0.605047ms
+2014-06-07 20:12:54.806 HelloCordova[23282:70b] Resetting plugins due to page load.
+2014-06-07 20:12:54.915 HelloCordova[23282:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/dash
+2014-06-07 20:12:59.104 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.118 HelloCordova[23282:5e07] ERROR: unable to get the receiver data from the DB!
+2014-06-07 20:12:59.200 HelloCordova[23282:70b] Downloaded 48 questions
+2014-06-07 20:12:59.242 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.294 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.301 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.307 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.313 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.319 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.325 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.331 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.337 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.344 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.351 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.357 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.363 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.369 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.376 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.381 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.388 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.394 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.401 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.406 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.413 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.420 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.427 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.433 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.439 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.446 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.453 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:12:59.459 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:13:05.121 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:13:05.133 HelloCordova[23282:70b] About to play http://cookie/words-mp3/2014/05/26/ab85307a5951e4a3bd15895ff3c6ef89.mp3
+2014-06-07 20:13:05.153 HelloCordova[23282:70b] setting movie path: http://cookie/words-mp3/2014/05/26/ab85307a5951e4a3bd15895ff3c6ef89.mp3
+2014-06-07 20:13:05.155 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:13:05.156 HelloCordova[23282:70b] setting movie path: http://cookie/words-mp3/2014/05/26/ab85307a5951e4a3bd15895ff3c6ef89.mp3
+2014-06-07 20:13:05.164 HelloCordova[23282:5a0f] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-07 20:13:07.165 HelloCordova[23282:70b] Took background task assertion (70) for playback stall
+2014-06-07 20:14:31.172 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:14:31.183 HelloCordova[23282:70b] About to play http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3
+2014-06-07 20:14:31.199 HelloCordova[23282:70b] setting movie path: http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3
+2014-06-07 20:14:31.200 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:14:31.201 HelloCordova[23282:70b] setting movie path: http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3
+2014-06-07 20:14:32.648 HelloCordova[23282:70b] Took background task assertion (108) for playback stall
+2014-06-07 20:14:38.582 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:14:38.592 HelloCordova[23282:70b] About to play http://cookie/words-mp3/2014/06/08/aaf1e.mp3
+2014-06-07 20:14:38.608 HelloCordova[23282:70b] setting movie path: http://cookie/words-mp3/2014/06/08/aaf1e.mp3
+2014-06-07 20:14:38.609 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:14:38.610 HelloCordova[23282:70b] setting movie path: http://cookie/words-mp3/2014/06/08/aaf1e.mp3
+2014-06-07 20:14:40.171 HelloCordova[23282:70b] Took background task assertion (116) for playback stall
+2014-06-07 20:14:56.563 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:14:56.564 HelloCordova[23282:70b] About to play http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3
+2014-06-07 20:14:56.584 HelloCordova[23282:70b] setting movie path: http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3
+2014-06-07 20:14:56.585 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:14:56.587 HelloCordova[23282:70b] setting movie path: http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3
+2014-06-07 20:14:58.027 HelloCordova[23282:70b] Took background task assertion (126) for playback stall
+2014-06-07 20:15:03.113 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:15:03.114 HelloCordova[23282:70b] About to play http://cookie/words-mp3/2014/06/01/1bf978d7e09c26ee3e5cff6f5bb1b28b.mp3
+2014-06-07 20:15:03.122 HelloCordova[23282:70b] setting movie path: http://cookie/words-mp3/2014/06/01/1bf978d7e09c26ee3e5cff6f5bb1b28b.mp3
+2014-06-07 20:15:03.123 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:15:03.125 HelloCordova[23282:70b] setting movie path: http://cookie/words-mp3/2014/06/01/1bf978d7e09c26ee3e5cff6f5bb1b28b.mp3
+2014-06-07 20:15:04.540 HelloCordova[23282:70b] Took background task assertion (134) for playback stall
+2014-06-07 20:15:08.799 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:15:08.808 HelloCordova[23282:70b] About to play http://cookie/words-mp3/2014/05/26/06e5fc43914140902dcdc3920713a66a.mp3
+2014-06-07 20:15:08.823 HelloCordova[23282:70b] setting movie path: http://cookie/words-mp3/2014/05/26/06e5fc43914140902dcdc3920713a66a.mp3
+2014-06-07 20:15:08.824 HelloCordova[23282:70b] setting movie path: 
+2014-06-07 20:15:08.825 HelloCordova[23282:70b] setting movie path: http://cookie/words-mp3/2014/05/26/06e5fc43914140902dcdc3920713a66a.mp3
+2014-06-07 20:15:10.763 HelloCordova[23282:70b] Took background task assertion (142) for playback stall
+2014-06-07 20:18:07.159 HelloCordova[23282:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 20:18:07.260 HelloCordova[23282:70b] Ending background task assertion (70) for playback stall
+2014-06-07 20:19:32.641 HelloCordova[23282:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 20:19:32.742 HelloCordova[23282:70b] Ending background task assertion (108) for playback stall
+2014-06-07 20:19:40.165 HelloCordova[23282:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 20:19:40.266 HelloCordova[23282:70b] Ending background task assertion (116) for playback stall
+2014-06-07 20:19:58.020 HelloCordova[23282:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 20:19:58.121 HelloCordova[23282:70b] Ending background task assertion (126) for playback stall
+2014-06-07 20:20:04.533 HelloCordova[23282:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 20:20:04.634 HelloCordova[23282:70b] Ending background task assertion (134) for playback stall
+2014-06-07 20:20:10.756 HelloCordova[23282:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 20:20:10.857 HelloCordova[23282:70b] Ending background task assertion (142) for playback stall
+objc[26500]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-07 21:19:26.661 HelloCordova[26500:70b] Cannot find executable for CFBundle 0xf738e20 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-07 21:19:26.665 HelloCordova[26500:70b] Cannot find executable for CFBundle 0xa2849e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-07 21:19:26.686 HelloCordova[26500:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 21:19:26.691 HelloCordova[26500:70b] Unlimited access to network resources
+2014-06-07 21:19:26.705 HelloCordova[26500:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-07 21:19:26.706 HelloCordova[26500:70b] [CDVTimer][statusbar] 0.369012ms
+2014-06-07 21:19:26.706 HelloCordova[26500:70b] [CDVTimer][TotalPluginStartup] 0.667989ms
+2014-06-07 21:19:26.768 HelloCordova[26500:70b] Resetting plugins due to page load.
+2014-06-07 21:19:26.879 HelloCordova[26500:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/00EABE79-29BD-407D-A00F-5C36BC9F9949/HelloCordova.app/www/index.html#/dash
+2014-06-07 21:19:29.747 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:29.759 HelloCordova[26500:5f0f] ERROR: unable to get the receiver data from the DB!
+2014-06-07 21:19:29.876 HelloCordova[26500:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-07 21:19:29.876 HelloCordova[26500:70b] CHOICES
+2014-06-07 21:19:29.877 HelloCordova[26500:70b] 48 tand
+2014-06-07 21:19:29.877 HelloCordova[26500:70b] 19 sked
+2014-06-07 21:19:29.877 HelloCordova[26500:70b] 87 soffa
+2014-06-07 21:19:29.877 HelloCordova[26500:70b] 16 kvinna
+2014-06-07 21:19:29.877 HelloCordova[26500:70b]  
+2014-06-07 21:19:29.886 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:29.932 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:29.937 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:29.946 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:29.953 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:29.962 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:29.967 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:29.973 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:29.979 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:29.986 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:29.991 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:29.998 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:30.006 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:30.012 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:30.018 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:30.025 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:30.032 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:30.038 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:30.045 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:30.052 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:30.061 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:30.067 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:30.073 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:32.367 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:32.379 HelloCordova[26500:70b] About to play http://cookie/words-mp3/2014/05/26/77b00e216e591b359ac76acffe6b9dfe.mp3
+2014-06-07 21:19:32.402 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/05/26/77b00e216e591b359ac76acffe6b9dfe.mp3
+2014-06-07 21:19:32.404 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:32.406 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/05/26/77b00e216e591b359ac76acffe6b9dfe.mp3
+2014-06-07 21:19:32.424 HelloCordova[26500:4713] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-07 21:19:34.037 HelloCordova[26500:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-07 21:19:34.038 HelloCordova[26500:70b] CHOICES
+2014-06-07 21:19:34.038 HelloCordova[26500:70b] 86 grönt
+2014-06-07 21:19:34.038 HelloCordova[26500:70b] 123 sax
+2014-06-07 21:19:34.038 HelloCordova[26500:70b] 69 äpplen
+2014-06-07 21:19:34.038 HelloCordova[26500:70b] 47 knapp
+2014-06-07 21:19:34.038 HelloCordova[26500:70b]  
+2014-06-07 21:19:34.178 HelloCordova[26500:70b] Took background task assertion (60) for playback stall
+2014-06-07 21:19:36.274 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:36.287 HelloCordova[26500:70b] About to play http://cookie/words-mp3/2014/06/01/44695ac93774571516df3053a487f7cf.mp3
+2014-06-07 21:19:36.302 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/06/01/44695ac93774571516df3053a487f7cf.mp3
+2014-06-07 21:19:36.303 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:36.304 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/06/01/44695ac93774571516df3053a487f7cf.mp3
+2014-06-07 21:19:38.125 HelloCordova[26500:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-07 21:19:38.126 HelloCordova[26500:70b] CHOICES
+2014-06-07 21:19:38.126 HelloCordova[26500:70b] 26 citron
+2014-06-07 21:19:38.126 HelloCordova[26500:70b] 68 öl
+2014-06-07 21:19:38.126 HelloCordova[26500:70b] 34 gata
+2014-06-07 21:19:38.126 HelloCordova[26500:70b] 6 päls
+2014-06-07 21:19:38.126 HelloCordova[26500:70b]  
+2014-06-07 21:19:38.230 HelloCordova[26500:70b] Took background task assertion (68) for playback stall
+2014-06-07 21:19:41.373 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:41.374 HelloCordova[26500:70b] About to play http://cookie/words-mp3/2014/05/26/8d6f0716e45608f2134b341e37319351.mp3
+2014-06-07 21:19:41.384 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/05/26/8d6f0716e45608f2134b341e37319351.mp3
+2014-06-07 21:19:41.385 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:41.386 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/05/26/8d6f0716e45608f2134b341e37319351.mp3
+2014-06-07 21:19:42.978 HelloCordova[26500:70b] Took background task assertion (76) for playback stall
+2014-06-07 21:19:43.429 HelloCordova[26500:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-07 21:19:43.429 HelloCordova[26500:70b] CHOICES
+2014-06-07 21:19:43.429 HelloCordova[26500:70b] 98 cigarett
+2014-06-07 21:19:43.429 HelloCordova[26500:70b] 116 siffror
+2014-06-07 21:19:43.429 HelloCordova[26500:70b] 87 soffa
+2014-06-07 21:19:43.430 HelloCordova[26500:70b] 112 gevär
+2014-06-07 21:19:43.430 HelloCordova[26500:70b]  
+2014-06-07 21:19:45.418 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:45.419 HelloCordova[26500:70b] About to play http://cookie/words-mp3/2014/06/08/6712b.mp3
+2014-06-07 21:19:45.433 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/06/08/6712b.mp3
+2014-06-07 21:19:45.434 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:45.435 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/06/08/6712b.mp3
+2014-06-07 21:19:46.975 HelloCordova[26500:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-07 21:19:46.976 HelloCordova[26500:70b] CHOICES
+2014-06-07 21:19:46.976 HelloCordova[26500:70b] 16 kvinna
+2014-06-07 21:19:46.976 HelloCordova[26500:70b] 39 propeller
+2014-06-07 21:19:46.976 HelloCordova[26500:70b] 37 bröd
+2014-06-07 21:19:46.976 HelloCordova[26500:70b] 18 svärd
+2014-06-07 21:19:46.976 HelloCordova[26500:70b]  
+2014-06-07 21:19:47.030 HelloCordova[26500:70b] Took background task assertion (107) for playback stall
+2014-06-07 21:19:48.549 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:48.550 HelloCordova[26500:70b] About to play http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-07 21:19:48.564 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-07 21:19:48.565 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:48.566 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3
+2014-06-07 21:19:50.153 HelloCordova[26500:70b] Took background task assertion (117) for playback stall
+2014-06-07 21:19:50.444 HelloCordova[26500:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-07 21:19:50.444 HelloCordova[26500:70b] CHOICES
+2014-06-07 21:19:50.444 HelloCordova[26500:70b] 55 mustasch
+2014-06-07 21:19:50.444 HelloCordova[26500:70b] 91 parabol
+2014-06-07 21:19:50.444 HelloCordova[26500:70b] 14 gubbar
+2014-06-07 21:19:50.445 HelloCordova[26500:70b] 50 kylskåp
+2014-06-07 21:19:50.445 HelloCordova[26500:70b]  
+2014-06-07 21:19:55.327 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:55.337 HelloCordova[26500:70b] About to play http://cookie/words-mp3/2014/05/26/06e5fc43914140902dcdc3920713a66a.mp3
+2014-06-07 21:19:55.350 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/05/26/06e5fc43914140902dcdc3920713a66a.mp3
+2014-06-07 21:19:55.350 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:19:55.351 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/05/26/06e5fc43914140902dcdc3920713a66a.mp3
+2014-06-07 21:19:57.141 HelloCordova[26500:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-07 21:19:57.141 HelloCordova[26500:70b] CHOICES
+2014-06-07 21:19:57.141 HelloCordova[26500:70b] 50 kylskåp
+2014-06-07 21:19:57.142 HelloCordova[26500:70b] 14 gubbar
+2014-06-07 21:19:57.142 HelloCordova[26500:70b] 4 svartvit
+2014-06-07 21:19:57.142 HelloCordova[26500:70b] 91 parabol
+2014-06-07 21:19:57.142 HelloCordova[26500:70b]  
+2014-06-07 21:19:57.282 HelloCordova[26500:70b] Took background task assertion (126) for playback stall
+2014-06-07 21:20:00.185 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:20:00.187 HelloCordova[26500:70b] About to play http://cookie/words-mp3/2014/05/26/c51062e84ecd162d7ce8f3f37a1785f1.mp3
+2014-06-07 21:20:00.195 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/05/26/c51062e84ecd162d7ce8f3f37a1785f1.mp3
+2014-06-07 21:20:00.197 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:20:00.198 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/05/26/c51062e84ecd162d7ce8f3f37a1785f1.mp3
+2014-06-07 21:20:01.790 HelloCordova[26500:70b] 0
+2014-06-07 21:20:01.791 HelloCordova[26500:70b] 1
+2014-06-07 21:20:01.791 HelloCordova[26500:70b] 1
+2014-06-07 21:20:01.791 HelloCordova[26500:70b] 1
+2014-06-07 21:20:01.791 HelloCordova[26500:70b] 2
+2014-06-07 21:20:01.791 HelloCordova[26500:70b] 1
+2014-06-07 21:20:01.791 HelloCordova[26500:70b] 3
+2014-06-07 21:20:01.791 HelloCordova[26500:70b] 1
+2014-06-07 21:20:01.792 HelloCordova[26500:70b] 4
+2014-06-07 21:20:01.792 HelloCordova[26500:70b] 1
+2014-06-07 21:20:01.792 HelloCordova[26500:70b] 5
+2014-06-07 21:20:01.792 HelloCordova[26500:70b] 1
+2014-06-07 21:20:01.792 HelloCordova[26500:70b] 6
+2014-06-07 21:20:01.792 HelloCordova[26500:70b] 1
+2014-06-07 21:20:02.053 HelloCordova[26500:70b] Took background task assertion (136) for playback stall
+2014-06-07 21:20:07.140 HelloCordova[26500:70b] all attempts [object Object]
+2014-06-07 21:20:07.141 HelloCordova[26500:70b] attempts 1
+2014-06-07 21:20:07.141 HelloCordova[26500:70b] sum 1
+2014-06-07 21:20:07.141 HelloCordova[26500:70b] correct_rate 1
+2014-06-07 21:20:08.721 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:20:08.723 HelloCordova[26500:70b] About to play http://cookie/words-mp3/2014/06/08/6712b.mp3
+2014-06-07 21:20:08.732 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/06/08/6712b.mp3
+2014-06-07 21:20:08.732 HelloCordova[26500:70b] setting movie path: 
+2014-06-07 21:20:08.733 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/06/08/6712b.mp3
+2014-06-07 21:20:10.319 HelloCordova[26500:70b] Took background task assertion (145) for playback stall

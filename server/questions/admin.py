@@ -33,15 +33,17 @@ class QuestionAdminForm(forms.ModelForm):
 
 
 class QuestionAdmin(admin.ModelAdmin):
-    list_display = ('picture_', 'correct_', 'incorrect_')
+    list_display = ('picture_', 'correct_',)
     exclude = ('created', 'modified')
     form = QuestionAdminForm
 
     def correct_(self, obj):
-        return ', '.join(x.word for x in obj.correct.all())
+        words = [x.word for x in obj.correct.all()]
+        return ', '.join(words) + ' (%d)' % len(words)
 
-    def incorrect_(self, obj):
-        return ', '.join(x.word for x in obj.incorrect.all())
+    # def incorrect_(self, obj):
+    #     words = [x.word for x in obj.incorrect.all()]
+    #     return ', '.join(words) + ' (%d)' % len(words)
 
     def picture_(self, obj):
         thumb = get_thumbnail(obj.picture, '64x64')
@@ -51,7 +53,22 @@ class QuestionAdmin(admin.ModelAdmin):
 
 class QuestionGroupAdmin(admin.ModelAdmin):
     exclude = ('created', 'modified')
-    list_display = ('name', 'locale')
+    list_display = ('name', 'locale', 'pictures_', 'correct_words_',)
+
+    def pictures_(self, obj):
+        return Question.objects.filter(group=obj).count()
+
+    def correct_words_(self, obj):
+        c = 0
+        for q in Question.objects.filter(group=obj):
+            c += q.correct.all().count()
+        return c
+
+    # def incorrect_words_(self, obj):
+    #     c = 0
+    #     for q in Question.objects.filter(group=obj):
+    #         c += q.incorrect.all().count()
+    #     return c
 
 
 class LocaleAdmin(admin.ModelAdmin):
@@ -61,6 +78,7 @@ class LocaleAdmin(admin.ModelAdmin):
 class WordAdmin(admin.ModelAdmin):
     list_display = ('word', 'explanation', 'mp3file_')
     exclude = ('created', 'modified')
+    search_fields = ['word']
 
     def mp3file_(self, obj):
         if obj.mp3file:

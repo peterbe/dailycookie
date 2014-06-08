@@ -30,25 +30,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('DashCtrl', function($scope) {
-    // my_media = new Media('/words-mp3/2014/06/01/05a4cf56e53ee4edb1ffe8bd0c7db262.mp3',
-    //     function() {
-    //         console.log('it worked');
-    //     }, function() {
-    //         console.error('couldnt play');
-    //     });
-    // my_media.play();
-    // var myAudio = new Audio("http://cookie/words-mp3/2014/06/01/05a4cf56e53ee4edb1ffe8bd0c7db262.mp3");
-    // myAudio.play();
 })
-
-//.controller('FriendsCtrl', function($scope, Friends) {
-//    $scope.friends = Friends.all();
-//})
-
-//.controller('FriendDetailCtrl', function($scope, $stateParams, Friends) {
-//    $scope.friend = Friends.get($stateParams.friendId);
-//})
-//
 
 .controller('SettingsCtrl', function($scope, $timeout, $localForage, Config) {
     $scope.saving = false;
@@ -154,20 +136,39 @@ angular.module('starter.controllers', [])
     $scope.words = [];
     $scope.pictures = [];
 
+    var pickRandomWords = function(not, length) {
+        // `not` is an array of words it can't be
+        // `length` is how many to return
+        var all_ids = [];
+        for (var id in $scope.all_words) {
+            if (!not[id]) {
+                all_ids.push(id);
+            }
+        }
+        all_ids = shuffle(all_ids);
+        var words = [];
+        for (var i=0; i < length; i++) {
+            words.push($scope.all_words[all_ids[i]]);
+        }
+        return words;
+    };
+
     $http.get('http://cookie/questions/', {geometry: 'x300'})
     .success(function(response) {
         // the database contains multiple correct answers per
         // every picture, so flatten that list
+        $scope.all_words = response.words;
         var all_questions = [];
         response.questions.forEach(function(question) {
             // console.log(question);
-            var incorrects = shuffle(question.incorrect.slice());
+            //var incorrects = shuffle(question.incorrect.slice());
+            var incorrects = pickRandomWords(question.correct, 3);
 
             question.correct.forEach(function(correct) {
                 // console.log('CORRECT', correct);
                 all_questions.push({
-                    correct: correct,
-                    incorrects: incorrects.slice(0, 4),
+                    correct: $scope.all_words[correct],
+                    incorrects: incorrects,
                     picture: question.picture,
                     locale: response.locale
                 });
@@ -175,7 +176,7 @@ angular.module('starter.controllers', [])
         });
 
         $scope.all_questions = all_questions;
-        console.log('Downloaded ' + $scope.all_questions.length + ' questions');
+        // console.log('Downloaded ' + $scope.all_questions.length + ' questions');
         $scope.locale = response.locale;
         Config.load().then(function() {
             pickNextQuestions(function() {
@@ -267,8 +268,15 @@ angular.module('starter.controllers', [])
         var question = $scope.questions[$scope.next_question];
 
         question.choices = question.incorrects.slice();  // copy
+        console.log('INCORRECTS', question.choices);
         question.choices.push(question.correct);
         question.choices = shuffle(question.choices);
+
+        console.log('CHOICES');
+        question.choices.forEach(function(alternative) {
+            console.log(alternative.id, alternative.word);
+        });
+        console.log(' ');
         // question is ready to be displayed
         $scope.question = question;
     };
@@ -320,6 +328,31 @@ angular.module('starter.controllers', [])
     };
     $scope.closeModal = function() {
         $scope.modal.hide();
+    };
+
+    $ionicModal.fromTemplateUrl('word-modal.html', {
+        scope: $scope,
+        // backdropClickToClose: false,
+        // animation: 'fade-'
+        animation: 'slide-in-up'
+    }).then(function(modal) {
+        $scope.word_modal = modal;
+    });
+    $scope.openWordModal = function(id) {
+        $scope.word_modal.show();
+        $scope.word = $scope.all_words[id];
+        var attempts = $scope.attempts[$scope.word.id];
+        console.log('all attempts', $scope.attempts);
+        console.log('attempts', attempts);
+        var sum = attempts.reduce(function(a, b) {
+            return a + b;
+        });
+        console.log('sum', sum);
+        $scope.correct_rate = sum / attempts.length;
+        console.log('correct_rate', $scope.correct_rate);
+    };
+    $scope.closeWordModal = function() {
+        $scope.word_modal.hide();
     };
     // //Cleanup the modal when we're done with it!
     // $scope.$on('$destroy', function() {
@@ -431,4 +464,5 @@ angular.module('starter.controllers', [])
         return $scope.clicked && !$scope.was_correct;
     };
 
-});
+})
+;

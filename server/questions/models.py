@@ -79,6 +79,10 @@ class Word(models.Model):
     created = models.DateTimeField(default=now)
     modified = models.DateTimeField(default=now)
 
+    class Meta:
+        ordering = ['word']
+
+
     def __unicode__(self):
         return self.word
 
