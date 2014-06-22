@@ -2,6 +2,9 @@ import hashlib
 import unicodedata
 import datetime
 import os
+import random
+
+from unidecode import unidecode
 
 from django.db import models
 from django.utils.timezone import utc
@@ -61,7 +64,13 @@ def get_default_locale():
     return Locale.objects.get(code='sv')
 
 
+def random_string():
+    pool = 'abcdef1234567890'
+    return ''.join(random.sample(list(pool), len(pool)))
+
+
 class Word(models.Model):
+    uuid = models.CharField(max_length=20)
     locale = models.ForeignKey(Locale, default=get_default_locale)
     word = models.CharField(max_length=200)
     mp3file = models.FileField(
@@ -82,9 +91,23 @@ class Word(models.Model):
     class Meta:
         ordering = ['word']
 
-
     def __unicode__(self):
         return self.word
+
+    def __repr__(self):
+        return '<%s: %s>' % (self.__class__.__name__, self.uuid)
+
+    @classmethod
+    def make_uuid(self, word):
+        string = '%s-%s' % (word.locale.code, unidecode(word.word))
+        string = '%s-%s' % (hashlib.md5(string).hexdigest()[:5], string)
+        return string[:20]
+
+
+@receiver(models.signals.pre_save, sender=Word)
+def set_uuid(sender, instance, *args, **kwargs):
+    if not instance.uuid:
+        instance.uuid = Word.make_uuid(instance)
 
 
 def get_default_group():
@@ -102,7 +125,7 @@ class Question(models.Model):
     )
     question = models.TextField(null=True, blank=True)
     correct = models.ManyToManyField(Word, related_name='correct')
-    incorrect = models.ManyToManyField(Word, related_name='incorrect')
+    incorrect = models.ManyToManyField(Word, related_name='incorrect', blank=True)
 
     created = models.DateTimeField(default=now)
     modified = models.DateTimeField(default=now)

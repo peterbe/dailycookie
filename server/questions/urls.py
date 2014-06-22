@@ -5,5 +5,6 @@ from . import views
 
 urlpatterns = patterns(
     '',
-    url(r'^$', views.home, name='home'),
+    url(r'^groups/$', views.groups, name='groups'),
+    url(r'^(?P<id>\d+)$', views.questions, name='questions'),
 )

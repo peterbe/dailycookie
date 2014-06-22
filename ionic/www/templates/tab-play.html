@@ -6,16 +6,16 @@
         <p>Loading question...</p>
     </div>
 
-    <div ng-show="question" class="question">
+    <div ng-show="word" class="question">
         <div class="picture">
-            <img ng-src="{{ question.picture.url }}"></img>
+            <img ng-src="{{ word.picture.url }}"></img>
         </div>
 
         <div class="list">
 
           <div class="item item-button-right item-outline"
                ng-class="{'item-assertive': isIncorrect(alternative), 'item-balanced': isCorrect(alternative)}"
-               ng-repeat="alternative in question.choices track by alternative.id"
+               ng-repeat="alternative in word.choices track by alternative.id"
                ng-click="submitAnswer(alternative)">
             {{ alternative.word }}
           </div>
@@ -28,8 +28,8 @@
         <p>You have finished your daily exercise. Well done!</p>
         <p>Here, have a cookie:</p>
         <div class="list">
-          <a class="item" ng-repeat="question in questions" ng-click="openWordModal(question.correct.id)">
-            <b>{{ question.correct.word }}</b> {{ 100 * question._correct_rate | number:0 }}%
+          <a class="item" ng-repeat="word in words" ng-click="openWordModal(word.id)">
+            <b>{{ word.word }}</b> {{ 100 * word._correct_rate | number:0 }}%
           </a>
         </div>
 
@@ -38,9 +38,9 @@
     <!-- preloading -->
     <img ng-repeat="picture in pictures"
          ng-src="{{ picture.url }}" style="display:none">
-    <audio ng-repeat="word in words"
-           ng-src="{{ word.mp3file }}"
-           id="audio-{{ word.id }}"></audio>
+    <audio ng-repeat="audiofile in audiofiles"
+           ng-src="{{ audiofile.mp3file }}"
+           id="audio-{{ audiofile.id }}"></audio>
     <!-- end preloading -->
 
   </ion-content>
@@ -55,16 +55,16 @@
         </ion-header-bar>
         <ion-content>
           <div class="picture">
-              <img ng-src="{{ question.picture.url }}"></img>
+              <img ng-src="{{ word.picture.url }}"></img>
           </div>
             <p ng-show="!was_correct">
-              The right answer was <strong>{{ question.correct.word }}</strong>.<br>
-              <span ng-show="!question.correct.explanation">
+              The right answer was <strong>{{ word.word }}</strong>.<br>
+              <span ng-show="!word.explanation">
                 You clicked on <strong>{{ clicked.word }}</strong>.
               </span>
             </p>
-            <p ng-show="question.correct.explanation">
-              <strong>{{ clicked.word }}</strong> means <strong>{{ question.correct.explanation }}</strong>
+            <p ng-show="clicked.explanation">
+              <strong>{{ clicked.word }}</strong> means <strong>{{ clicked.explanation }}</strong>
             </p>
             <button class="button button-block button-positive icon-right ion-chevron-right"
               ng-click="closeModalAndNextQuestion()">

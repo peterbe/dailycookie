@@ -2161,3 +2161,969 @@ objc[26500]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.a
 2014-06-07 21:20:08.732 HelloCordova[26500:70b] setting movie path: 
 2014-06-07 21:20:08.733 HelloCordova[26500:70b] setting movie path: http://cookie/words-mp3/2014/06/08/6712b.mp3
 2014-06-07 21:20:10.319 HelloCordova[26500:70b] Took background task assertion (145) for playback stall
+2014-06-07 21:24:34.171 HelloCordova[26500:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 21:24:34.272 HelloCordova[26500:70b] Ending background task assertion (60) for playback stall
+2014-06-07 21:24:38.223 HelloCordova[26500:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 21:24:38.324 HelloCordova[26500:70b] Ending background task assertion (68) for playback stall
+2014-06-07 21:24:42.972 HelloCordova[26500:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 21:24:43.073 HelloCordova[26500:70b] Ending background task assertion (76) for playback stall
+2014-06-07 21:24:47.024 HelloCordova[26500:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 21:24:47.124 HelloCordova[26500:70b] Ending background task assertion (107) for playback stall
+2014-06-07 21:24:50.147 HelloCordova[26500:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 21:24:50.247 HelloCordova[26500:70b] Ending background task assertion (117) for playback stall
+2014-06-07 21:24:57.275 HelloCordova[26500:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 21:24:57.376 HelloCordova[26500:70b] Ending background task assertion (126) for playback stall
+2014-06-07 21:25:02.047 HelloCordova[26500:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 21:25:02.148 HelloCordova[26500:70b] Ending background task assertion (136) for playback stall
+2014-06-07 21:25:10.312 HelloCordova[26500:70b] Disabling autoplay after buffer stall timeout
+2014-06-07 21:25:10.413 HelloCordova[26500:70b] Ending background task assertion (145) for playback stall
+objc[27894]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-07 21:40:06.513 Daily Cookie[27894:70b] Cannot find executable for CFBundle 0xa4c6bf0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-07 21:40:06.516 Daily Cookie[27894:70b] Cannot find executable for CFBundle 0xa4ed410 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-07 21:40:06.539 Daily Cookie[27894:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-07 21:40:06.544 Daily Cookie[27894:70b] Unlimited access to network resources
+2014-06-07 21:40:06.546 Daily Cookie[27894:70b] Fix applied for database locations?: YES
+2014-06-07 21:40:06.547 Daily Cookie[27894:70b] Restoring old webstorage backup. From: '/Users/peterbe/Library/Application Support/iPhone Simulator/7.1/Applications/E15320B8-EA03-431E-80C1-B1606F157355/Library/Caches/Databases.db' To: '/Users/peterbe/Library/Application Support/iPhone Simulator/7.1/Applications/E15320B8-EA03-431E-80C1-B1606F157355/Library/WebKit/LocalStorage/Databases.db'.
+2014-06-07 21:40:06.571 Daily Cookie[27894:70b] Removing old webstorage backup: '/Users/peterbe/Library/Application Support/iPhone Simulator/7.1/Applications/E15320B8-EA03-431E-80C1-B1606F157355/Library/Caches/Databases.db'.
+2014-06-07 21:40:06.578 Daily Cookie[27894:70b] Restoring old webstorage backup. From: '/Users/peterbe/Library/Application Support/iPhone Simulator/7.1/Applications/E15320B8-EA03-431E-80C1-B1606F157355/Library/Caches/file__0' To: '/Users/peterbe/Library/Application Support/iPhone Simulator/7.1/Applications/E15320B8-EA03-431E-80C1-B1606F157355/Library/WebKit/LocalStorage/file__0'.
+2014-06-07 21:40:06.596 Daily Cookie[27894:70b] Removing old webstorage backup: '/Users/peterbe/Library/Application Support/iPhone Simulator/7.1/Applications/E15320B8-EA03-431E-80C1-B1606F157355/Library/Caches/file__0'.
+2014-06-07 21:40:06.616 Daily Cookie[27894:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-07 21:40:06.616 Daily Cookie[27894:70b] [CDVTimer][statusbar] 0.337958ms
+2014-06-07 21:40:06.616 Daily Cookie[27894:70b] [CDVTimer][TotalPluginStartup] 0.611007ms
+2014-06-07 21:40:06.664 Daily Cookie[27894:70b] Resetting plugins due to page load.
+2014-06-07 21:40:06.762 Daily Cookie[27894:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E15320B8-EA03-431E-80C1-B1606F157355/Daily%20Cookie.app/www/index.html#/dash
+2014-06-07 21:40:11.810 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:11.823 Daily Cookie[27894:6003] ERROR: unable to get the receiver data from the DB!
+2014-06-07 21:40:11.938 Daily Cookie[27894:70b] PAST ATTEMPTS [object Object]
+2014-06-07 21:40:11.962 Daily Cookie[27894:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-07 21:40:11.963 Daily Cookie[27894:70b] CHOICES
+2014-06-07 21:40:11.963 Daily Cookie[27894:70b] 105 planka
+2014-06-07 21:40:11.963 Daily Cookie[27894:70b] 59 hund
+2014-06-07 21:40:11.963 Daily Cookie[27894:70b] 86 grönt
+2014-06-07 21:40:11.963 Daily Cookie[27894:70b] 49 nagel
+2014-06-07 21:40:11.964 Daily Cookie[27894:70b]  
+2014-06-07 21:40:11.974 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.019 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.026 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.033 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.038 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.044 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.051 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.057 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.063 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.069 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.076 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.081 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.089 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.094 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.101 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.108 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.114 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.121 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.128 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.134 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.140 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.147 Daily Cookie[27894:70b] setting movie path: 
+2014-06-07 21:40:12.153 Daily Cookie[27894:70b] setting movie path: 
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+Jun  7 21:40:16 mpb.local Daily Cookie[27894] <Error>: CGImageCreate: invalid image size: 0 x 0.
+2014-06-09 09:29:59.230 Daily Cookie[27894:70b] setting movie path: 
+2014-06-09 09:29:59.250 Daily Cookie[27894:70b] ERROR: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.6.0</center>
+</body>
+</html>
+2014-06-09 09:58:05.466 Daily Cookie[27894:70b] setting movie path: 
+2014-06-09 09:58:05.484 Daily Cookie[27894:70b] ERROR: <html>
+<head><title>502 Bad Gateway</title></head>
+<body bgcolor="white">
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.6.0</center>
+</body>
+</html>
+objc[48528]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-09 12:27:30.999 Daily Cookie[48528:70b] Cannot find executable for CFBundle 0xc84ff10 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-09 12:27:31.009 Daily Cookie[48528:70b] Cannot find executable for CFBundle 0xc84f4c0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-09 12:27:31.056 Daily Cookie[48528:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-09 12:27:31.061 Daily Cookie[48528:70b] Unlimited access to network resources
+2014-06-09 12:27:31.074 Daily Cookie[48528:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-09 12:27:31.075 Daily Cookie[48528:70b] [CDVTimer][statusbar] 0.357985ms
+2014-06-09 12:27:31.075 Daily Cookie[48528:70b] [CDVTimer][TotalPluginStartup] 0.701964ms
+2014-06-09 12:27:31.172 Daily Cookie[48528:70b] Resetting plugins due to page load.
+2014-06-09 12:27:31.286 Daily Cookie[48528:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E15320B8-EA03-431E-80C1-B1606F157355/Daily%20Cookie.app/www/index.html#/dash
+2014-06-09 12:27:31.305 Daily Cookie[48528:70b] GRoups 
+2014-06-09 12:27:43.572 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.583 Daily Cookie[48528:5907] ERROR: unable to get the receiver data from the DB!
+2014-06-09 12:27:43.764 Daily Cookie[48528:70b] group 
+2014-06-09 12:27:43.797 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 12:27:43.797 Daily Cookie[48528:70b] CHOICES
+2014-06-09 12:27:43.798 Daily Cookie[48528:70b] 20 tegeltak
+2014-06-09 12:27:43.798 Daily Cookie[48528:70b] 55 mustasch
+2014-06-09 12:27:43.798 Daily Cookie[48528:70b] 63 hotell
+2014-06-09 12:27:43.798 Daily Cookie[48528:70b] 83 barn
+2014-06-09 12:27:43.798 Daily Cookie[48528:70b]  
+2014-06-09 12:27:43.837 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.899 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.905 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.911 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.917 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.921 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.928 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.933 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.939 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.945 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.951 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.957 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.963 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.970 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.976 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.982 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.989 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:43.995 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:44.001 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:44.008 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:44.014 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:44.021 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:44.026 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:44.033 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:47.555 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:47.568 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/05/26/de2aa3d332e3d986d837340588d8eb56.mp3
+2014-06-09 12:27:47.591 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/05/26/de2aa3d332e3d986d837340588d8eb56.mp3
+2014-06-09 12:27:47.594 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:47.596 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/05/26/de2aa3d332e3d986d837340588d8eb56.mp3
+2014-06-09 12:27:47.617 Daily Cookie[48528:4713] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-09 12:27:50.097 Daily Cookie[48528:70b] Took background task assertion (64) for playback stall
+2014-06-09 12:27:52.073 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 12:27:52.073 Daily Cookie[48528:70b] CHOICES
+2014-06-09 12:27:52.073 Daily Cookie[48528:70b] 23 telefoner
+2014-06-09 12:27:52.073 Daily Cookie[48528:70b] 16 kvinna
+2014-06-09 12:27:52.074 Daily Cookie[48528:70b] 17 läppstift
+2014-06-09 12:27:52.074 Daily Cookie[48528:70b] 106 gitarr
+2014-06-09 12:27:52.074 Daily Cookie[48528:70b]  
+2014-06-09 12:27:56.205 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:56.217 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/05/26/77b00e216e591b359ac76acffe6b9dfe.mp3
+2014-06-09 12:27:56.232 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/05/26/77b00e216e591b359ac76acffe6b9dfe.mp3
+2014-06-09 12:27:56.233 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:27:56.234 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/05/26/77b00e216e591b359ac76acffe6b9dfe.mp3
+2014-06-09 12:27:57.933 Daily Cookie[48528:70b] Took background task assertion (72) for playback stall
+2014-06-09 12:28:00.719 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 12:28:00.719 Daily Cookie[48528:70b] CHOICES
+2014-06-09 12:28:00.719 Daily Cookie[48528:70b] 103 musik
+2014-06-09 12:28:00.719 Daily Cookie[48528:70b] 52 frukt
+2014-06-09 12:28:00.719 Daily Cookie[48528:70b] 32 kyrka
+2014-06-09 12:28:00.719 Daily Cookie[48528:70b] 50 kylskåp
+2014-06-09 12:28:00.719 Daily Cookie[48528:70b]  
+2014-06-09 12:28:06.047 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 12:28:06.047 Daily Cookie[48528:70b] CHOICES
+2014-06-09 12:28:06.047 Daily Cookie[48528:70b] 82 trasig
+2014-06-09 12:28:06.048 Daily Cookie[48528:70b] 112 gevär
+2014-06-09 12:28:06.048 Daily Cookie[48528:70b] 27 diamant
+2014-06-09 12:28:06.048 Daily Cookie[48528:70b] 29 kompis
+2014-06-09 12:28:06.048 Daily Cookie[48528:70b]  
+2014-06-09 12:28:10.974 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:10.984 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/06/08/6712b.mp3
+2014-06-09 12:28:10.999 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/08/6712b.mp3
+2014-06-09 12:28:11.000 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:11.001 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/08/6712b.mp3
+2014-06-09 12:28:12.595 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 12:28:12.596 Daily Cookie[48528:70b] CHOICES
+2014-06-09 12:28:12.596 Daily Cookie[48528:70b] 81 sport
+2014-06-09 12:28:12.596 Daily Cookie[48528:70b] 15 cyklar
+2014-06-09 12:28:12.596 Daily Cookie[48528:70b] 85 trädgård
+2014-06-09 12:28:12.596 Daily Cookie[48528:70b] 45 blommig
+2014-06-09 12:28:12.596 Daily Cookie[48528:70b]  
+2014-06-09 12:28:12.597 Daily Cookie[48528:70b] Took background task assertion (106) for playback stall
+2014-06-09 12:28:15.409 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:15.410 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/06/01/e76cbe9d22e7d44bbfa78a2834d7c0f8.mp3
+2014-06-09 12:28:15.419 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/01/e76cbe9d22e7d44bbfa78a2834d7c0f8.mp3
+2014-06-09 12:28:15.420 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:15.421 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/01/e76cbe9d22e7d44bbfa78a2834d7c0f8.mp3
+2014-06-09 12:28:16.707 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 12:28:16.707 Daily Cookie[48528:70b] CHOICES
+2014-06-09 12:28:16.707 Daily Cookie[48528:70b] 83 barn
+2014-06-09 12:28:16.708 Daily Cookie[48528:70b] 63 hotell
+2014-06-09 12:28:16.708 Daily Cookie[48528:70b] 55 mustasch
+2014-06-09 12:28:16.708 Daily Cookie[48528:70b] 20 tegeltak
+2014-06-09 12:28:16.708 Daily Cookie[48528:70b]  
+2014-06-09 12:28:17.240 Daily Cookie[48528:70b] Took background task assertion (115) for playback stall
+2014-06-09 12:28:18.257 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:18.259 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/05/26/de2aa3d332e3d986d837340588d8eb56.mp3
+2014-06-09 12:28:18.268 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/05/26/de2aa3d332e3d986d837340588d8eb56.mp3
+2014-06-09 12:28:18.269 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:18.270 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/05/26/de2aa3d332e3d986d837340588d8eb56.mp3
+2014-06-09 12:28:19.572 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 12:28:19.572 Daily Cookie[48528:70b] CHOICES
+2014-06-09 12:28:19.573 Daily Cookie[48528:70b] 27 diamant
+2014-06-09 12:28:19.573 Daily Cookie[48528:70b] 29 kompis
+2014-06-09 12:28:19.573 Daily Cookie[48528:70b] 82 trasig
+2014-06-09 12:28:19.573 Daily Cookie[48528:70b] 111 vapen
+2014-06-09 12:28:19.573 Daily Cookie[48528:70b]  
+2014-06-09 12:28:20.572 Daily Cookie[48528:70b] Took background task assertion (123) for playback stall
+2014-06-09 12:28:21.159 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:21.160 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/06/08/b457e.mp3
+2014-06-09 12:28:21.171 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/08/b457e.mp3
+2014-06-09 12:28:21.173 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:21.174 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/08/b457e.mp3
+2014-06-09 12:28:22.531 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 12:28:22.531 Daily Cookie[48528:70b] CHOICES
+2014-06-09 12:28:22.531 Daily Cookie[48528:70b] 23 telefoner
+2014-06-09 12:28:22.531 Daily Cookie[48528:70b] 17 läppstift
+2014-06-09 12:28:22.531 Daily Cookie[48528:70b] 106 gitarr
+2014-06-09 12:28:22.531 Daily Cookie[48528:70b] 16 kvinna
+2014-06-09 12:28:22.531 Daily Cookie[48528:70b]  
+2014-06-09 12:28:22.848 Daily Cookie[48528:70b] Took background task assertion (131) for playback stall
+2014-06-09 12:28:24.235 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:24.236 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/05/26/77b00e216e591b359ac76acffe6b9dfe.mp3
+2014-06-09 12:28:24.247 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/05/26/77b00e216e591b359ac76acffe6b9dfe.mp3
+2014-06-09 12:28:24.247 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:24.248 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/05/26/77b00e216e591b359ac76acffe6b9dfe.mp3
+2014-06-09 12:28:25.693 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 12:28:25.693 Daily Cookie[48528:70b] CHOICES
+2014-06-09 12:28:25.693 Daily Cookie[48528:70b] 52 frukt
+2014-06-09 12:28:25.694 Daily Cookie[48528:70b] 50 kylskåp
+2014-06-09 12:28:25.694 Daily Cookie[48528:70b] 32 kyrka
+2014-06-09 12:28:25.694 Daily Cookie[48528:70b] 103 musik
+2014-06-09 12:28:25.694 Daily Cookie[48528:70b]  
+2014-06-09 12:28:25.949 Daily Cookie[48528:70b] Took background task assertion (139) for playback stall
+2014-06-09 12:28:27.744 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:27.745 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/06/01/73e4f02ecde1cdbebee0dc5e594d6b48.mp3
+2014-06-09 12:28:27.759 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/01/73e4f02ecde1cdbebee0dc5e594d6b48.mp3
+2014-06-09 12:28:27.760 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:27.762 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/01/73e4f02ecde1cdbebee0dc5e594d6b48.mp3
+2014-06-09 12:28:29.120 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 12:28:29.121 Daily Cookie[48528:70b] CHOICES
+2014-06-09 12:28:29.121 Daily Cookie[48528:70b] 45 blommig
+2014-06-09 12:28:29.121 Daily Cookie[48528:70b] 108 solnedgång
+2014-06-09 12:28:29.121 Daily Cookie[48528:70b] 75 fyra
+2014-06-09 12:28:29.122 Daily Cookie[48528:70b] 122 frisyr
+2014-06-09 12:28:29.122 Daily Cookie[48528:70b]  
+2014-06-09 12:28:29.663 Daily Cookie[48528:70b] Took background task assertion (148) for playback stall
+2014-06-09 12:28:30.890 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:30.892 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/06/08/24587.mp3
+2014-06-09 12:28:30.908 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/08/24587.mp3
+2014-06-09 12:28:30.909 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:30.911 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/08/24587.mp3
+2014-06-09 12:28:32.636 Daily Cookie[48528:70b] Took background task assertion (158) for playback stall
+2014-06-09 12:28:41.687 Daily Cookie[48528:70b] all attempts [object Object]
+2014-06-09 12:28:41.687 Daily Cookie[48528:70b] attempts 0,1
+2014-06-09 12:28:41.688 Daily Cookie[48528:70b] sum 1
+2014-06-09 12:28:41.688 Daily Cookie[48528:70b] correct_rate 0.5
+2014-06-09 12:28:43.274 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:43.275 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/06/01/73e4f02ecde1cdbebee0dc5e594d6b48.mp3
+2014-06-09 12:28:43.284 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/01/73e4f02ecde1cdbebee0dc5e594d6b48.mp3
+2014-06-09 12:28:43.285 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 12:28:43.286 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/01/73e4f02ecde1cdbebee0dc5e594d6b48.mp3
+2014-06-09 12:28:45.185 Daily Cookie[48528:70b] Took background task assertion (170) for playback stall
+2014-06-09 12:32:50.090 Daily Cookie[48528:70b] Disabling autoplay after buffer stall timeout
+2014-06-09 12:32:50.192 Daily Cookie[48528:70b] Ending background task assertion (64) for playback stall
+2014-06-09 12:32:57.927 Daily Cookie[48528:70b] Disabling autoplay after buffer stall timeout
+2014-06-09 12:32:58.028 Daily Cookie[48528:70b] Ending background task assertion (72) for playback stall
+2014-06-09 12:33:12.591 Daily Cookie[48528:70b] Disabling autoplay after buffer stall timeout
+2014-06-09 12:33:12.692 Daily Cookie[48528:70b] Ending background task assertion (106) for playback stall
+2014-06-09 12:33:17.234 Daily Cookie[48528:70b] Disabling autoplay after buffer stall timeout
+2014-06-09 12:33:17.335 Daily Cookie[48528:70b] Ending background task assertion (115) for playback stall
+2014-06-09 12:33:20.566 Daily Cookie[48528:70b] Disabling autoplay after buffer stall timeout
+2014-06-09 12:33:20.667 Daily Cookie[48528:70b] Ending background task assertion (123) for playback stall
+2014-06-09 12:33:22.842 Daily Cookie[48528:70b] Disabling autoplay after buffer stall timeout
+2014-06-09 12:33:22.943 Daily Cookie[48528:70b] Ending background task assertion (131) for playback stall
+2014-06-09 12:33:25.943 Daily Cookie[48528:70b] Disabling autoplay after buffer stall timeout
+2014-06-09 12:33:26.044 Daily Cookie[48528:70b] Ending background task assertion (139) for playback stall
+2014-06-09 12:33:29.657 Daily Cookie[48528:70b] Disabling autoplay after buffer stall timeout
+2014-06-09 12:33:29.758 Daily Cookie[48528:70b] Ending background task assertion (148) for playback stall
+2014-06-09 12:33:32.629 Daily Cookie[48528:70b] Disabling autoplay after buffer stall timeout
+2014-06-09 12:33:32.730 Daily Cookie[48528:70b] Ending background task assertion (158) for playback stall
+2014-06-09 12:33:45.179 Daily Cookie[48528:70b] Disabling autoplay after buffer stall timeout
+2014-06-09 12:33:45.281 Daily Cookie[48528:70b] Ending background task assertion (170) for playback stall
+2014-06-09 12:35:05.908 Daily Cookie[48528:11e1f] 12:35:05.908 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 12:35:05.908 Daily Cookie[48528:11e1f] 12:35:05.908 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 12:35:05.911 Daily Cookie[48528:a757] 12:35:05.911 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 12:35:05.911 Daily Cookie[48528:a757] 12:35:05.911 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 13:51:40.099 Daily Cookie[48528:10c8b] 13:51:40.099 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 13:51:40.119 Daily Cookie[48528:10b2b] 13:51:40.119 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 13:51:45.267 Daily Cookie[48528:11e3b] 13:51:45.267 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 15:31:31.192 Daily Cookie[48528:70b] GRoups 
+2014-06-09 15:32:23.425 Daily Cookie[48528:70b] GRoups 
+2014-06-09 15:32:31.767 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.071 Daily Cookie[48528:70b] group 
+2014-06-09 15:32:32.090 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 15:32:32.090 Daily Cookie[48528:70b] CHOICES
+2014-06-09 15:32:32.090 Daily Cookie[48528:70b] 95 kvinna
+2014-06-09 15:32:32.091 Daily Cookie[48528:70b] 88 bord
+2014-06-09 15:32:32.091 Daily Cookie[48528:70b] 11 eld
+2014-06-09 15:32:32.091 Daily Cookie[48528:70b] 54 tavla
+2014-06-09 15:32:32.091 Daily Cookie[48528:70b]  
+2014-06-09 15:32:32.097 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.104 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.111 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.118 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.126 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.132 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.140 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.147 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.154 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.161 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.169 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.176 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.183 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.191 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.198 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:32:32.205 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:43:55.955 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:43:55.967 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/06/01/1bf978d7e09c26ee3e5cff6f5bb1b28b.mp3
+2014-06-09 15:44:00.467 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 15:44:00.467 Daily Cookie[48528:70b] CHOICES
+2014-06-09 15:44:00.467 Daily Cookie[48528:70b] 45 blommig
+2014-06-09 15:44:00.467 Daily Cookie[48528:70b] 7 brandbil
+2014-06-09 15:44:00.468 Daily Cookie[48528:70b] 70 mur
+2014-06-09 15:44:00.468 Daily Cookie[48528:70b] 26 citron
+2014-06-09 15:44:00.468 Daily Cookie[48528:70b]  
+2014-06-09 15:44:42.160 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:44:42.173 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/05/26/bfc479ec9e1386c1b8862f157f928a5e.mp3
+2014-06-09 15:44:45.308 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 15:44:45.308 Daily Cookie[48528:70b] CHOICES
+2014-06-09 15:44:45.308 Daily Cookie[48528:70b] 66 frisyr
+2014-06-09 15:44:45.309 Daily Cookie[48528:70b] 121 hår
+2014-06-09 15:44:45.309 Daily Cookie[48528:70b] 117 flagga
+2014-06-09 15:44:45.309 Daily Cookie[48528:70b] 112 gevär
+2014-06-09 15:44:45.309 Daily Cookie[48528:70b]  
+2014-06-09 15:44:52.323 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:44:52.335 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/06/08/ad5b7.mp3
+2014-06-09 15:44:54.220 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 15:44:54.220 Daily Cookie[48528:70b] CHOICES
+2014-06-09 15:44:54.220 Daily Cookie[48528:70b] 95 kvinna
+2014-06-09 15:44:54.220 Daily Cookie[48528:70b] 11 eld
+2014-06-09 15:44:54.220 Daily Cookie[48528:70b] 111 vapen
+2014-06-09 15:44:54.220 Daily Cookie[48528:70b] 54 tavla
+2014-06-09 15:44:54.220 Daily Cookie[48528:70b]  
+2014-06-09 15:45:18.873 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:45:18.875 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/06/08/b457e.mp3
+2014-06-09 15:45:20.709 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 15:45:20.710 Daily Cookie[48528:70b] CHOICES
+2014-06-09 15:45:20.710 Daily Cookie[48528:70b] 52 frukt
+2014-06-09 15:45:20.710 Daily Cookie[48528:70b] 20 tegeltak
+2014-06-09 15:45:20.710 Daily Cookie[48528:70b] 40 ingång
+2014-06-09 15:45:20.710 Daily Cookie[48528:70b] 121 hår
+2014-06-09 15:45:20.710 Daily Cookie[48528:70b]  
+2014-06-09 15:45:28.091 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 15:45:28.091 Daily Cookie[48528:70b] CHOICES
+2014-06-09 15:45:28.091 Daily Cookie[48528:70b] 95 kvinna
+2014-06-09 15:45:28.091 Daily Cookie[48528:70b] 11 eld
+2014-06-09 15:45:28.091 Daily Cookie[48528:70b] 54 tavla
+2014-06-09 15:45:28.092 Daily Cookie[48528:70b] 88 bord
+2014-06-09 15:45:28.092 Daily Cookie[48528:70b]  
+2014-06-09 15:45:33.662 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:45:33.664 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/06/01/1bf978d7e09c26ee3e5cff6f5bb1b28b.mp3
+2014-06-09 15:45:36.332 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 15:45:36.332 Daily Cookie[48528:70b] CHOICES
+2014-06-09 15:45:36.332 Daily Cookie[48528:70b] 121 hår
+2014-06-09 15:45:36.333 Daily Cookie[48528:70b] 117 flagga
+2014-06-09 15:45:36.333 Daily Cookie[48528:70b] 112 gevär
+2014-06-09 15:45:36.333 Daily Cookie[48528:70b] 66 frisyr
+2014-06-09 15:45:36.333 Daily Cookie[48528:70b]  
+2014-06-09 15:45:38.890 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:45:38.892 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/06/08/ad5b7.mp3
+2014-06-09 15:45:43.403 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 15:45:43.404 Daily Cookie[48528:70b] CHOICES
+2014-06-09 15:45:43.404 Daily Cookie[48528:70b] 70 mur
+2014-06-09 15:45:43.404 Daily Cookie[48528:70b] 26 citron
+2014-06-09 15:45:43.404 Daily Cookie[48528:70b] 7 brandbil
+2014-06-09 15:45:43.404 Daily Cookie[48528:70b] 45 blommig
+2014-06-09 15:45:43.404 Daily Cookie[48528:70b]  
+2014-06-09 15:45:47.452 Daily Cookie[48528:112eb] 15:45:47.452 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 15:45:47.540 Daily Cookie[48528:128f3] 15:45:47.540 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 15:45:51.070 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:45:51.082 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/05/26/bfc479ec9e1386c1b8862f157f928a5e.mp3
+2014-06-09 15:45:55.577 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 15:45:55.577 Daily Cookie[48528:70b] CHOICES
+2014-06-09 15:45:55.577 Daily Cookie[48528:70b] 11 eld
+2014-06-09 15:45:55.577 Daily Cookie[48528:70b] 54 tavla
+2014-06-09 15:45:55.577 Daily Cookie[48528:70b] 111 vapen
+2014-06-09 15:45:55.577 Daily Cookie[48528:70b] 95 kvinna
+2014-06-09 15:45:55.577 Daily Cookie[48528:70b]  
+2014-06-09 15:46:39.580 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:46:39.582 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/06/08/b457e.mp3
+2014-06-09 15:46:39.598 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/08/b457e.mp3
+2014-06-09 15:46:39.599 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:46:39.601 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/08/b457e.mp3
+2014-06-09 15:46:41.219 Daily Cookie[48528:70b] INCORRECTS [object Object],[object Object],[object Object]
+2014-06-09 15:46:41.219 Daily Cookie[48528:70b] CHOICES
+2014-06-09 15:46:41.219 Daily Cookie[48528:70b] 121 hår
+2014-06-09 15:46:41.220 Daily Cookie[48528:70b] 52 frukt
+2014-06-09 15:46:41.220 Daily Cookie[48528:70b] 20 tegeltak
+2014-06-09 15:46:41.220 Daily Cookie[48528:70b] 40 ingång
+2014-06-09 15:46:41.220 Daily Cookie[48528:70b]  
+2014-06-09 15:46:41.273 Daily Cookie[48528:70b] Took background task assertion (257) for playback stall
+2014-06-09 15:46:42.756 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:46:42.758 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/06/08/313f1.mp3
+2014-06-09 15:46:42.770 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/08/313f1.mp3
+2014-06-09 15:46:42.771 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:46:42.773 Daily Cookie[48528:70b] setting movie path: http://cookie/words-mp3/2014/06/08/313f1.mp3
+2014-06-09 15:46:44.465 Daily Cookie[48528:70b] Took background task assertion (265) for playback stall
+2014-06-09 15:51:41.267 Daily Cookie[48528:70b] Disabling autoplay after buffer stall timeout
+2014-06-09 15:51:41.368 Daily Cookie[48528:70b] Ending background task assertion (257) for playback stall
+2014-06-09 15:51:44.459 Daily Cookie[48528:70b] Disabling autoplay after buffer stall timeout
+2014-06-09 15:51:44.561 Daily Cookie[48528:70b] Ending background task assertion (265) for playback stall
+2014-06-09 15:52:32.296 Daily Cookie[48528:70b] all attempts [object Object]
+2014-06-09 15:52:32.296 Daily Cookie[48528:70b] attempts 0,1
+2014-06-09 15:52:32.296 Daily Cookie[48528:70b] sum 1
+2014-06-09 15:52:32.297 Daily Cookie[48528:70b] correct_rate 0.5
+2014-06-09 15:52:34.651 Daily Cookie[48528:70b] setting movie path: 
+2014-06-09 15:52:34.653 Daily Cookie[48528:70b] About to play http://cookie/words-mp3/2014/06/08/313f1.mp3
+2014-06-09 15:55:42.808 Daily Cookie[48528:70b] GRoups 
+2014-06-09 15:55:47.008 Daily Cookie[48528:70b] GROUPS= 
+2014-06-09 15:55:48.981 Daily Cookie[48528:70b] GRoups 
+2014-06-09 16:04:51.129 Daily Cookie[48528:1ae17] 16:04:51.129 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 16:04:51.130 Daily Cookie[48528:1ae17] 16:04:51.130 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 16:04:51.132 Daily Cookie[48528:1a8d3] 16:04:51.132 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 16:04:51.132 Daily Cookie[48528:10f23] 16:04:51.132 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 16:36:17.222 Daily Cookie[48528:11deb] 16:36:17.222 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 16:36:17.309 Daily Cookie[48528:18ee3] 16:36:17.309 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 16:36:36.146 Daily Cookie[48528:18ee7] 16:36:36.146 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 16:36:42.187 Daily Cookie[48528:96eb] 16:36:42.187 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 19:19:18.138 Daily Cookie[48528:e70f] 19:19:18.138 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 19:19:46.315 Daily Cookie[48528:1142f] 19:19:46.314 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 19:20:14.036 Daily Cookie[48528:11437] 19:20:14.036 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 19:20:18.155 Daily Cookie[48528:11437] 19:20:18.155 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 19:20:18.674 Daily Cookie[48528:6797] 19:20:18.674 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 20:15:17.127 Daily Cookie[48528:10f3f] 20:15:17.125 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-09 20:15:21.990 Daily Cookie[48528:1143b] 20:15:21.990 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 06:55:52.128 Daily Cookie[48528:15ea7] 06:55:52.128 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 06:56:04.370 Daily Cookie[48528:fc23] 06:56:04.370 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 06:56:14.538 Daily Cookie[48528:15eaf] 06:56:14.538 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 08:03:00.847 Daily Cookie[48528:10e9f] 08:03:00.847 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 08:03:00.853 Daily Cookie[48528:10e9f] 08:03:00.853 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 08:03:00.853 Daily Cookie[48528:10e9f] 08:03:00.853 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 08:03:00.854 Daily Cookie[48528:10e9f] 08:03:00.854 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 08:45:57.889 Daily Cookie[48528:19843] 08:45:57.889 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 08:45:57.889 Daily Cookie[48528:1116b] 08:45:57.889 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 09:59:00.884 Daily Cookie[48528:19463] 09:59:00.884 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 09:59:00.885 Daily Cookie[48528:19463] 09:59:00.885 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 10:23:33.545 Daily Cookie[48528:11bb7] 10:23:33.545 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 10:23:33.546 Daily Cookie[48528:11bb7] 10:23:33.546 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 10:32:01.504 Daily Cookie[48528:da33] 10:32:01.504 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 10:32:01.504 Daily Cookie[48528:da33] 10:32:01.504 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 11:27:28.297 Daily Cookie[48528:1993f] 11:27:28.297 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 11:27:28.298 Daily Cookie[48528:f44b] 11:27:28.298 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 11:27:30.440 Daily Cookie[48528:17f33] 11:27:30.440 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 11:27:30.448 Daily Cookie[48528:11a1f] 11:27:30.448 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 11:27:30.450 Daily Cookie[48528:6757] 11:27:30.450 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 11:30:44.192 Daily Cookie[48528:43db] 11:30:44.192 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 11:30:44.702 Daily Cookie[48528:11a23] 11:30:44.702 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 11:30:44.712 Daily Cookie[48528:11a23] 11:30:44.712 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 11:31:56.094 Daily Cookie[48528:1994b] 11:31:56.094 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 11:31:56.110 Daily Cookie[48528:11dc3] 11:31:56.110 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 11:31:56.114 Daily Cookie[48528:92df] 11:31:56.114 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 11:31:56.116 Daily Cookie[48528:1962b] 11:31:56.116 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 11:32:43.543 Daily Cookie[48528:1994f] 11:32:43.543 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 11:32:44.052 Daily Cookie[48528:fc73] 11:32:44.052 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 11:32:44.058 Daily Cookie[48528:1947b] 11:32:44.058 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 12:06:02.597 Daily Cookie[48528:14c33] 12:06:02.597 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 12:06:02.615 Daily Cookie[48528:11dcb] 12:06:02.615 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 12:06:02.616 Daily Cookie[48528:11b13] 12:06:02.616 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 12:06:02.617 Daily Cookie[48528:43e7] 12:06:02.617 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 13:22:44.397 Daily Cookie[48528:e51f] 13:22:44.397 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 13:22:44.493 Daily Cookie[48528:dc57] 13:22:44.493 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 13:22:44.494 Daily Cookie[48528:194cf] 13:22:44.494 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 13:28:08.614 Daily Cookie[48528:dd5f] 13:28:08.614 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 13:28:08.622 Daily Cookie[48528:6773] 13:28:08.622 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 13:28:08.623 Daily Cookie[48528:dd5f] 13:28:08.623 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 13:28:51.038 Daily Cookie[48528:19593] 13:28:51.038 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 13:28:51.548 Daily Cookie[48528:19593] 13:28:51.548 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 13:28:51.553 Daily Cookie[48528:43f7] 13:28:51.553 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 13:54:17.773 Daily Cookie[48528:1ad0b] 13:54:17.773 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 13:54:17.791 Daily Cookie[48528:1ac9b] 13:54:17.791 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 13:54:17.794 Daily Cookie[48528:e52b] 13:54:17.794 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 14:28:48.950 Daily Cookie[48528:111f3] 14:28:48.950 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 14:28:48.954 Daily Cookie[48528:dd6b] 14:28:48.954 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 14:28:49.034 Daily Cookie[48528:1188f] 14:28:49.034 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 14:30:36.635 Daily Cookie[48528:63b7] 14:30:36.635 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 14:30:41.803 Daily Cookie[48528:fc8b] 14:30:41.803 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 14:45:56.130 Daily Cookie[48528:da5f] 14:45:56.130 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 14:47:31.022 Daily Cookie[48528:11d13] 14:47:31.022 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 14:47:31.027 Daily Cookie[48528:11d13] 14:47:31.027 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 16:00:01.110 Daily Cookie[48528:19707] 16:00:01.110 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 16:30:18.440 Daily Cookie[48528:11afb] 16:30:18.440 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 16:30:18.748 Daily Cookie[48528:63c7] 16:30:18.748 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 16:30:18.749 Daily Cookie[48528:11afb] 16:30:18.749 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 16:30:28.361 Daily Cookie[48528:e543] 16:30:28.361 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 16:30:28.380 Daily Cookie[48528:e543] 16:30:28.380 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 16:30:44.565 Daily Cookie[48528:dd7f] 16:30:44.565 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 16:30:49.128 Daily Cookie[48528:11113] 16:30:49.127 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 17:00:55.941 Daily Cookie[48528:17f67] 17:00:55.941 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 17:00:55.964 Daily Cookie[48528:ddf3] 17:00:55.964 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 17:01:00.837 Daily Cookie[48528:e5d3] 17:01:00.837 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 17:01:12.508 Daily Cookie[48528:e5d7] 17:01:12.508 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 17:01:16.827 Daily Cookie[48528:17f6b] 17:01:16.827 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 17:01:18.531 Daily Cookie[48528:118c3] 17:01:18.531 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 18:19:29.368 Daily Cookie[48528:17fe3] 18:19:29.368 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 18:19:32.472 Daily Cookie[48528:17fe3] 18:19:32.472 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 19:21:42.200 Daily Cookie[48528:19653] 19:21:42.200 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 19:21:48.311 Daily Cookie[48528:11d2b] 19:21:48.311 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 19:35:01.134 Daily Cookie[48528:11d2f] 19:35:01.134 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 19:35:19.908 Daily Cookie[48528:17feb] 19:35:19.908 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 19:35:19.918 Daily Cookie[48528:18e5f] 19:35:19.918 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 19:35:24.246 Daily Cookie[48528:17feb] 19:35:24.246 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 19:35:28.565 Daily Cookie[48528:18e5f] 19:35:28.565 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 19:35:31.654 Daily Cookie[48528:18e5f] 19:35:31.654 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 19:35:34.031 Daily Cookie[48528:18e5f] 19:35:34.031 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 19:35:34.042 Daily Cookie[48528:67ab] 19:35:34.042 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 20:39:11.080 Daily Cookie[48528:db03] 20:39:11.080 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 20:45:51.141 Daily Cookie[48528:1965f] 20:45:51.141 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 20:46:00.248 Daily Cookie[48528:1ad23] 20:46:00.248 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 20:46:00.270 Daily Cookie[48528:1aae7] 20:46:00.270 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 20:46:16.590 Daily Cookie[48528:15ef7] 20:46:16.590 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 20:47:49.379 Daily Cookie[48528:1a843] 20:47:49.378 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 20:47:54.932 Daily Cookie[48528:15efb] 20:47:54.932 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 22:36:32.131 Daily Cookie[48528:195df] 22:36:32.131 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 22:38:40.341 Daily Cookie[48528:18e6b] 22:38:40.341 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 22:38:40.342 Daily Cookie[48528:e5eb] 22:38:40.342 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-10 22:58:56.101 Daily Cookie[48528:67bf] 22:58:56.101 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 08:42:06.461 Daily Cookie[48528:193f7] 08:42:06.461 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 08:42:06.765 Daily Cookie[48528:17ffb] 08:42:06.765 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 08:42:06.766 Daily Cookie[48528:1a9e3] 08:42:06.766 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 08:42:58.521 Daily Cookie[48528:67cb] 08:42:58.521 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 08:42:58.525 Daily Cookie[48528:da83] 08:42:58.525 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 08:43:02.950 Daily Cookie[48528:da83] 08:43:02.950 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 08:43:03.314 Daily Cookie[48528:da83] 08:43:03.314 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 09:08:02.009 Daily Cookie[48528:17fff] 09:08:02.008 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 09:08:02.014 Daily Cookie[48528:17fff] 09:08:02.014 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 11:01:15.621 Daily Cookie[48528:8653] 11:01:15.621 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 11:01:15.706 Daily Cookie[48528:fc8f] 11:01:15.706 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 11:01:18.361 Daily Cookie[48528:e5fb] 11:01:18.361 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 11:01:18.369 Daily Cookie[48528:17fc7] 11:01:18.369 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 11:01:18.371 Daily Cookie[48528:10e03] 11:01:18.371 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 11:01:25.124 Daily Cookie[48528:17fcb] 11:01:25.124 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 11:01:25.633 Daily Cookie[48528:96ef] 11:01:25.633 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 11:01:25.641 Daily Cookie[48528:96ef] 11:01:25.641 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:29:08.426 Daily Cookie[48528:dda3] 14:29:08.426 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:29:15.837 Daily Cookie[48528:96f3] 14:29:15.837 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:31:56.557 Daily Cookie[48528:1949f] 14:31:56.557 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:31:56.567 Daily Cookie[48528:19723] 14:31:56.567 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:31:56.775 Daily Cookie[48528:11d67] 14:31:56.775 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:31:56.794 Daily Cookie[48528:5be7] 14:31:56.794 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:31:56.796 Daily Cookie[48528:11d67] 14:31:56.796 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:31:57.503 Daily Cookie[48528:19723] 14:31:57.503 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:31:57.529 Daily Cookie[48528:5be7] 14:31:57.529 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:31:57.531 Daily Cookie[48528:11d67] 14:31:57.531 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:31:57.555 Daily Cookie[48528:1949f] 14:31:57.555 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:32:25.699 Daily Cookie[48528:10e13] 14:32:25.699 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:32:25.734 Daily Cookie[48528:1972b] 14:32:25.734 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:32:31.820 Daily Cookie[48528:19217] 14:32:31.820 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:32:31.828 Daily Cookie[48528:92db] 14:32:31.828 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:32:31.833 Daily Cookie[48528:db43] 14:32:31.833 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:32:31.834 Daily Cookie[48528:8673] 14:32:31.834 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:32:47.773 Daily Cookie[48528:1116b] 14:32:47.773 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 14:32:52.173 Daily Cookie[48528:1116b] 14:32:52.173 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 16:48:41.772 Daily Cookie[48528:4337] 16:48:41.744 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 17:02:48.802 Daily Cookie[48528:6747] 17:02:48.802 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 17:02:48.915 Daily Cookie[48528:631f] 17:02:48.915 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 17:02:49.026 Daily Cookie[48528:11d77] 17:02:49.026 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 17:02:49.032 Daily Cookie[48528:1ae87] 17:02:49.032 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 17:02:49.032 Daily Cookie[48528:1a907] 17:02:49.032 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 17:02:49.626 Daily Cookie[48528:433b] 17:02:49.626 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 17:02:49.633 Daily Cookie[48528:433b] 17:02:49.633 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 17:02:49.634 Daily Cookie[48528:1aa2b] 17:02:49.634 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 17:03:26.577 Daily Cookie[48528:f47f] 17:03:26.577 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 17:03:26.590 Daily Cookie[48528:1acc7] 17:03:26.590 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 17:03:30.409 Daily Cookie[48528:1aa33] 17:03:30.409 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 17:03:30.919 Daily Cookie[48528:1aa33] 17:03:30.919 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 17:54:46.816 Daily Cookie[48528:11517] 17:54:46.816 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 17:54:51.753 Daily Cookie[48528:1aa37] 17:54:51.753 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 20:56:58.556 Daily Cookie[48528:1955b] 20:56:58.556 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 20:56:58.850 Daily Cookie[48528:daaf] 20:56:58.850 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 20:56:58.852 Daily Cookie[48528:daaf] 20:56:58.852 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 20:58:26.459 Daily Cookie[48528:db4f] 20:58:26.459 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 20:58:26.474 Daily Cookie[48528:db4f] 20:58:26.474 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 20:58:46.295 Daily Cookie[48528:1acbb] 20:58:46.295 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 20:58:50.550 Daily Cookie[48528:19567] 20:58:50.550 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 20:58:51.091 Daily Cookie[48528:19567] 20:58:51.091 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 21:29:15.664 Daily Cookie[48528:11b5b] 21:29:15.664 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 21:29:20.689 Daily Cookie[48528:db6f] 21:29:20.689 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 21:51:37.131 Daily Cookie[48528:db73] 21:51:37.131 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 21:53:21.334 Daily Cookie[48528:1aa67] 21:53:21.334 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 21:53:21.338 Daily Cookie[48528:1aa67] 21:53:21.338 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 22:16:58.350 Daily Cookie[48528:1a983] 22:16:58.350 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-11 22:17:03.254 Daily Cookie[48528:1a983] 22:17:03.254 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 07:01:58.133 Daily Cookie[48528:1115f] 07:01:58.133 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 07:02:38.515 Daily Cookie[48528:1ae9f] 07:02:38.515 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 07:02:38.527 Daily Cookie[48528:11537] 07:02:38.526 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 07:02:42.791 Daily Cookie[48528:1973f] 07:02:42.791 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 07:02:43.255 Daily Cookie[48528:11537] 07:02:43.255 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 08:10:08.619 Daily Cookie[48528:8e7f] 08:10:08.619 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 08:10:08.620 Daily Cookie[48528:11a3f] 08:10:08.620 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 08:10:08.629 Daily Cookie[48528:19243] 08:10:08.629 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 08:10:08.633 Daily Cookie[48528:4353] 08:10:08.633 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 09:56:48.430 Daily Cookie[48528:111c3] 09:56:48.430 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 09:56:48.517 Daily Cookie[48528:f4e7] 09:56:48.517 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 09:57:01.664 Daily Cookie[48528:e5d7] 09:57:01.663 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 09:57:01.664 Daily Cookie[48528:e5d7] 09:57:01.664 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 09:57:01.666 Daily Cookie[48528:10f1f] 09:57:01.666 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 09:57:01.666 Daily Cookie[48528:10f1f] 09:57:01.666 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 09:57:02.473 Daily Cookie[48528:f4eb] 09:57:02.473 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 09:57:02.481 Daily Cookie[48528:114d3] 09:57:02.481 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 09:57:02.488 Daily Cookie[48528:1ad8b] 09:57:02.488 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 11:06:21.699 Daily Cookie[48528:f4d3] 11:06:21.699 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 11:06:22.209 Daily Cookie[48528:10e2b] 11:06:22.209 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 11:06:22.219 Daily Cookie[48528:11a4b] 11:06:22.219 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 11:09:41.677 Daily Cookie[48528:436f] 11:09:41.676 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 11:09:41.776 Daily Cookie[48528:11557] 11:09:41.776 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 11:09:41.779 Daily Cookie[48528:8aef] 11:09:41.779 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 11:09:41.825 Daily Cookie[48528:17ffb] 11:09:41.825 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 11:09:53.490 Daily Cookie[48528:9217] 11:09:53.490 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 11:09:53.503 Daily Cookie[48528:17ffb] 11:09:53.503 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 11:09:53.507 Daily Cookie[48528:15e67] 11:09:53.507 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 11:09:53.586 Daily Cookie[48528:11a53] 11:09:53.586 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 12:22:54.608 Daily Cookie[48528:1ace7] 12:22:54.608 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 12:22:54.626 Daily Cookie[48528:199bf] 12:22:54.626 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 12:22:54.627 Daily Cookie[48528:86af] 12:22:54.627 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 12:22:54.628 Daily Cookie[48528:1ace7] 12:22:54.628 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 13:33:52.665 Daily Cookie[48528:11897] 13:33:52.665 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 13:33:52.670 Daily Cookie[48528:199c3] 13:33:52.670 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 13:33:52.675 Daily Cookie[48528:199c3] 13:33:52.675 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 15:03:47.229 Daily Cookie[48528:10f47] 15:03:47.229 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 15:03:47.230 Daily Cookie[48528:437f] 15:03:47.230 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 16:32:23.925 Daily Cookie[48528:17f93] 16:32:23.925 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-12 16:32:29.324 Daily Cookie[48528:10f73] 16:32:29.324 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 08:24:15.441 Daily Cookie[48528:10f7b] 08:24:15.440 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 08:24:15.745 Daily Cookie[48528:10f7b] 08:24:15.745 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 08:24:15.746 Daily Cookie[48528:8eb3] 08:24:15.746 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 08:24:39.212 Daily Cookie[48528:4387] 08:24:39.212 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 08:24:39.225 Daily Cookie[48528:4387] 08:24:39.225 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 08:24:43.687 Daily Cookie[48528:4387] 08:24:43.687 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 08:29:55.257 Daily Cookie[48528:438b] 08:29:55.257 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 08:29:55.257 Daily Cookie[48528:438b] 08:29:55.257 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 08:29:55.265 Daily Cookie[48528:dd1b] 08:29:55.265 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 08:29:55.269 Daily Cookie[48528:19893] 08:29:55.269 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 09:40:25.930 Daily Cookie[48528:114ff] 09:40:25.930 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 09:40:25.931 Daily Cookie[48528:1a8ab] 09:40:25.931 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 09:48:39.663 Daily Cookie[48528:18ebb] 09:48:39.663 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 09:48:39.663 Daily Cookie[48528:18ebb] 09:48:39.663 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 09:48:39.665 Daily Cookie[48528:e7af] 09:48:39.665 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 09:48:39.665 Daily Cookie[48528:e52b] 09:48:39.665 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 13:28:25.860 Daily Cookie[48528:e7b3] 13:28:25.860 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 13:28:25.948 Daily Cookie[48528:1a8bb] 13:28:25.948 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 13:29:11.955 Daily Cookie[48528:439f] 13:29:11.955 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 13:29:11.962 Daily Cookie[48528:439f] 13:29:11.962 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 13:29:11.963 Daily Cookie[48528:da43] 13:29:11.963 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 13:29:24.296 Daily Cookie[48528:17fb3] 13:29:24.296 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 13:29:24.807 Daily Cookie[48528:e7bb] 13:29:24.807 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 13:29:24.811 Daily Cookie[48528:dbff] 13:29:24.811 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 14:43:18.951 Daily Cookie[48528:6377] 14:43:18.951 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 14:43:18.967 Daily Cookie[48528:672f] 14:43:18.967 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 14:43:18.972 Daily Cookie[48528:1ae7b] 14:43:18.972 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 14:43:18.972 Daily Cookie[48528:1ae7b] 14:43:18.972 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 14:46:39.066 Daily Cookie[48528:96e7] 14:46:39.066 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 14:46:39.069 Daily Cookie[48528:da57] 14:46:39.069 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 14:46:39.152 Daily Cookie[48528:da57] 14:46:39.152 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 14:46:46.609 Daily Cookie[48528:1adcb] 14:46:46.609 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 14:46:46.609 Daily Cookie[48528:1adcb] 14:46:46.609 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 14:46:46.611 Daily Cookie[48528:118df] 14:46:46.611 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 14:46:46.611 Daily Cookie[48528:118df] 14:46:46.611 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 16:57:12.710 Daily Cookie[48528:197a7] 16:57:12.710 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 16:57:12.798 Daily Cookie[48528:197a7] 16:57:12.798 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 16:57:33.786 Daily Cookie[48528:18ee3] 16:57:33.786 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-13 16:57:39.637 Daily Cookie[48528:10e8f] 16:57:39.637 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 09:12:07.129 Daily Cookie[48528:1ab87] 09:12:07.129 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 09:12:25.016 Daily Cookie[48528:192af] 09:12:25.016 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 09:12:25.033 Daily Cookie[48528:192af] 09:12:25.032 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 09:12:35.905 Daily Cookie[48528:1ade3] 09:12:35.905 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 09:21:32.958 Daily Cookie[48528:18e47] 09:21:32.958 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 09:21:37.940 Daily Cookie[48528:f4ab] 09:21:37.940 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 10:07:05.128 Daily Cookie[48528:f4b7] 10:07:05.128 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 10:08:27.697 Daily Cookie[48528:1aeab] 10:08:27.697 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 10:08:27.722 Daily Cookie[48528:1aeab] 10:08:27.722 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 10:08:36.803 Daily Cookie[48528:1aeaf] 10:08:36.803 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 10:08:41.360 Daily Cookie[48528:18e5b] 10:08:41.360 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 10:38:09.183 Daily Cookie[48528:18ee3] 10:38:09.183 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 10:38:14.323 Daily Cookie[48528:f4cb] 10:38:14.323 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 14:15:35.141 Daily Cookie[48528:db3f] 14:15:35.141 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 14:15:46.290 Daily Cookie[48528:da97] 14:15:46.290 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 14:15:46.307 Daily Cookie[48528:da97] 14:15:46.307 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 14:16:00.222 Daily Cookie[48528:da97] 14:16:00.222 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 14:16:00.666 Daily Cookie[48528:da97] 14:16:00.666 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 14:59:30.262 Daily Cookie[48528:da9b] 14:59:30.262 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-14 14:59:35.572 Daily Cookie[48528:da9b] 14:59:35.572 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 07:34:35.461 Daily Cookie[48528:18efb] 07:34:35.461 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 07:34:36.029 Daily Cookie[48528:18efb] 07:34:36.029 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 07:34:36.029 Daily Cookie[48528:18efb] 07:34:36.029 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 07:34:48.203 Daily Cookie[48528:5b47] 07:34:48.203 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 07:34:48.227 Daily Cookie[48528:18eff] 07:34:48.227 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 07:34:54.317 Daily Cookie[48528:11a4b] 07:34:54.317 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 08:52:41.967 Daily Cookie[48528:18e0f] 08:52:41.967 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 08:52:42.054 Daily Cookie[48528:f4db] 08:52:42.054 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 08:53:16.375 Daily Cookie[48528:6747] 08:53:16.375 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 08:53:16.385 Daily Cookie[48528:6747] 08:53:16.385 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 08:53:16.386 Daily Cookie[48528:db4f] 08:53:16.386 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 08:54:17.291 Daily Cookie[48528:db5f] 08:54:17.291 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 08:54:17.799 Daily Cookie[48528:15e2f] 08:54:17.799 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 08:54:17.804 Daily Cookie[48528:dd5f] 08:54:17.804 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 09:00:07.286 Daily Cookie[48528:8eb7] 09:00:07.286 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 09:00:07.304 Daily Cookie[48528:192d7] 09:00:07.304 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 09:00:07.318 Daily Cookie[48528:10ef7] 09:00:07.318 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 09:00:35.327 Daily Cookie[48528:dcf7] 09:00:35.327 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 09:00:35.421 Daily Cookie[48528:1aeb7] 09:00:35.421 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 09:00:35.423 Daily Cookie[48528:11813] 09:00:35.422 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 09:00:42.141 Daily Cookie[48528:17fef] 09:00:42.140 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 09:00:42.141 Daily Cookie[48528:17fef] 09:00:42.141 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 09:00:42.143 Daily Cookie[48528:f4eb] 09:00:42.143 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 09:00:42.143 Daily Cookie[48528:43e3] 09:00:42.143 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 12:37:16.925 Daily Cookie[48528:11ab7] 12:37:16.925 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 12:37:17.013 Daily Cookie[48528:197e3] 12:37:17.013 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 12:40:05.014 Daily Cookie[48528:197f3] 12:40:05.014 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 12:40:05.027 Daily Cookie[48528:197f3] 12:40:05.027 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 13:51:24.177 Daily Cookie[48528:e7d3] 13:51:24.177 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 13:51:24.177 Daily Cookie[48528:11abf] 13:51:24.177 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 13:51:31.975 Daily Cookie[48528:e7d7] 13:51:31.975 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 13:51:31.990 Daily Cookie[48528:114ef] 13:51:31.990 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 13:51:38.436 Daily Cookie[48528:114ef] 13:51:38.436 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 15:14:39.750 Daily Cookie[48528:1abb3] 15:14:39.750 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 15:14:39.751 Daily Cookie[48528:1a91b] 15:14:39.751 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 15:16:44.981 Daily Cookie[48528:18e37] 15:16:44.981 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 15:16:44.981 Daily Cookie[48528:18e37] 15:16:44.981 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 15:16:44.992 Daily Cookie[48528:8ecb] 15:16:44.992 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 15:16:44.996 Daily Cookie[48528:198f3] 15:16:44.996 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 15:16:45.800 Daily Cookie[48528:10fd7] 15:16:45.800 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 15:16:45.809 Daily Cookie[48528:1145f] 15:16:45.809 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 15:16:45.810 Daily Cookie[48528:11537] 15:16:45.810 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 15:16:49.032 Daily Cookie[48528:dacb] 15:16:49.032 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 15:16:49.541 Daily Cookie[48528:18e37] 15:16:49.541 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 15:16:49.547 Daily Cookie[48528:18e37] 15:16:49.547 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 16:18:53.100 Daily Cookie[48528:da5b] 16:18:53.100 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 16:18:53.118 Daily Cookie[48528:193db] 16:18:53.118 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 16:18:53.119 Daily Cookie[48528:11827] 16:18:53.119 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 16:18:53.120 Daily Cookie[48528:8a6b] 16:18:53.120 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 16:22:05.847 Daily Cookie[48528:1183f] 16:22:05.847 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-17 16:22:12.266 Daily Cookie[48528:194db] 16:22:12.266 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 08:24:47.576 Daily Cookie[48528:4303] 08:24:47.576 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 08:24:47.878 Daily Cookie[48528:10e2b] 08:24:47.878 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 08:24:47.879 Daily Cookie[48528:17f3f] 08:24:47.879 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 08:24:52.965 Daily Cookie[48528:10e2b] 08:24:52.965 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 08:24:52.981 Daily Cookie[48528:10e2b] 08:24:52.981 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 08:25:10.273 Daily Cookie[48528:4307] 08:25:10.273 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 08:53:00.184 Daily Cookie[48528:1970f] 08:53:00.184 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 08:53:00.185 Daily Cookie[48528:db7f] 08:53:00.185 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 08:53:00.194 Daily Cookie[48528:677f] 08:53:00.194 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 08:53:00.197 Daily Cookie[48528:1966b] 08:53:00.197 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:23:30.640 Daily Cookie[48528:1188f] 10:23:30.640 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:23:30.728 Daily Cookie[48528:e61f] 10:23:30.728 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:23:33.936 Daily Cookie[48528:16e6b] 10:23:33.936 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:23:39.659 Daily Cookie[48528:11897] 10:23:39.659 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:23:41.026 Daily Cookie[48528:16e6f] 10:23:41.026 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:24:14.525 Daily Cookie[48528:195d7] 10:24:14.525 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:24:14.540 Daily Cookie[48528:195d7] 10:24:14.540 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:25:02.759 Daily Cookie[48528:19213] 10:25:02.759 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:40:06.721 Daily Cookie[48528:fccb] 10:40:06.721 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:40:11.182 Daily Cookie[48528:192c7] 10:40:11.182 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:40:26.836 Daily Cookie[48528:fccf] 10:40:26.836 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:40:31.262 Daily Cookie[48528:195f7] 10:40:31.261 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:40:32.638 Daily Cookie[48528:fccf] 10:40:32.638 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:40:33.978 Daily Cookie[48528:1ac2f] 10:40:33.978 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:56:36.719 Daily Cookie[48528:1a90b] 10:56:36.719 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:56:36.733 Daily Cookie[48528:1ac77] 10:56:36.733 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 10:56:43.015 Daily Cookie[48528:1a90b] 10:56:43.015 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 12:42:41.854 Daily Cookie[48528:19973] 12:42:41.853 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 12:42:41.854 Daily Cookie[48528:19973] 12:42:41.854 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 12:42:41.855 Daily Cookie[48528:16ecf] 12:42:41.855 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 12:42:41.856 Daily Cookie[48528:11487] 12:42:41.856 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 14:03:51.480 Daily Cookie[48528:11b83] 14:03:51.480 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 14:03:51.569 Daily Cookie[48528:14c5b] 14:03:51.568 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 15:17:36.439 Daily Cookie[48528:5b83] 15:17:36.439 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 15:17:36.440 Daily Cookie[48528:5b83] 15:17:36.440 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 15:17:36.442 Daily Cookie[48528:db93] 15:17:36.442 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 15:17:36.442 Daily Cookie[48528:96af] 15:17:36.442 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 16:57:13.768 Daily Cookie[48528:e7ab] 16:57:13.745 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 16:57:13.801 Daily Cookie[48528:e7ab] 16:57:13.801 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 16:57:32.667 Daily Cookie[48528:f407] 16:57:32.667 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 20:28:27.126 Daily Cookie[48528:6343] 20:28:27.126 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 20:28:42.959 Daily Cookie[48528:6343] 20:28:42.959 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 20:29:00.122 Daily Cookie[48528:19407] 20:29:00.122 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 20:29:04.537 Daily Cookie[48528:1abf3] 20:29:04.537 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 20:50:01.840 Daily Cookie[48528:15e9b] 20:50:01.840 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-18 20:50:07.105 Daily Cookie[48528:15e9b] 20:50:07.105 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 07:06:25.725 Daily Cookie[48528:dba7] 07:06:25.725 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 07:06:25.742 Daily Cookie[48528:5b9b] 07:06:25.742 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 08:06:52.147 Daily Cookie[48528:5ba7] 08:06:52.147 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 08:07:22.317 Daily Cookie[48528:11567] 08:07:22.317 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 08:07:27.079 Daily Cookie[48528:1715b] 08:07:27.079 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 08:07:27.550 Daily Cookie[48528:1715b] 08:07:27.550 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 10:13:30.225 Daily Cookie[48528:8e0b] 10:13:30.225 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 10:13:30.261 Daily Cookie[48528:8e0b] 10:13:30.261 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 13:44:58.698 Daily Cookie[48528:19527] 13:44:58.698 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 13:45:03.980 Daily Cookie[48528:19527] 13:45:03.980 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 15:08:58.454 Daily Cookie[48528:dbc3] 15:08:58.454 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 15:08:58.758 Daily Cookie[48528:e7df] 15:08:58.758 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 15:08:58.759 Daily Cookie[48528:dbc3] 15:08:58.759 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 15:09:10.604 Daily Cookie[48528:10f27] 15:09:10.604 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 15:09:10.618 Daily Cookie[48528:10f27] 15:09:10.618 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 15:09:29.661 Daily Cookie[48528:1aae7] 15:09:29.661 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 15:09:34.042 Daily Cookie[48528:10f2b] 15:09:34.042 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 15:57:33.581 Daily Cookie[48528:dc57] 15:57:33.581 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 15:57:33.581 Daily Cookie[48528:671b] 15:57:33.581 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-19 16:59:56.468 Daily Cookie[48528:dc43] 16:59:56.468 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 08:18:53.446 Daily Cookie[48528:dddf] 08:18:53.446 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 08:18:53.749 Daily Cookie[48528:dddf] 08:18:53.749 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 08:18:53.750 Daily Cookie[48528:16ef3] 08:18:53.750 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 08:19:01.055 Daily Cookie[48528:1941f] 08:19:01.055 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 08:19:01.071 Daily Cookie[48528:1941f] 08:19:01.071 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 08:19:05.246 Daily Cookie[48528:1941f] 08:19:05.246 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 08:19:05.248 Daily Cookie[48528:63db] 08:19:05.248 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 08:19:05.248 Daily Cookie[48528:63db] 08:19:05.248 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 08:19:05.252 Daily Cookie[48528:dad3] 08:19:05.252 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 08:19:18.394 Daily Cookie[48528:e7eb] 08:19:18.394 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 08:45:11.984 Daily Cookie[48528:114c7] 08:45:11.983 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 08:45:11.985 Daily Cookie[48528:17143] 08:45:11.985 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 08:45:11.994 Daily Cookie[48528:192a7] 08:45:11.994 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 08:45:11.997 Daily Cookie[48528:114c7] 08:45:11.997 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:00:48.286 Daily Cookie[48528:dca3] 14:00:48.286 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:00:48.373 Daily Cookie[48528:1ab1f] 14:00:48.373 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:01:54.566 Daily Cookie[48528:17153] 14:01:54.566 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:01:54.582 Daily Cookie[48528:18e9b] 14:01:54.582 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:02:01.830 Daily Cookie[48528:18e9b] 14:02:01.830 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:12:13.331 Daily Cookie[48528:1938b] 14:12:13.331 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:12:13.843 Daily Cookie[48528:dca7] 14:12:13.843 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:12:13.855 Daily Cookie[48528:18ec7] 14:12:13.855 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:12:13.892 Daily Cookie[48528:1152b] 14:12:13.892 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:31:38.294 Daily Cookie[48528:dcab] 14:31:38.294 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:31:38.317 Daily Cookie[48528:dcab] 14:31:38.317 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:32:02.860 Daily Cookie[48528:dcaf] 14:32:02.860 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:32:08.844 Daily Cookie[48528:dcaf] 14:32:08.844 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:32:10.930 Daily Cookie[48528:1a9e3] 14:32:10.930 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:45:32.050 Daily Cookie[48528:43ef] 14:45:32.050 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:45:32.052 Daily Cookie[48528:1152f] 14:45:32.052 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:48:09.541 Daily Cookie[48528:17173] 14:48:09.541 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:48:09.556 Daily Cookie[48528:15ee7] 14:48:09.556 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 14:48:09.561 Daily Cookie[48528:17173] 14:48:09.561 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 15:48:40.427 Daily Cookie[48528:63ff] 15:48:40.427 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 15:48:40.428 Daily Cookie[48528:18ed3] 15:48:40.428 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-20 15:48:59.146 Daily Cookie[48528:1956f] 15:48:59.146 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 09:43:14.130 Daily Cookie[48528:14caf] 09:43:14.130 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 09:43:29.709 Daily Cookie[48528:15ef3] 09:43:29.709 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 09:43:29.729 Daily Cookie[48528:197df] 09:43:29.729 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 09:43:36.741 Daily Cookie[48528:1a99b] 09:43:36.741 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+objc[81062]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-06-21 10:23:27.700 Daily Cookie[81062:70b] Cannot find executable for CFBundle 0xa227b40 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-06-21 10:23:27.711 Daily Cookie[81062:70b] Cannot find executable for CFBundle 0xa24e8e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-06-21 10:23:27.788 Daily Cookie[81062:70b] Multi-tasking -> Device: YES, App: YES
+2014-06-21 10:23:27.813 Daily Cookie[81062:70b] Unlimited access to network resources
+2014-06-21 10:23:27.965 Daily Cookie[81062:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-06-21 10:23:27.966 Daily Cookie[81062:70b] [CDVTimer][statusbar] 0.513971ms
+2014-06-21 10:23:27.966 Daily Cookie[81062:70b] [CDVTimer][TotalPluginStartup] 0.890970ms
+2014-06-21 10:23:28.201 Daily Cookie[81062:70b] Resetting plugins due to page load.
+2014-06-21 10:23:28.398 Daily Cookie[81062:70b] Finished load of: file:///Users/peterbe/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/E15320B8-EA03-431E-80C1-B1606F157355/Daily%20Cookie.app/www/index.html#/dash
+2014-06-21 10:25:33.046 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.151 Daily Cookie[81062:70b] RESPONSE
+2014-06-21 10:25:33.151 Daily Cookie[81062:70b] {"locale":"sv","group":{"name":"Swedish Beginner","id":1,"attempts":[],"days":0},"words":{"1":{"explanation":"shoe","mp3file":"http://cookie/words-mp3/2014/05/26/95229894108f97851198106ffe51846a.mp3","word":"sko","id":"4ad99-sv-sko"},"2":{"explanation":"wheel","mp3file":"http://cookie/words-mp3/2014/05/26/29ad4c00d98b9d997ea59ea2497bf843.mp3","word":"hjul","id":"4b05b-sv-hjul"},"3":{"explanation":"flower","mp3file":"http://cookie/words-mp3/2014/05/26/68abeb1fe62e1d5b485ccaf9f03386c5.mp3","word":"blomma","id":"62393-sv-blomma"},"4":{"explanation":"black and white","mp3file":"http://cookie/words-mp3/2014/05/26/c51062e84ecd162d7ce8f3f37a1785f1.mp3","word":"svartvit","id":"574d2-sv-svartvit"},"5":{"explanation":"police car","mp3file":"http://cookie/words-mp3/2014/05/26/bae7e14501033548ba7608a5cfec89c2.mp3","word":"polisbil","id":"964c3-sv-polisbil"},"6":{"explanation":"fur","mp3file":"http://cookie/words-mp3/2014/05/26/8d6f0716e45608f2134b341e37319351.mp3","word":"päls","id":"5f4e3-sv-pals"},"7":{"explanation":"firetruck","mp3file":"http://cookie/words-mp3/2014/05/26/f0e6f4f3fb17d799d978074126adab45.mp3","word":"brandbil","id":"18f25-sv-brandbil"},"9":{"explanation":"keyboard, keyboards","mp3file":"http://cookie/words-mp3/2014/05/26/2086085687c18fedd4940e58269003e5.mp3","word":"tangentbord","id":"eae57-sv-tangentbord"},"10":{"explanation":"team","mp3file":"http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3","word":"lag","id":"d593c-sv-lag"},"11":{"explanation":"fire","mp3file":"http://cookie/words-mp3/2014/05/26/711b3f991c9e4e7ebc5b39d93914855b.mp3","word":"eld","id":"9bfec-sv-eld"},"12":{"explanation":"dad, father","mp3file":"http://cookie/words-mp3/2014/05/26/4a50efb6bd73f875edd8dec777f8ba1e.mp3","word":"pappa","id":"c6d5b-sv-pappa"},"13":{"explanation":"shirt","mp3file":"http://cookie/words-mp3/2014/05/26/e9a7fe2c2539d77db048bb9423699e00.mp3","word":"skjorta","id":"13535-sv-skjorta"},"14":{"explanation":"old men, guys","mp3file":"http://cookie/words-mp3/2014/05/26/56f864b629f02d3d90fdae098ede178d.mp3","word":"gubbar","id":"b071a-sv-gubbar"},"15":{"explanation":"bicycles","mp3file":"http://cookie/words-mp3/2014/05/26/7067fc8734d56176604f305fd017e5c0.mp3","word":"cyklar","id":"0c376-sv-cyklar"},"16":{"explanation":"woman","mp3file":"http://cookie/words-mp3/2014/05/26/77b00e216e591b359ac76acffe6b9dfe.mp3","word":"kvinna","id":"ead30-sv-kvinna"},"17":{"explanation":"lipstick","mp3file":"http://cookie/words-mp3/2014/05/26/820bdd55f355d43a69cced5c0774aca0.mp3","word":"läppstift","id":"407ba-sv-lappstift"},"18":{"explanation":"sword","mp3file":"http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3","word":"svärd","id":"b94ce-sv-svard"},"19":{"explanation":"spoon","mp3file":"http://cookie/words-mp3/2014/05/26/abd87256f4e3fba6909a9dca5283444d.mp3","word":"sked","id":"1df90-sv-sked"},"20":{"mp3file":"http://cookie/words-mp3/2014/05/26/de2aa3d332e3d986d837340588d8eb56.mp3","word":"tegeltak","id":"25e87-sv-tegeltak"},"21":{"explanation":"ties","mp3file":"http://cookie/words-mp3/2014/05/26/876235a2a721433fcb79bb0137f9dfad.mp3","word":"slipsar","id":"50cd7-sv-slipsar"},"22":{"explanation":"tie","mp3file":"http://cookie/words-mp3/2014/05/26/2d9758c5d1d14c4e9c8ce791bd1defe0.mp3","word":"slips","id":"f49c8-sv-slips"},"23":{"explanation":"telephones","mp3file":"http://cookie/words-mp3/2014/05/26/487220dcd80c21102ad38c96aed3aa0a.mp3","word":"telefoner","id":"ffbeb-sv-telefoner"},"24":{"explanation":"elephant","mp3file":"http://cookie/words-mp3/2014/05/26/52b4c48bab5511b8edd11e5094753bd7.mp3","word":"elefant","id":"ae7eb-sv-elefant"},"25":{"explanation":"old woman","mp3file":"http://cookie/words-mp3/2014/05/26/af191b9fdb3008b23ece4a06c20b4c40.mp3","word":"tant","id":"252d1-sv-tant"},"26":{"explanation":"lemon","mp3file":"http://cookie/words-mp3/2014/05/26/d39ff87370cb2a7400904de2efc5766d.mp3","word":"citron","id":"ad770-sv-citron"},"27":{"explanation":"diamond","mp3file":"http://cookie/words-mp3/2014/05/26/d58467a55e576a223c4f6099353834a4.mp3","word":"diamant","id":"816c0-sv-diamant"},"28":{"explanation":"lamp","mp3file":"http://cookie/words-mp3/2014/05/26/39b737a1e5e7a3941a8b2eac6422bb9d.mp3","word":"lampa","id":"31ecf-sv-lampa"},"29":{"explanation":"friend, buddy","mp3file":"http://cookie/words-mp3/2014/05/26/c51be7d42fbb5296c49bcae9ff99b75d.mp3","word":"kompis","id":"9f61a-sv-kompis"},"30":{"explanation":"fire, fireplace","mp3file":"http://cookie/words-mp3/2014/05/26/b6976182d2619b6069b0ad87e927d3f5.mp3","word":"brasa","id":"25e52-sv-brasa"},"31":{"explanation":"car","mp3file":"http://cookie/words-mp3/2014/05/26/30fd3f5b67bf233d87b36c830448e7c9.mp3","word":"bil","id":"5dd5a-sv-bil"},"32":{"explanation":"church","mp3file":"http://cookie/words-mp3/2014/05/26/f200a2a0dc8e4e217c52c41789fbaaf5.mp3","word":"kyrka","id":"ca08b-sv-kyrka"},"33":{"explanation":"butt","mp3file":"http://cookie/words-mp3/2014/05/26/7a5ea1f4e6d64c1378329da65698042f.mp3","word":"rumpa","id":"6ad65-sv-rumpa"},"34":{"explanation":"street, road","mp3file":"http://cookie/words-mp3/2014/05/26/c4d0b6397ff44ebc9a3800d72b546fc5.mp3","word":"gata","id":"30fe8-sv-gata"},"35":{"explanation":"chair","mp3file":"http://cookie/words-mp3/2014/05/26/a02ef1ccf9020235ad0fcce4c8a93d7b.mp3","word":"stol","id":"8612d-sv-stol"},"36":{"explanation":"pigs","mp3file":"http://cookie/words-mp3/2014/05/26/e0555020369b2c3deac0a2ca143cebc8.mp3","word":"grisar","id":"8c273-sv-grisar"},"37":{"explanation":"bread","mp3file":"http://cookie/words-mp3/2014/05/26/3dca6dd7e2fb0ec5fcd3340817f7c7d6.mp3","word":"bröd","id":"55136-sv-brod"},"38":{"explanation":"house","mp3file":"http://cookie/words-mp3/2014/05/26/0db49378fad66646cb050bf197ba093f.mp3","word":"hus","id":"baa1f-sv-hus"},"39":{"explanation":"propellers","mp3file":"http://cookie/words-mp3/2014/05/26/5c5ba80b5229383e6902bdded7b1f750.mp3","word":"propeller","id":"c311e-sv-propeller"},"40":{"mp3file":"http://cookie/words-mp3/2014/05/26/d55f46df70393dea5794bdfc609faba5.mp3","word":"ingång","id":"7c430-sv-ingang"},"41":{"explanation":"stolen","mp3file":"http://cookie/words-mp3/2014/05/26/5e6cae74fd9c41e75ebc2b4d13240002.mp3","word":"stöld","id":"b3b67-sv-stold"},"42":{"mp3file":"http://cookie/words-mp3/2014/05/26/c66f3b7fd4a291b0ff7c908c8a029b95.mp3","word":"mage","id":"99b05-sv-mage"},"43":{"explanation":"man","mp3file":"http://cookie/words-mp3/2014/05/26/2801c429f42552fc79c22c75021eccca.mp3","word":"man","id":"e725c-sv-man"},"44":{"explanation":"tower","mp3file":"http://cookie/words-mp3/2014/05/26/c069ad0de5864474bf9f2b05cb5853bc.mp3","word":"torn","id":"25a5e-sv-torn"},"45":{"explanation":"flowery","mp3file":"http://cookie/words-mp3/2014/05/26/3159008b9a7df7805a2cf5ee85759ff0.mp3","word":"blommig","id":"92569-sv-blommig"},"46":{"explanation":"wheelchair","mp3file":"http://cookie/words-mp3/2014/05/26/d946b89fbc6c3c76dbefd3c02a30ac4a.mp3","word":"rullstol","id":"1a9e8-sv-rullstol"},"47":{"explanation":"button","mp3file":"http://cookie/words-mp3/2014/05/26/961c9f22d8fccc145f298347e6daa635.mp3","word":"knapp","id":"e9758-sv-knapp"},"48":{"explanation":"tooth","mp3file":"http://cookie/words-mp3/2014/05/26/43911dc392061aa44920ece8eceba6d1.mp3","word":"tand","id":"6041e-sv-tand"},"49":{"explanation":"nail","mp3file":"http://cookie/words-mp3/2014/05/26/5b6854273a7031cf616c9a3341c33516.mp3","word":"nagel","id":"43489-sv-nagel"},"50":{"explanation":"fridge","mp3file":"http://cookie/words-mp3/2014/05/26/d5980c9c083147bb738dd3f72ea61522.mp3","word":"kylskåp","id":"ed5af-sv-kylskap"},"51":{"explanation":"sofa","mp3file":"http://cookie/words-mp3/2014/05/26/408c8799db2f41168d034f379cb9fae4.mp3","word":"soffa","id":"56c60-sv-soffa"},"52":{"explanation":"fruit","mp3file":"http://cookie/words-mp3/2014/05/26/5266fdaa1ae8370eb27a03c90bb76665.mp3","word":"frukt","id":"1da73-sv-frukt"},"53":{"explanation":"garage","mp3file":"http://cookie/words-mp3/2014/05/26/964660e2a35b0d5e9b5b1c9aa0a4e54f.mp3","word":"garage","id":"a2134-sv-garage"},"54":{"explanation":"painting, picture","mp3file":"http://cookie/words-mp3/2014/05/26/d8cb8cc296e12c5f72b3a802d8af2602.mp3","word":"tavla","id":"59a76-sv-tavla"},"55":{"mp3file":"http://cookie/words-mp3/2014/05/26/06e5fc43914140902dcdc3920713a66a.mp3","word":"mustasch","id":"f79a2-sv-mustasch"},"56":{"explanation":"wedding","mp3file":"http://cookie/words-mp3/2014/05/26/77c64917409989326bcb3891e683f3fd.mp3","word":"bröllop","id":"c6d49-sv-brollop"},"57":{"explanation":"newspaper","mp3file":"http://cookie/words-mp3/2014/05/26/019cb6af5c0d01302ce83b6420951823.mp3","word":"tidning","id":"2fbc6-sv-tidning"},"58":{"explanation":"sport, sports","mp3file":"http://cookie/words-mp3/2014/05/26/e101e0a82cb5395941b3b6f82fb86c3b.mp3","word":"idrott","id":"da2ae-sv-idrott"},"59":{"explanation":"dog","mp3file":"http://cookie/words-mp3/2014/05/26/3be9cad094982af52954f6aa4f11e038.mp3","word":"hund","id":"ad15f-sv-hund"},"60":{"explanation":"coffee","mp3file":"http://cookie/words-mp3/2014/05/26/6ea2f297b178595ac3f248cd2def679c.mp3","word":"kaffe","id":"80026-sv-kaffe"},"61":{"explanation":"balls","mp3file":"http://cookie/words-mp3/2014/05/26/ab0c35f739cedc6c3831ad1e40ecb05c.mp3","word":"bollar","id":"f9741-sv-bollar"},"62":{"explanation":"paper","mp3file":"http://cookie/words-mp3/2014/05/26/ae19bfc520f133da18185677801cf3a2.mp3","word":"papper","id":"2f72b-sv-papper"},"63":{"explanation":"hotel","mp3file":"http://cookie/words-mp3/2014/05/26/f97e7bc1993a5fde1fcb8cc1f3fe61be.mp3","word":"hotell","id":"4ce85-sv-hotell"},"64":{"explanation":"door","mp3file":"http://cookie/words-mp3/2014/05/26/07cf26ebe14439091d314d5058692170.mp3","word":"dörr","id":"a3a19-sv-dorr"},"65":{"explanation":"men","mp3file":"http://cookie/words-mp3/2014/05/26/e5fb01e8db448c88546ffb0c2e7ad937.mp3","word":"män","id":"e725c-sv-man"},"66":{"explanation":"haircut","mp3file":"http://cookie/words-mp3/2014/05/26/b068ff99d8a7a3dd60697a78c84ba5f2.mp3","word":"frisyr","id":"19b59-sv-frisyr"},"67":{"explanation":"women","mp3file":"http://cookie/words-mp3/2014/05/26/6196ffa772fa152e4e43ef4622f6af11.mp3","word":"kvinnor","id":"32e3c-sv-kvinnor"},"68":{"explanation":"beer","mp3file":"http://cookie/words-mp3/2014/05/26/04cf07172c2935a1d72ba2d599c38778.mp3","word":"öl","id":"027df-sv-ol"},"69":{"explanation":"apples","mp3file":"http://cookie/words-mp3/2014/05/26/02cfbf319d8bb14ac303f3fed7f33310.mp3","word":"äpplen","id":"ebc0d-sv-applen"},"70":{"explanation":"wall","mp3file":"http://cookie/words-mp3/2014/05/26/bfc479ec9e1386c1b8862f157f928a5e.mp3","word":"mur","id":"432c3-sv-mur"},"71":{"explanation":"motorcycle","mp3file":"http://cookie/words-mp3/2014/05/26/9b954fe3faaa473cafd8549bacc9398b.mp3","word":"motorcyckel","id":"6ef55-sv-motorcyckel"},"72":{"explanation":"stairs","mp3file":"http://cookie/words-mp3/2014/05/26/ab85307a5951e4a3bd15895ff3c6ef89.mp3","word":"trappa","id":"04c64-sv-trappa"},"73":{"explanation":"train, trains","mp3file":"http://cookie/words-mp3/2014/05/26/d95a8a3dae5af682c22f6aca5c0a4934.mp3","word":"tåg","id":"8befd-sv-tag"},"74":{"explanation":"cooking food","mp3file":"http://cookie/words-mp3/2014/05/26/bd234bb2efe9b3c5b4c9e035e146ed51.mp3","word":"lagar mat","id":"24fd3-sv-lagar mat"},"75":{"explanation":"four","mp3file":"http://cookie/words-mp3/2014/05/26/c3cc5eadaa7ad0b7bfc515e2ac5c30ab.mp3","word":"fyra","id":"4a648-sv-fyra"},"76":{"explanation":"vase","mp3file":"http://cookie/words-mp3/2014/05/26/5ffd36d04eb4c41fc7dea4dd7eda20c3.mp3","word":"vas","id":"bd45a-sv-vas"},"77":{"explanation":"lock, curl","mp3file":"http://cookie/words-mp3/2014/05/26/6a2d5429a1f728be7274bb92010e423d.mp3","word":"lock","id":"d89f8-sv-lock"},"78":{"explanation":"mask, worm","mp3file":"http://cookie/words-mp3/2014/05/26/decdfc27e713629256e17759c8c5aae7.mp3","word":"mask","id":"ae945-sv-mask"},"79":{"explanation":"airport","mp3file":"http://cookie/words-mp3/2014/05/26/f8476d20091fae5eaaccd479205bf7c0.mp3","word":"flygplats","id":"86234-sv-flygplats"},"80":{"explanation":"tray, plate","mp3file":"http://cookie/words-mp3/2014/05/26/2fa696f3552208632ff335329727f4e6.mp3","word":"bricka","id":"24d9e-sv-bricka"},"81":{"explanation":"sport","mp3file":"http://cookie/words-mp3/2014/05/26/da76e92c9a17f347f7c5d76e01f479dc.mp3","word":"sport","id":"9363e-sv-sport"},"82":{"explanation":"broken, damaged","mp3file":"http://cookie/words-mp3/2014/05/26/7f76156c46f25a7c747566faa31e279c.mp3","word":"trasig","id":"d35f8-sv-trasig"},"83":{"explanation":"child, children","mp3file":"http://cookie/words-mp3/2014/05/26/9eecb52887c48d0daeb3c4cefa007f3b.mp3","word":"barn","id":"89312-sv-barn"},"84":{"explanation":"tree, trees","mp3file":"http://cookie/words-mp3/2014/06/01/3298f74334e938002b4a94fe0102bd14.mp3","word":"träd","id":"8a3cd-sv-trad"},"85":{"explanation":"garden","mp3file":"http://cookie/words-mp3/2014/06/01/e76cbe9d22e7d44bbfa78a2834d7c0f8.mp3","word":"trädgård","id":"230f1-sv-tradgard"},"86":{"explanation":"green","mp3file":"http://cookie/words-mp3/2014/06/01/44695ac93774571516df3053a487f7cf.mp3","word":"grönt","id":"89ffe-sv-gront"},"87":{"explanation":"sofa","mp3file":"http://cookie/words-mp3/2014/06/01/4ed55a24beb57e761ad6831d68d0af15.mp3","word":"soffa","id":"56c60-sv-soffa"},"88":{"explanation":"table","mp3file":"http://cookie/words-mp3/2014/06/01/1bf978d7e09c26ee3e5cff6f5bb1b28b.mp3","word":"bord","id":"d5042-sv-bord"},"89":{"explanation":"fans","mp3file":"http://cookie/words-mp3/2014/06/01/0ea194a02b35ef1e225c02594047988f.mp3","word":"fläktar","id":"02be1-sv-flaktar"},"90":{"explanation":"plum, plums","mp3file":"http://cookie/words-mp3/2014/06/01/05a4cf56e53ee4edb1ffe8bd0c7db262.mp3","word":"plommon","id":"c2636-sv-plommon"},"91":{"explanation":"parabola, umbrella","mp3file":"http://cookie/words-mp3/2014/06/01/88f17f32c51308dcc0cce38f75780b13.mp3","word":"parabol","id":"8ba3f-sv-parabol"},"92":{"explanation":"glass","mp3file":"http://cookie/words-mp3/2014/06/01/d610eed5869cc4ac5ed7a22b8d712e78.mp3","word":"glas","id":"776b6-sv-glas"},"93":{"explanation":"database","mp3file":"http://cookie/words-mp3/2014/06/01/256acc7da0bb568019760950476b1c40.mp3","word":"databas","id":"c19d9-sv-databas"},"94":{"explanation":"queen","mp3file":"http://cookie/words-mp3/2014/06/01/ead6c2a0d929266c889341926429fe04.mp3","word":"drottning","id":"36309-sv-drottning"},"95":{"explanation":"woman","mp3file":"http://cookie/words-mp3/2014/06/01/f21da7286472c06db7ff6be29e27df88.mp3","word":"kvinna","id":"ead30-sv-kvinna"},"96":{"explanation":"jewelries","mp3file":"http://cookie/words-mp3/2014/06/01/f5a9555c26aca864b144cbd1ce0054b3.mp3","word":"smycken","id":"b890c-sv-smycken"},"97":{"explanation":"software","mp3file":"http://cookie/words-mp3/2014/06/01/77efaa279b261b2825a6ebdb3c89fc0a.mp3","word":"mjukvara","id":"42f21-sv-mjukvara"},"98":{"explanation":"cigarette","mp3file":"http://cookie/words-mp3/2014/06/01/e55ff74aebcc43b023ca5b3f0efcc65e.mp3","word":"cigarett","id":"0fa5f-sv-cigarett"},"99":{"explanation":"plate","mp3file":"http://cookie/words-mp3/2014/06/01/da49acbca70999a381710a0eedef1e8f.mp3","word":"tallrik","id":"d1d36-sv-tallrik"},"100":{"explanation":"straight","mp3file":"http://cookie/words-mp3/2014/06/01/af2669ed59151a72ae944368118724c0.mp3","word":"rak","id":"7686d-sv-rak"},"101":{"explanation":"keys","mp3file":"http://cookie/words-mp3/2014/06/01/6faf3eb1d4c037ad02d7d3bdef3a7927.mp3","word":"tangenter","id":"bd5f6-sv-tangenter"},"102":{"explanation":"signal","mp3file":"http://cookie/words-mp3/2014/06/01/1f29fbda769dd9c565f63d02f8c723cc.mp3","word":"signal","id":"7f11a-sv-signal"},"103":{"explanation":"music","mp3file":"http://cookie/words-mp3/2014/06/01/73e4f02ecde1cdbebee0dc5e594d6b48.mp3","word":"musik","id":"fd741-sv-musik"},"104":{"explanation":"pedals","mp3file":"http://cookie/words-mp3/2014/06/01/bd58af14c8fa67db1d3b77ea9c029a9e.mp3","word":"pedaler","id":"708fc-sv-pedaler"},"105":{"explanation":"board, plank","mp3file":"http://cookie/words-mp3/2014/06/01/0a683bed2a48f284473f7ce68503372c.mp3","word":"planka","id":"cc80f-sv-planka"},"106":{"explanation":"guitar","mp3file":"http://cookie/words-mp3/2014/06/01/256629c49ad0d49d743972c97a8d41cb.mp3","word":"gitarr","id":"12f83-sv-gitarr"},"107":{"explanation":"friend","mp3file":"http://cookie/words-mp3/2014/06/01/a1facd5fc90ed20f935b52e1ce4d75f4.mp3","word":"vän","id":"9f809-sv-van"},"108":{"explanation":"sunset","mp3file":"http://cookie/words-mp3/2014/06/01/45fdeabd33f79b60b077afecfce81761.mp3","word":"solnedgång","id":"3ce46-sv-solnedgang"},"109":{"explanation":"flash","mp3file":"http://cookie/words-mp3/2014/06/01/3c29ca5dbe6f8608b49a970f43215543.mp3","word":"blixt","id":"45841-sv-blixt"},"110":{"explanation":"net","mp3file":"http://cookie/words-mp3/2014/06/01/122085c3a48dcfec9aa2ddbd012738b5.mp3","word":"nät","id":"9a111-sv-nat"},"111":{"explanation":"weapon, weapons","mp3file":"http://cookie/words-mp3/2014/06/08/b457e.mp3","word":"vapen","id":"5dcf3-sv-vapen"},"112":{"explanation":"rifle","mp3file":"http://cookie/words-mp3/2014/06/08/6712b.mp3","word":"gevär","id":"aca73-sv-gevar"},"113":{"explanation":"table","mp3file":"http://cookie/words-mp3/2014/06/08/c0917.mp3","word":"tabell","id":"59a62-sv-tabell"},"114":{"explanation":"light","mp3file":"http://cookie/words-mp3/2014/06/08/8877e.mp3","word":"ljus","id":"58b9c-sv-ljus"},"115":{"explanation":"mathematics","mp3file":"http://cookie/words-mp3/2014/06/08/0323f.mp3","word":"matematik","id":"6440b-sv-matematik"},"116":{"explanation":"numbers","mp3file":"http://cookie/words-mp3/2014/06/08/079e2.mp3","word":"siffror","id":"07226-sv-siffror"},"117":{"explanation":"flag","mp3file":"http://cookie/words-mp3/2014/06/08/ad5b7.mp3","word":"flagga","id":"b6f55-sv-flagga"},"118":{"explanation":"yellow","mp3file":"http://cookie/words-mp3/2014/06/08/50e62.mp3","word":"gult","id":"454ad-sv-gult"},"119":{"explanation":"blue","mp3file":"http://cookie/words-mp3/2014/06/08/aaf1e.mp3","word":"blått","id":"e2fd4-sv-blatt"},"120":{"explanation":"bottle","mp3file":"http://cookie/words-mp3/2014/06/08/968b8.mp3","word":"flaska","id":"5ded0-sv-flaska"},"121":{"explanation":"hair","mp3file":"http://cookie/words-mp3/2014/06/08/313f1.mp3","word":"hår","id":"14947-sv-har"},"122":{"explanation":"haircut","mp3file":"http://cookie/words-mp3/2014/06/08/24587.mp3","word":"frisyr","id":"19b59-sv-frisyr"},"123":{"explanation":"scissors","mp3file":"http://cookie/words-mp3/2014/06/08/6b92a.mp3","word":"sax","id":"ead8d-sv-sax"},"124":{"explanation":"comb","mp3file":"http://cookie/words-mp3/2014/06/08/e8f1b.mp3","word":"kam","id":"dba6b-sv-kam"},"125":{"explanation":"lightbulb","mp3file":"http://cookie/words-mp3/2014/06/08/5df54.mp3","word":"glödlampa","id":"1f0ef-sv-glodlampa"},"126":{"explanation":"paper","mp3file":"http://cookie/words-mp3/2014/06/12/de741.mp3","word":"papper","id":"2f72b-sv-papper"},"127":{"explanation":"pen","mp3file":"http://cookie/words-mp3/2014/06/12/1d5d0.mp3","word":"penna","id":"41697-sv-penna"},"128":{"explanation":"notes","mp3file":"http://cookie/words-mp3/2014/06/12/70d4c.mp3","word":"anteckningar","id":"a1ba6-sv-anteckninga"},"129":{"explanation":"mountain","mp3file":"http://cookie/words-mp3/2014/06/12/65875.mp3","word":"berg","id":"a66e3-sv-berg"},"130":{"explanation":"snow","mp3file":"http://cookie/words-mp3/2014/06/12/bdd85.mp3","word":"snö","id":"13c8f-sv-sno"},"131":{"explanation":"sky, heaven","mp3file":"http://cookie/words-mp3/2014/06/12/79ffd.mp3","word":"himmel","id":"78c3b-sv-himmel"},"132":{"explanation":"toes, tear","mp3file":"http://cookie/words-mp3/2014/06/12/93134.mp3","word":"tår","id":"b03d3-sv-tar"},"133":{"explanation":"feet","mp3file":"http://cookie/words-mp3/2014/06/12/2507e.mp3","word":"fötter","id":"7e3fc-sv-fotter"},"134":{"explanation":"nails","mp3file":"http://cookie/words-mp3/2014/06/12/e9822.mp3","word":"naglar","id":"03003-sv-naglar"},"135":{"explanation":"family","mp3file":"http://cookie/words-mp3/2014/06/12/421ab.mp3","word":"familj","id":"913ee-sv-familj"},"136":{"explanation":"girls","mp3file":"http://cookie/words-mp3/2014/06/12/17bea.mp3","word":"flickor","id":"49a23-sv-flickor"},"137":{"explanation":"girl","mp3file":"http://cookie/words-mp3/2014/06/12/5fbd7.mp3","word":"flicka","id":"f17b4-sv-flicka"},"138":{"explanation":"shoes","mp3file":"http://cookie/words-mp3/2014/06/12/7c220.mp3","word":"skor","id":"28327-sv-skor"},"139":{"explanation":"door mat","mp3file":"http://cookie/words-mp3/2014/06/12/b7063.mp3","word":"dörrmatta","id":"4fb42-sv-dorrmatta"},"140":{"mp3file":"http://cookie/words-mp3/2014/06/12/831b1.mp3","word":"jordnötssmör","id":"6fb27-sv-jordnotssmo"},"141":{"explanation":"sandwich","mp3file":"http://cookie/words-mp3/2014/06/12/55ae7.mp3","word":"smörgås","id":"47e46-sv-smorgas"},"142":{"explanation":"peanuts","mp3file":"http://cookie/words-mp3/2014/06/12/b4da0.mp3","word":"jordnötter","id":"1c8dd-sv-jordnotter"},"143":{"explanation":"celebrity","mp3file":"http://cookie/words-mp3/2014/06/21/0cc97.mp3","word":"kändis","id":"8c831-sv-kandis"},"144":{"explanation":"brunette","mp3file":"http://cookie/words-mp3/2014/06/21/d3a71.mp3","word":"brunett","id":"bcb09-sv-brunett"},"145":{"explanation":"stomach, belly","mp3file":"http://cookie/words-mp3/2014/06/21/18d8a.mp3","word":"mage","id":"99b05-sv-mage"}},"questions":[{"picture":{"url":"http://cookie/cache/d2/1c/d21c596a5df17e58e380920e1a154d9e.jpg","width":167,"height":200},"correct":[52,75,69]},{"picture":{"url":"http://cookie/cache/42/c7/42c72224aa65d836ce13af381be88c04.jpg","width":200,"height":149},"correct":[81,10]},{"picture":{"url":"http://cookie/cache/cf/7f/cf7fd08953f7e6ba29a02502177c44bf.jpg","width":158,"height":200},"correct":[16,18]},{"picture":{"url":"http://cookie/cache/12/e2/12e22fa7d4cc259b8fc8f2281771d5e4.jpg","width":200,"height":144},"correct":[34,24]},{"picture":{"url":"http://cookie/cache/38/02/3802a79161d7f762c3acff9a91db3638.jpg","width":150,"height":200},"correct":[72,40,32]},{"picture":{"url":"http://cookie/cache/87/12/8712664a6ec3562db031f89780e0c4ed.jpg","width":137,"height":200},"correct":[55,43,4]},{"picture":{"url":"http://cookie/cache/b6/9e/b69e1522f46a35a9b81aeacc3006c90e.jpg","width":200,"height":133},"correct":[16,37,74]},{"picture":{"url":"http://cookie/cache/7a/f2/7af2e41ecb746e203b10d734046c920e.jpg","width":200,"height":181},"correct":[14,65,21]},{"picture":{"url":"http://cookie/cache/90/b3/90b34eb8b3e96262e5cf5e24a8e6f0dc.jpg","width":200,"height":188},"correct":[38,70,20]},{"picture":{"url":"http://cookie/cache/cc/68/cc689c77af5706bab51a14314eef93a0.jpg","width":200,"height":133},"correct":[39,79,82]},{"picture":{"url":"http://cookie/cache/3a/11/3a111b5617636dca13ea326c7847766e.jpg","width":200,"height":165},"correct":[59,6]},{"picture":{"url":"http://cookie/cache/d7/5a/d75acf27031f11801679bee2cc168ccc.jpg","width":133,"height":200},"correct":[86,84,85]},{"picture":{"url":"http://cookie/cache/b1/a8/b1a8432a201c92949c525cdf2702d958.jpg","width":134,"height":200},"correct":[94,95,96]},{"picture":{"url":"http://cookie/cache/8f/9a/8f9a202da6f0354ccc582792778b2c01.jpg","width":200,"height":150},"correct":[103,104,4,101]},{"picture":{"url":"http://cookie/cache/76/5d/765d305eae68719754315eba8a65306e.jpg","width":200,"height":142},"correct":[88,112,111]},{"picture":{"url":"http://cookie/cache/35/46/35462f1342d3f3c68f5626bad687c987.jpg","width":200,"height":141},"correct":[115,116,113]},{"picture":{"url":"http://cookie/cache/25/15/2515f93b556aab3895efd5dbc3e55082.jpg","width":200,"height":127},"correct":[119,117,118]},{"picture":{"url":"http://cookie/cache/e5/6c/e56c0f14c2dc012c4ed37076663136e4.jpg","width":200,"height":133},"correct":[122,121,124,123]},{"picture":{"url":"http://cookie/cache/39/1e/391e9e04fcc6de8647a4ba2e37355cc3.jpg","width":200,"height":133},"correct":[128,126,127]},{"picture":{"url":"http://cookie/cache/84/24/8424bf7a20360ad30104f19e5d660240.jpg","width":200,"height":133},"correct":[129,131,130]},{"picture":{"url":"http://cookie/cache/86/01/86017e8c8cd0b174bd9ab40f6f188b7d.jpg","width":200,"height":133},"correct":[133,134,132]},{"picture":{"url":"http://cookie/cache/42/3e/423ef6f05bf3899f15fcc54081df1c8d.jpg","width":200,"height":150},"correct":[83,135,136]},{"picture":{"url":"http://cookie/cache/0b/81/0b81056723f050ca92799d8eb901aee9.jpg","width":200,"height":133},"correct":[139,137,138]},{"picture":{"url":"http://cookie/cache/70/38/7038868cca95d7c257f4a794319a57e9.jpg","width":200,"height":157},"correct":[140,142,141]},{"picture":{"url":"http://cookie/cache/37/63/376343d75d2521cd6a3e6bfa686649e8.jpg","width":143,"height":200},"correct":[144,143,145]}]}
+2014-06-21 10:25:33.155 Daily Cookie[81062:70b] GROUP
+2014-06-21 10:25:33.155 Daily Cookie[81062:70b] {"name":"Swedish Beginner","id":1,"attempts":[],"days":0}
+2014-06-21 10:25:33.210 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.271 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.277 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.281 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.288 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.294 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.299 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.305 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.311 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.316 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.323 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.329 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.335 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.341 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.348 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.353 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.359 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:33.366 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:50.842 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:50.856 Daily Cookie[81062:70b] About to play http://cookie/words-mp3/2014/05/26/e5fb01e8db448c88546ffb0c2e7ad937.mp3
+2014-06-21 10:25:50.911 Daily Cookie[81062:70b] setting movie path: http://cookie/words-mp3/2014/05/26/e5fb01e8db448c88546ffb0c2e7ad937.mp3
+2014-06-21 10:25:50.916 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:25:50.919 Daily Cookie[81062:70b] setting movie path: http://cookie/words-mp3/2014/05/26/e5fb01e8db448c88546ffb0c2e7ad937.mp3
+2014-06-21 10:25:50.930 Daily Cookie[81062:2c37] RTCReporting: resolve from http://pancake.apple.com/bags/hls?version=4.12
+2014-06-21 10:26:17.571 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:26:17.581 Daily Cookie[81062:70b] About to play http://cookie/words-mp3/2014/06/12/65875.mp3
+2014-06-21 10:26:17.593 Daily Cookie[81062:70b] setting movie path: http://cookie/words-mp3/2014/06/12/65875.mp3
+2014-06-21 10:26:17.594 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:26:17.595 Daily Cookie[81062:70b] setting movie path: http://cookie/words-mp3/2014/06/12/65875.mp3
+2014-06-21 10:26:28.838 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:26:28.840 Daily Cookie[81062:70b] About to play http://cookie/words-mp3/2014/06/08/6712b.mp3
+2014-06-21 10:26:28.851 Daily Cookie[81062:70b] setting movie path: http://cookie/words-mp3/2014/06/08/6712b.mp3
+2014-06-21 10:26:28.852 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:26:28.853 Daily Cookie[81062:70b] setting movie path: http://cookie/words-mp3/2014/06/08/6712b.mp3
+2014-06-21 10:26:40.495 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:26:40.497 Daily Cookie[81062:70b] About to play http://cookie/words-mp3/2014/05/26/e5fb01e8db448c88546ffb0c2e7ad937.mp3
+2014-06-21 10:26:40.507 Daily Cookie[81062:70b] setting movie path: http://cookie/words-mp3/2014/05/26/e5fb01e8db448c88546ffb0c2e7ad937.mp3
+2014-06-21 10:26:40.508 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:26:40.509 Daily Cookie[81062:70b] setting movie path: http://cookie/words-mp3/2014/05/26/e5fb01e8db448c88546ffb0c2e7ad937.mp3
+2014-06-21 10:26:51.456 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:26:51.457 Daily Cookie[81062:70b] About to play http://cookie/words-mp3/2014/06/08/aaf1e.mp3
+2014-06-21 10:26:51.464 Daily Cookie[81062:70b] setting movie path: http://cookie/words-mp3/2014/06/08/aaf1e.mp3
+2014-06-21 10:26:56.957 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:26:56.968 Daily Cookie[81062:70b] About to play http://cookie/words-mp3/2014/06/08/24587.mp3
+2014-06-21 10:26:56.974 Daily Cookie[81062:70b] setting movie path: http://cookie/words-mp3/2014/06/08/24587.mp3
+2014-06-21 10:26:56.975 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 10:26:56.976 Daily Cookie[81062:70b] setting movie path: http://cookie/words-mp3/2014/06/08/24587.mp3
+2014-06-21 10:27:00.547 Daily Cookie[81062:70b] Calling rememberAttempts [object Object]
+2014-06-21 10:27:00.547 Daily Cookie[81062:70b] Remembering GROUP [object Object] [object Object]
+2014-06-21 10:28:28.711 Daily Cookie[81062:397] 10:28:28.711 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 10:28:33.841 Daily Cookie[81062:7467] 10:28:33.841 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 15:37:56.133 Daily Cookie[81062:fb07] 15:37:56.133 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 15:38:11.306 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.348 Daily Cookie[81062:70b] RESPONSE
+2014-06-21 15:38:11.348 Daily Cookie[81062:70b] {"locale":"sv","group":{"name":"Swedish Beginner","id":1},"words":{"1":{"explanation":"shoe","mp3file":"http://cookie/words-mp3/2014/05/26/95229894108f97851198106ffe51846a.mp3","word":"sko","id":"4ad99-sv-sko"},"2":{"explanation":"wheel","mp3file":"http://cookie/words-mp3/2014/05/26/29ad4c00d98b9d997ea59ea2497bf843.mp3","word":"hjul","id":"4b05b-sv-hjul"},"3":{"explanation":"flower","mp3file":"http://cookie/words-mp3/2014/05/26/68abeb1fe62e1d5b485ccaf9f03386c5.mp3","word":"blomma","id":"62393-sv-blomma"},"4":{"explanation":"black and white","mp3file":"http://cookie/words-mp3/2014/05/26/c51062e84ecd162d7ce8f3f37a1785f1.mp3","word":"svartvit","id":"574d2-sv-svartvit"},"5":{"explanation":"police car","mp3file":"http://cookie/words-mp3/2014/05/26/bae7e14501033548ba7608a5cfec89c2.mp3","word":"polisbil","id":"964c3-sv-polisbil"},"6":{"explanation":"fur","mp3file":"http://cookie/words-mp3/2014/05/26/8d6f0716e45608f2134b341e37319351.mp3","word":"päls","id":"5f4e3-sv-pals"},"7":{"explanation":"firetruck","mp3file":"http://cookie/words-mp3/2014/05/26/f0e6f4f3fb17d799d978074126adab45.mp3","word":"brandbil","id":"18f25-sv-brandbil"},"9":{"explanation":"keyboard, keyboards","mp3file":"http://cookie/words-mp3/2014/05/26/2086085687c18fedd4940e58269003e5.mp3","word":"tangentbord","id":"eae57-sv-tangentbord"},"10":{"explanation":"team","mp3file":"http://cookie/words-mp3/2014/05/26/61cf73ba86c93d55a2a7a8937911ea81.mp3","word":"lag","id":"d593c-sv-lag"},"11":{"explanation":"fire","mp3file":"http://cookie/words-mp3/2014/05/26/711b3f991c9e4e7ebc5b39d93914855b.mp3","word":"eld","id":"9bfec-sv-eld"},"12":{"explanation":"dad, father","mp3file":"http://cookie/words-mp3/2014/05/26/4a50efb6bd73f875edd8dec777f8ba1e.mp3","word":"pappa","id":"c6d5b-sv-pappa"},"13":{"explanation":"shirt","mp3file":"http://cookie/words-mp3/2014/05/26/e9a7fe2c2539d77db048bb9423699e00.mp3","word":"skjorta","id":"13535-sv-skjorta"},"14":{"explanation":"old men, guys","mp3file":"http://cookie/words-mp3/2014/05/26/56f864b629f02d3d90fdae098ede178d.mp3","word":"gubbar","id":"b071a-sv-gubbar"},"15":{"explanation":"bicycles","mp3file":"http://cookie/words-mp3/2014/05/26/7067fc8734d56176604f305fd017e5c0.mp3","word":"cyklar","id":"0c376-sv-cyklar"},"16":{"explanation":"woman","mp3file":"http://cookie/words-mp3/2014/05/26/77b00e216e591b359ac76acffe6b9dfe.mp3","word":"kvinna","id":"ead30-sv-kvinna"},"17":{"explanation":"lipstick","mp3file":"http://cookie/words-mp3/2014/05/26/820bdd55f355d43a69cced5c0774aca0.mp3","word":"läppstift","id":"407ba-sv-lappstift"},"18":{"explanation":"sword","mp3file":"http://cookie/words-mp3/2014/05/26/3178503c69e83bab48e0e53d492780a4.mp3","word":"svärd","id":"b94ce-sv-svard"},"19":{"explanation":"spoon","mp3file":"http://cookie/words-mp3/2014/05/26/abd87256f4e3fba6909a9dca5283444d.mp3","word":"sked","id":"1df90-sv-sked"},"20":{"mp3file":"http://cookie/words-mp3/2014/05/26/de2aa3d332e3d986d837340588d8eb56.mp3","word":"tegeltak","id":"25e87-sv-tegeltak"},"21":{"explanation":"ties","mp3file":"http://cookie/words-mp3/2014/05/26/876235a2a721433fcb79bb0137f9dfad.mp3","word":"slipsar","id":"50cd7-sv-slipsar"},"22":{"explanation":"tie","mp3file":"http://cookie/words-mp3/2014/05/26/2d9758c5d1d14c4e9c8ce791bd1defe0.mp3","word":"slips","id":"f49c8-sv-slips"},"23":{"explanation":"telephones","mp3file":"http://cookie/words-mp3/2014/05/26/487220dcd80c21102ad38c96aed3aa0a.mp3","word":"telefoner","id":"ffbeb-sv-telefoner"},"24":{"explanation":"elephant","mp3file":"http://cookie/words-mp3/2014/05/26/52b4c48bab5511b8edd11e5094753bd7.mp3","word":"elefant","id":"ae7eb-sv-elefant"},"25":{"explanation":"old woman","mp3file":"http://cookie/words-mp3/2014/05/26/af191b9fdb3008b23ece4a06c20b4c40.mp3","word":"tant","id":"252d1-sv-tant"},"26":{"explanation":"lemon","mp3file":"http://cookie/words-mp3/2014/05/26/d39ff87370cb2a7400904de2efc5766d.mp3","word":"citron","id":"ad770-sv-citron"},"27":{"explanation":"diamond","mp3file":"http://cookie/words-mp3/2014/05/26/d58467a55e576a223c4f6099353834a4.mp3","word":"diamant","id":"816c0-sv-diamant"},"28":{"explanation":"lamp","mp3file":"http://cookie/words-mp3/2014/05/26/39b737a1e5e7a3941a8b2eac6422bb9d.mp3","word":"lampa","id":"31ecf-sv-lampa"},"29":{"explanation":"friend, buddy","mp3file":"http://cookie/words-mp3/2014/05/26/c51be7d42fbb5296c49bcae9ff99b75d.mp3","word":"kompis","id":"9f61a-sv-kompis"},"30":{"explanation":"fire, fireplace","mp3file":"http://cookie/words-mp3/2014/05/26/b6976182d2619b6069b0ad87e927d3f5.mp3","word":"brasa","id":"25e52-sv-brasa"},"31":{"explanation":"car","mp3file":"http://cookie/words-mp3/2014/05/26/30fd3f5b67bf233d87b36c830448e7c9.mp3","word":"bil","id":"5dd5a-sv-bil"},"32":{"explanation":"church","mp3file":"http://cookie/words-mp3/2014/05/26/f200a2a0dc8e4e217c52c41789fbaaf5.mp3","word":"kyrka","id":"ca08b-sv-kyrka"},"33":{"explanation":"butt","mp3file":"http://cookie/words-mp3/2014/05/26/7a5ea1f4e6d64c1378329da65698042f.mp3","word":"rumpa","id":"6ad65-sv-rumpa"},"34":{"explanation":"street, road","mp3file":"http://cookie/words-mp3/2014/05/26/c4d0b6397ff44ebc9a3800d72b546fc5.mp3","word":"gata","id":"30fe8-sv-gata"},"35":{"explanation":"chair","mp3file":"http://cookie/words-mp3/2014/05/26/a02ef1ccf9020235ad0fcce4c8a93d7b.mp3","word":"stol","id":"8612d-sv-stol"},"36":{"explanation":"pigs","mp3file":"http://cookie/words-mp3/2014/05/26/e0555020369b2c3deac0a2ca143cebc8.mp3","word":"grisar","id":"8c273-sv-grisar"},"37":{"explanation":"bread","mp3file":"http://cookie/words-mp3/2014/05/26/3dca6dd7e2fb0ec5fcd3340817f7c7d6.mp3","word":"bröd","id":"55136-sv-brod"},"38":{"explanation":"house","mp3file":"http://cookie/words-mp3/2014/05/26/0db49378fad66646cb050bf197ba093f.mp3","word":"hus","id":"baa1f-sv-hus"},"39":{"explanation":"propellers","mp3file":"http://cookie/words-mp3/2014/05/26/5c5ba80b5229383e6902bdded7b1f750.mp3","word":"propeller","id":"c311e-sv-propeller"},"40":{"mp3file":"http://cookie/words-mp3/2014/05/26/d55f46df70393dea5794bdfc609faba5.mp3","word":"ingång","id":"7c430-sv-ingang"},"41":{"explanation":"stolen","mp3file":"http://cookie/words-mp3/2014/05/26/5e6cae74fd9c41e75ebc2b4d13240002.mp3","word":"stöld","id":"b3b67-sv-stold"},"42":{"mp3file":"http://cookie/words-mp3/2014/05/26/c66f3b7fd4a291b0ff7c908c8a029b95.mp3","word":"mage","id":"99b05-sv-mage"},"43":{"explanation":"man","mp3file":"http://cookie/words-mp3/2014/05/26/2801c429f42552fc79c22c75021eccca.mp3","word":"man","id":"e725c-sv-man"},"44":{"explanation":"tower","mp3file":"http://cookie/words-mp3/2014/05/26/c069ad0de5864474bf9f2b05cb5853bc.mp3","word":"torn","id":"25a5e-sv-torn"},"45":{"explanation":"flowery","mp3file":"http://cookie/words-mp3/2014/05/26/3159008b9a7df7805a2cf5ee85759ff0.mp3","word":"blommig","id":"92569-sv-blommig"},"46":{"explanation":"wheelchair","mp3file":"http://cookie/words-mp3/2014/05/26/d946b89fbc6c3c76dbefd3c02a30ac4a.mp3","word":"rullstol","id":"1a9e8-sv-rullstol"},"47":{"explanation":"button","mp3file":"http://cookie/words-mp3/2014/05/26/961c9f22d8fccc145f298347e6daa635.mp3","word":"knapp","id":"e9758-sv-knapp"},"48":{"explanation":"tooth","mp3file":"http://cookie/words-mp3/2014/05/26/43911dc392061aa44920ece8eceba6d1.mp3","word":"tand","id":"6041e-sv-tand"},"49":{"explanation":"nail","mp3file":"http://cookie/words-mp3/2014/05/26/5b6854273a7031cf616c9a3341c33516.mp3","word":"nagel","id":"43489-sv-nagel"},"50":{"explanation":"fridge","mp3file":"http://cookie/words-mp3/2014/05/26/d5980c9c083147bb738dd3f72ea61522.mp3","word":"kylskåp","id":"ed5af-sv-kylskap"},"51":{"explanation":"sofa","mp3file":"http://cookie/words-mp3/2014/05/26/408c8799db2f41168d034f379cb9fae4.mp3","word":"soffa","id":"56c60-sv-soffa"},"52":{"explanation":"fruit","mp3file":"http://cookie/words-mp3/2014/05/26/5266fdaa1ae8370eb27a03c90bb76665.mp3","word":"frukt","id":"1da73-sv-frukt"},"53":{"explanation":"garage","mp3file":"http://cookie/words-mp3/2014/05/26/964660e2a35b0d5e9b5b1c9aa0a4e54f.mp3","word":"garage","id":"a2134-sv-garage"},"54":{"explanation":"painting, picture","mp3file":"http://cookie/words-mp3/2014/05/26/d8cb8cc296e12c5f72b3a802d8af2602.mp3","word":"tavla","id":"59a76-sv-tavla"},"55":{"mp3file":"http://cookie/words-mp3/2014/05/26/06e5fc43914140902dcdc3920713a66a.mp3","word":"mustasch","id":"f79a2-sv-mustasch"},"56":{"explanation":"wedding","mp3file":"http://cookie/words-mp3/2014/05/26/77c64917409989326bcb3891e683f3fd.mp3","word":"bröllop","id":"c6d49-sv-brollop"},"57":{"explanation":"newspaper","mp3file":"http://cookie/words-mp3/2014/05/26/019cb6af5c0d01302ce83b6420951823.mp3","word":"tidning","id":"2fbc6-sv-tidning"},"58":{"explanation":"sport, sports","mp3file":"http://cookie/words-mp3/2014/05/26/e101e0a82cb5395941b3b6f82fb86c3b.mp3","word":"idrott","id":"da2ae-sv-idrott"},"59":{"explanation":"dog","mp3file":"http://cookie/words-mp3/2014/05/26/3be9cad094982af52954f6aa4f11e038.mp3","word":"hund","id":"ad15f-sv-hund"},"60":{"explanation":"coffee","mp3file":"http://cookie/words-mp3/2014/05/26/6ea2f297b178595ac3f248cd2def679c.mp3","word":"kaffe","id":"80026-sv-kaffe"},"61":{"explanation":"balls","mp3file":"http://cookie/words-mp3/2014/05/26/ab0c35f739cedc6c3831ad1e40ecb05c.mp3","word":"bollar","id":"f9741-sv-bollar"},"62":{"explanation":"paper","mp3file":"http://cookie/words-mp3/2014/05/26/ae19bfc520f133da18185677801cf3a2.mp3","word":"papper","id":"2f72b-sv-papper"},"63":{"explanation":"hotel","mp3file":"http://cookie/words-mp3/2014/05/26/f97e7bc1993a5fde1fcb8cc1f3fe61be.mp3","word":"hotell","id":"4ce85-sv-hotell"},"64":{"explanation":"door","mp3file":"http://cookie/words-mp3/2014/05/26/07cf26ebe14439091d314d5058692170.mp3","word":"dörr","id":"a3a19-sv-dorr"},"65":{"explanation":"men","mp3file":"http://cookie/words-mp3/2014/05/26/e5fb01e8db448c88546ffb0c2e7ad937.mp3","word":"män","id":"e725c-sv-man"},"66":{"explanation":"haircut","mp3file":"http://cookie/words-mp3/2014/05/26/b068ff99d8a7a3dd60697a78c84ba5f2.mp3","word":"frisyr","id":"19b59-sv-frisyr"},"67":{"explanation":"women","mp3file":"http://cookie/words-mp3/2014/05/26/6196ffa772fa152e4e43ef4622f6af11.mp3","word":"kvinnor","id":"32e3c-sv-kvinnor"},"68":{"explanation":"beer","mp3file":"http://cookie/words-mp3/2014/05/26/04cf07172c2935a1d72ba2d599c38778.mp3","word":"öl","id":"027df-sv-ol"},"69":{"explanation":"apples","mp3file":"http://cookie/words-mp3/2014/05/26/02cfbf319d8bb14ac303f3fed7f33310.mp3","word":"äpplen","id":"ebc0d-sv-applen"},"70":{"explanation":"wall","mp3file":"http://cookie/words-mp3/2014/05/26/bfc479ec9e1386c1b8862f157f928a5e.mp3","word":"mur","id":"432c3-sv-mur"},"71":{"explanation":"motorcycle","mp3file":"http://cookie/words-mp3/2014/05/26/9b954fe3faaa473cafd8549bacc9398b.mp3","word":"motorcyckel","id":"6ef55-sv-motorcyckel"},"72":{"explanation":"stairs","mp3file":"http://cookie/words-mp3/2014/05/26/ab85307a5951e4a3bd15895ff3c6ef89.mp3","word":"trappa","id":"04c64-sv-trappa"},"73":{"explanation":"train, trains","mp3file":"http://cookie/words-mp3/2014/05/26/d95a8a3dae5af682c22f6aca5c0a4934.mp3","word":"tåg","id":"8befd-sv-tag"},"74":{"explanation":"cooking food","mp3file":"http://cookie/words-mp3/2014/05/26/bd234bb2efe9b3c5b4c9e035e146ed51.mp3","word":"lagar mat","id":"24fd3-sv-lagar mat"},"75":{"explanation":"four","mp3file":"http://cookie/words-mp3/2014/05/26/c3cc5eadaa7ad0b7bfc515e2ac5c30ab.mp3","word":"fyra","id":"4a648-sv-fyra"},"76":{"explanation":"vase","mp3file":"http://cookie/words-mp3/2014/05/26/5ffd36d04eb4c41fc7dea4dd7eda20c3.mp3","word":"vas","id":"bd45a-sv-vas"},"77":{"explanation":"lock, curl","mp3file":"http://cookie/words-mp3/2014/05/26/6a2d5429a1f728be7274bb92010e423d.mp3","word":"lock","id":"d89f8-sv-lock"},"78":{"explanation":"mask, worm","mp3file":"http://cookie/words-mp3/2014/05/26/decdfc27e713629256e17759c8c5aae7.mp3","word":"mask","id":"ae945-sv-mask"},"79":{"explanation":"airport","mp3file":"http://cookie/words-mp3/2014/05/26/f8476d20091fae5eaaccd479205bf7c0.mp3","word":"flygplats","id":"86234-sv-flygplats"},"80":{"explanation":"tray, plate","mp3file":"http://cookie/words-mp3/2014/05/26/2fa696f3552208632ff335329727f4e6.mp3","word":"bricka","id":"24d9e-sv-bricka"},"81":{"explanation":"sport","mp3file":"http://cookie/words-mp3/2014/05/26/da76e92c9a17f347f7c5d76e01f479dc.mp3","word":"sport","id":"9363e-sv-sport"},"82":{"explanation":"broken, damaged","mp3file":"http://cookie/words-mp3/2014/05/26/7f76156c46f25a7c747566faa31e279c.mp3","word":"trasig","id":"d35f8-sv-trasig"},"83":{"explanation":"child, children","mp3file":"http://cookie/words-mp3/2014/05/26/9eecb52887c48d0daeb3c4cefa007f3b.mp3","word":"barn","id":"89312-sv-barn"},"84":{"explanation":"tree, trees","mp3file":"http://cookie/words-mp3/2014/06/01/3298f74334e938002b4a94fe0102bd14.mp3","word":"träd","id":"8a3cd-sv-trad"},"85":{"explanation":"garden","mp3file":"http://cookie/words-mp3/2014/06/01/e76cbe9d22e7d44bbfa78a2834d7c0f8.mp3","word":"trädgård","id":"230f1-sv-tradgard"},"86":{"explanation":"green","mp3file":"http://cookie/words-mp3/2014/06/01/44695ac93774571516df3053a487f7cf.mp3","word":"grönt","id":"89ffe-sv-gront"},"87":{"explanation":"sofa","mp3file":"http://cookie/words-mp3/2014/06/01/4ed55a24beb57e761ad6831d68d0af15.mp3","word":"soffa","id":"56c60-sv-soffa"},"88":{"explanation":"table","mp3file":"http://cookie/words-mp3/2014/06/01/1bf978d7e09c26ee3e5cff6f5bb1b28b.mp3","word":"bord","id":"d5042-sv-bord"},"89":{"explanation":"fans","mp3file":"http://cookie/words-mp3/2014/06/01/0ea194a02b35ef1e225c02594047988f.mp3","word":"fläktar","id":"02be1-sv-flaktar"},"90":{"explanation":"plum, plums","mp3file":"http://cookie/words-mp3/2014/06/01/05a4cf56e53ee4edb1ffe8bd0c7db262.mp3","word":"plommon","id":"c2636-sv-plommon"},"91":{"explanation":"parabola, umbrella","mp3file":"http://cookie/words-mp3/2014/06/01/88f17f32c51308dcc0cce38f75780b13.mp3","word":"parabol","id":"8ba3f-sv-parabol"},"92":{"explanation":"glass","mp3file":"http://cookie/words-mp3/2014/06/01/d610eed5869cc4ac5ed7a22b8d712e78.mp3","word":"glas","id":"776b6-sv-glas"},"93":{"explanation":"database","mp3file":"http://cookie/words-mp3/2014/06/01/256acc7da0bb568019760950476b1c40.mp3","word":"databas","id":"c19d9-sv-databas"},"94":{"explanation":"queen","mp3file":"http://cookie/words-mp3/2014/06/01/ead6c2a0d929266c889341926429fe04.mp3","word":"drottning","id":"36309-sv-drottning"},"95":{"explanation":"woman","mp3file":"http://cookie/words-mp3/2014/06/01/f21da7286472c06db7ff6be29e27df88.mp3","word":"kvinna","id":"ead30-sv-kvinna"},"96":{"explanation":"jewelries","mp3file":"http://cookie/words-mp3/2014/06/01/f5a9555c26aca864b144cbd1ce0054b3.mp3","word":"smycken","id":"b890c-sv-smycken"},"97":{"explanation":"software","mp3file":"http://cookie/words-mp3/2014/06/01/77efaa279b261b2825a6ebdb3c89fc0a.mp3","word":"mjukvara","id":"42f21-sv-mjukvara"},"98":{"explanation":"cigarette","mp3file":"http://cookie/words-mp3/2014/06/01/e55ff74aebcc43b023ca5b3f0efcc65e.mp3","word":"cigarett","id":"0fa5f-sv-cigarett"},"99":{"explanation":"plate","mp3file":"http://cookie/words-mp3/2014/06/01/da49acbca70999a381710a0eedef1e8f.mp3","word":"tallrik","id":"d1d36-sv-tallrik"},"100":{"explanation":"straight","mp3file":"http://cookie/words-mp3/2014/06/01/af2669ed59151a72ae944368118724c0.mp3","word":"rak","id":"7686d-sv-rak"},"101":{"explanation":"keys","mp3file":"http://cookie/words-mp3/2014/06/01/6faf3eb1d4c037ad02d7d3bdef3a7927.mp3","word":"tangenter","id":"bd5f6-sv-tangenter"},"102":{"explanation":"signal","mp3file":"http://cookie/words-mp3/2014/06/01/1f29fbda769dd9c565f63d02f8c723cc.mp3","word":"signal","id":"7f11a-sv-signal"},"103":{"explanation":"music","mp3file":"http://cookie/words-mp3/2014/06/01/73e4f02ecde1cdbebee0dc5e594d6b48.mp3","word":"musik","id":"fd741-sv-musik"},"104":{"explanation":"pedals","mp3file":"http://cookie/words-mp3/2014/06/01/bd58af14c8fa67db1d3b77ea9c029a9e.mp3","word":"pedaler","id":"708fc-sv-pedaler"},"105":{"explanation":"board, plank","mp3file":"http://cookie/words-mp3/2014/06/01/0a683bed2a48f284473f7ce68503372c.mp3","word":"planka","id":"cc80f-sv-planka"},"106":{"explanation":"guitar","mp3file":"http://cookie/words-mp3/2014/06/01/256629c49ad0d49d743972c97a8d41cb.mp3","word":"gitarr","id":"12f83-sv-gitarr"},"107":{"explanation":"friend","mp3file":"http://cookie/words-mp3/2014/06/01/a1facd5fc90ed20f935b52e1ce4d75f4.mp3","word":"vän","id":"9f809-sv-van"},"108":{"explanation":"sunset","mp3file":"http://cookie/words-mp3/2014/06/01/45fdeabd33f79b60b077afecfce81761.mp3","word":"solnedgång","id":"3ce46-sv-solnedgang"},"109":{"explanation":"flash","mp3file":"http://cookie/words-mp3/2014/06/01/3c29ca5dbe6f8608b49a970f43215543.mp3","word":"blixt","id":"45841-sv-blixt"},"110":{"explanation":"net","mp3file":"http://cookie/words-mp3/2014/06/01/122085c3a48dcfec9aa2ddbd012738b5.mp3","word":"nät","id":"9a111-sv-nat"},"111":{"explanation":"weapon, weapons","mp3file":"http://cookie/words-mp3/2014/06/08/b457e.mp3","word":"vapen","id":"5dcf3-sv-vapen"},"112":{"explanation":"rifle","mp3file":"http://cookie/words-mp3/2014/06/08/6712b.mp3","word":"gevär","id":"aca73-sv-gevar"},"113":{"explanation":"table","mp3file":"http://cookie/words-mp3/2014/06/08/c0917.mp3","word":"tabell","id":"59a62-sv-tabell"},"114":{"explanation":"light","mp3file":"http://cookie/words-mp3/2014/06/08/8877e.mp3","word":"ljus","id":"58b9c-sv-ljus"},"115":{"explanation":"mathematics","mp3file":"http://cookie/words-mp3/2014/06/08/0323f.mp3","word":"matematik","id":"6440b-sv-matematik"},"116":{"explanation":"numbers","mp3file":"http://cookie/words-mp3/2014/06/08/079e2.mp3","word":"siffror","id":"07226-sv-siffror"},"117":{"explanation":"flag","mp3file":"http://cookie/words-mp3/2014/06/08/ad5b7.mp3","word":"flagga","id":"b6f55-sv-flagga"},"118":{"explanation":"yellow","mp3file":"http://cookie/words-mp3/2014/06/08/50e62.mp3","word":"gult","id":"454ad-sv-gult"},"119":{"explanation":"blue","mp3file":"http://cookie/words-mp3/2014/06/08/aaf1e.mp3","word":"blått","id":"e2fd4-sv-blatt"},"120":{"explanation":"bottle","mp3file":"http://cookie/words-mp3/2014/06/08/968b8.mp3","word":"flaska","id":"5ded0-sv-flaska"},"121":{"explanation":"hair","mp3file":"http://cookie/words-mp3/2014/06/08/313f1.mp3","word":"hår","id":"14947-sv-har"},"122":{"explanation":"haircut","mp3file":"http://cookie/words-mp3/2014/06/08/24587.mp3","word":"frisyr","id":"19b59-sv-frisyr"},"123":{"explanation":"scissors","mp3file":"http://cookie/words-mp3/2014/06/08/6b92a.mp3","word":"sax","id":"ead8d-sv-sax"},"124":{"explanation":"comb","mp3file":"http://cookie/words-mp3/2014/06/08/e8f1b.mp3","word":"kam","id":"dba6b-sv-kam"},"125":{"explanation":"lightbulb","mp3file":"http://cookie/words-mp3/2014/06/08/5df54.mp3","word":"glödlampa","id":"1f0ef-sv-glodlampa"},"126":{"explanation":"paper","mp3file":"http://cookie/words-mp3/2014/06/12/de741.mp3","word":"papper","id":"2f72b-sv-papper"},"127":{"explanation":"pen","mp3file":"http://cookie/words-mp3/2014/06/12/1d5d0.mp3","word":"penna","id":"41697-sv-penna"},"128":{"explanation":"notes","mp3file":"http://cookie/words-mp3/2014/06/12/70d4c.mp3","word":"anteckningar","id":"a1ba6-sv-anteckninga"},"129":{"explanation":"mountain","mp3file":"http://cookie/words-mp3/2014/06/12/65875.mp3","word":"berg","id":"a66e3-sv-berg"},"130":{"explanation":"snow","mp3file":"http://cookie/words-mp3/2014/06/12/bdd85.mp3","word":"snö","id":"13c8f-sv-sno"},"131":{"explanation":"sky, heaven","mp3file":"http://cookie/words-mp3/2014/06/12/79ffd.mp3","word":"himmel","id":"78c3b-sv-himmel"},"132":{"explanation":"toes, tear","mp3file":"http://cookie/words-mp3/2014/06/12/93134.mp3","word":"tår","id":"b03d3-sv-tar"},"133":{"explanation":"feet","mp3file":"http://cookie/words-mp3/2014/06/12/2507e.mp3","word":"fötter","id":"7e3fc-sv-fotter"},"134":{"explanation":"nails","mp3file":"http://cookie/words-mp3/2014/06/12/e9822.mp3","word":"naglar","id":"03003-sv-naglar"},"135":{"explanation":"family","mp3file":"http://cookie/words-mp3/2014/06/12/421ab.mp3","word":"familj","id":"913ee-sv-familj"},"136":{"explanation":"girls","mp3file":"http://cookie/words-mp3/2014/06/12/17bea.mp3","word":"flickor","id":"49a23-sv-flickor"},"137":{"explanation":"girl","mp3file":"http://cookie/words-mp3/2014/06/12/5fbd7.mp3","word":"flicka","id":"f17b4-sv-flicka"},"138":{"explanation":"shoes","mp3file":"http://cookie/words-mp3/2014/06/12/7c220.mp3","word":"skor","id":"28327-sv-skor"},"139":{"explanation":"door mat","mp3file":"http://cookie/words-mp3/2014/06/12/b7063.mp3","word":"dörrmatta","id":"4fb42-sv-dorrmatta"},"140":{"mp3file":"http://cookie/words-mp3/2014/06/12/831b1.mp3","word":"jordnötssmör","id":"6fb27-sv-jordnotssmo"},"141":{"explanation":"sandwich","mp3file":"http://cookie/words-mp3/2014/06/12/55ae7.mp3","word":"smörgås","id":"47e46-sv-smorgas"},"142":{"explanation":"peanuts","mp3file":"http://cookie/words-mp3/2014/06/12/b4da0.mp3","word":"jordnötter","id":"1c8dd-sv-jordnotter"},"143":{"explanation":"celebrity","mp3file":"http://cookie/words-mp3/2014/06/21/0cc97.mp3","word":"kändis","id":"8c831-sv-kandis"},"144":{"explanation":"brunette","mp3file":"http://cookie/words-mp3/2014/06/21/d3a71.mp3","word":"brunett","id":"bcb09-sv-brunett"},"145":{"explanation":"stomach, belly","mp3file":"http://cookie/words-mp3/2014/06/21/18d8a.mp3","word":"mage","id":"99b05-sv-mage"}},"questions":[{"picture":{"url":"http://cookie/cache/d2/1c/d21c596a5df17e58e380920e1a154d9e.jpg","width":167,"height":200},"correct":[52,75,69]},{"picture":{"url":"http://cookie/cache/42/c7/42c72224aa65d836ce13af381be88c04.jpg","width":200,"height":149},"correct":[81,10]},{"picture":{"url":"http://cookie/cache/cf/7f/cf7fd08953f7e6ba29a02502177c44bf.jpg","width":158,"height":200},"correct":[16,18]},{"picture":{"url":"http://cookie/cache/12/e2/12e22fa7d4cc259b8fc8f2281771d5e4.jpg","width":200,"height":144},"correct":[34,24]},{"picture":{"url":"http://cookie/cache/38/02/3802a79161d7f762c3acff9a91db3638.jpg","width":150,"height":200},"correct":[72,40,32]},{"picture":{"url":"http://cookie/cache/87/12/8712664a6ec3562db031f89780e0c4ed.jpg","width":137,"height":200},"correct":[55,43,4]},{"picture":{"url":"http://cookie/cache/b6/9e/b69e1522f46a35a9b81aeacc3006c90e.jpg","width":200,"height":133},"correct":[16,37,74]},{"picture":{"url":"http://cookie/cache/7a/f2/7af2e41ecb746e203b10d734046c920e.jpg","width":200,"height":181},"correct":[14,65,21]},{"picture":{"url":"http://cookie/cache/90/b3/90b34eb8b3e96262e5cf5e24a8e6f0dc.jpg","width":200,"height":188},"correct":[38,70,20]},{"picture":{"url":"http://cookie/cache/cc/68/cc689c77af5706bab51a14314eef93a0.jpg","width":200,"height":133},"correct":[39,79,82]},{"picture":{"url":"http://cookie/cache/3a/11/3a111b5617636dca13ea326c7847766e.jpg","width":200,"height":165},"correct":[59,6]},{"picture":{"url":"http://cookie/cache/d7/5a/d75acf27031f11801679bee2cc168ccc.jpg","width":133,"height":200},"correct":[86,84,85]},{"picture":{"url":"http://cookie/cache/b1/a8/b1a8432a201c92949c525cdf2702d958.jpg","width":134,"height":200},"correct":[94,95,96]},{"picture":{"url":"http://cookie/cache/8f/9a/8f9a202da6f0354ccc582792778b2c01.jpg","width":200,"height":150},"correct":[103,104,4,101]},{"picture":{"url":"http://cookie/cache/76/5d/765d305eae68719754315eba8a65306e.jpg","width":200,"height":142},"correct":[88,112,111]},{"picture":{"url":"http://cookie/cache/35/46/35462f1342d3f3c68f5626bad687c987.jpg","width":200,"height":141},"correct":[115,116,113]},{"picture":{"url":"http://cookie/cache/25/15/2515f93b556aab3895efd5dbc3e55082.jpg","width":200,"height":127},"correct":[119,117,118]},{"picture":{"url":"http://cookie/cache/e5/6c/e56c0f14c2dc012c4ed37076663136e4.jpg","width":200,"height":133},"correct":[122,121,124,123]},{"picture":{"url":"http://cookie/cache/39/1e/391e9e04fcc6de8647a4ba2e37355cc3.jpg","width":200,"height":133},"correct":[128,126,127]},{"picture":{"url":"http://cookie/cache/84/24/8424bf7a20360ad30104f19e5d660240.jpg","width":200,"height":133},"correct":[129,131,130]},{"picture":{"url":"http://cookie/cache/86/01/86017e8c8cd0b174bd9ab40f6f188b7d.jpg","width":200,"height":133},"correct":[133,134,132]},{"picture":{"url":"http://cookie/cache/42/3e/423ef6f05bf3899f15fcc54081df1c8d.jpg","width":200,"height":150},"correct":[83,135,136]},{"picture":{"url":"http://cookie/cache/0b/81/0b81056723f050ca92799d8eb901aee9.jpg","width":200,"height":133},"correct":[139,137,138]},{"picture":{"url":"http://cookie/cache/70/38/7038868cca95d7c257f4a794319a57e9.jpg","width":200,"height":157},"correct":[140,142,141]},{"picture":{"url":"http://cookie/cache/37/63/376343d75d2521cd6a3e6bfa686649e8.jpg","width":143,"height":200},"correct":[144,143,145]}]}
+2014-06-21 15:38:11.352 Daily Cookie[81062:70b] GROUP
+2014-06-21 15:38:11.352 Daily Cookie[81062:70b] {"name":"Swedish Beginner","id":1,"attempts":[{"e725c-sv-man":[1,1],"e2fd4-sv-blatt":[0,1],"19b59-sv-frisyr":[1],"aca73-sv-gevar":[1],"a66e3-sv-berg":[1]}],"days":1}
+2014-06-21 15:38:11.380 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.390 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.400 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.411 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.421 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.433 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.444 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.455 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.466 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.476 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.487 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.500 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.513 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.524 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.535 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.548 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.559 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.571 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.582 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:11.593 Daily Cookie[81062:70b] setting movie path: 
+2014-06-21 15:38:23.436 Daily Cookie[81062:661f] 15:38:23.436 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 15:38:23.451 Daily Cookie[81062:661f] 15:38:23.451 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 15:38:33.672 Daily Cookie[81062:397] 15:38:33.672 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 15:38:38.394 Daily Cookie[81062:fb07] 15:38:38.394 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 17:46:31.792 Daily Cookie[81062:397] 17:46:31.792 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 17:46:36.586 Daily Cookie[81062:397] 17:46:36.586 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 18:46:53.152 Daily Cookie[81062:397] 18:46:53.152 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 18:46:53.165 Daily Cookie[81062:397] 18:46:53.165 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 21:10:06.141 Daily Cookie[81062:fb07] 21:10:06.141 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 21:11:44.468 Daily Cookie[81062:397] 21:11:44.468 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.
+2014-06-21 21:11:48.348 Daily Cookie[81062:661f] 21:11:48.348 WARNING:   235: Default audio device changed. Restart the simulator to have it use the newly-selected device.

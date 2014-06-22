@@ -1,3 +1,7 @@
+from . import base
+#INSTALLED_APPS = base.INSTALLED_APPS + ('silk',)
+#MIDDLEWARE_CLASSES = base.MIDDLEWARE_CLASSES + ('silk.middleware.SilkyMiddleware',)
+
 DEBUG_PROPAGATE_EXCEPTIONS = DEBUG = TEMPLATE_DEBUG = True
 
 DATABASES = {

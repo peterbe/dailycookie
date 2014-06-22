@@ -1,9 +1,21 @@
 <ion-view title="Dashboard">
   <ion-content class="has-header padding">
-    <h1>Dash</h1>
     <a href="#/play">Play!</a>
     <a href="#/settings">Settings</a>
+    <a href="#/debug">Debug</a>
 
+
+    <div class="list">
+      <a class="item" href="#/play/{{ group.id }}"
+         ng-repeat="group in all_groups track by group.id"
+         >
+        {{ group.name }}
+        <span class="item-note">
+          day {{ countDaysPlayed(group, groups) }},
+          played {{ countPlayedWords(group, groups) }} of {{ group.word_count }} words possible
+        </span>
+      </a>
+    </div>
 
 
   </ion-content>

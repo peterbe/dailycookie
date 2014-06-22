@@ -1,18 +1,18 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.ionicframework.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloCordova</name>
+    <name>Daily Cookie</name>
     <description>
-        An Ionic Framework and Cordova project.
+        Language learning by associating
     </description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
+    <author email="mail@peterbe.com" href="https://github.com/peterbe/dailycookie/">
+      Peter Bengtsson
     </author>
     <content src="index.html" />
     <access origin="*" />
 
     <!-- So localStorage doesn't get backed up on iCloud.
     See http://learn.ionicframework.com/formulas/localstorage/ -->
-    <preference name="BackupWebStorage" value="none" />
+    <!-- <preference name="BackupWebStorage" value="none" />-->
 
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="false" />
@@ -21,4 +21,6 @@
     <feature name="StatusBar">
       <param name="ios-package" value="CDVStatusBar" onload="true" />
     </feature>
+    <icon src="www/img/cookie-128.png" />
+
 </widget>

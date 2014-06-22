@@ -46,8 +46,11 @@ class QuestionAdmin(admin.ModelAdmin):
     #     return ', '.join(words) + ' (%d)' % len(words)
 
     def picture_(self, obj):
-        thumb = get_thumbnail(obj.picture, '64x64')
-        return '<img src="%s">' % (thumb.url,)
+        if obj.picture:
+            thumb = get_thumbnail(obj.picture, '64x64')
+            return '<img src="%s">' % (thumb.url,)
+        else:
+            return 'missing'
     picture_.allow_tags = True
 
 
@@ -76,7 +79,7 @@ class LocaleAdmin(admin.ModelAdmin):
 
 
 class WordAdmin(admin.ModelAdmin):
-    list_display = ('word', 'explanation', 'mp3file_')
+    list_display = ('word', 'uuid', 'explanation', 'mp3file_', 'question_')
     exclude = ('created', 'modified')
     search_fields = ['word']
 
@@ -94,6 +97,23 @@ class WordAdmin(admin.ModelAdmin):
             return html
         return ''
     mp3file_.allow_tags = True
+
+    def question_(self, obj):
+        # WARNING! This is looped for each item
+        html = []
+        for thing in Question.correct.through.objects.filter(word=obj):
+            q = thing.question
+            thumb = get_thumbnail(q.picture, '16x16')
+            html.append(
+                '<a href="%s"><img src="%s" alt="%s"></a>'
+                % (
+                    '/admin/questions/question/%s/' % q.id,
+                    thumb.url,
+                    obj.word
+                )
+            )
+        return ''.join(html)
+    question_.allow_tags = True
 
 
 admin.site.register(Question, QuestionAdmin)

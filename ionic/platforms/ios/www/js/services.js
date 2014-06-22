@@ -58,9 +58,63 @@ angular.module('starter.services', [])
 })
 
 
-.factory('Past', function() {
+.factory('Past', function($localForage) {
     var past = {};
 
-    return past;
+    return {
+        // incrementDay: function(group) {
+        //     return $localForage.getItem('days-' + group).then(function(days) {
+        //         days = days || 0;
+        //         $localForage.setItem('days-' + group, days + 1);
+        //     });
+        // },
+        // getDays: function(group) {
+        //     return $localForage.getItem('days-' + group);
+        // },
+        getGroups: function() {
+            return $localForage.getItem('groups').then(function(groups) {
+                if (!groups) return {};
+                return groups;
+            });
+        },
+        getGroup: function(group) {
+            return $localForage.getItem('groups').then(function(groups) {
+                if (!groups) groups = {};
+                if (!groups[group.id]) {
+                    groups[group.id] = group;
+                    groups[group.id].attempts = [];
+                    groups[group.id].days = 0;
+                }
+                return groups[group.id];
+            });
+        },
+        // saveReappearence: function(group, words) {
+        //     return $localForage.setItem('group-' + group, attempts);
+        // },
+        // rememberGroup: function(group) {
+        //     return $locaForage.getItem('groups');
+        // },
+        rememberAttempts: function(group, attempts) {
+            console.log('Remembering GROUP', group, attempts);
+            return $localForage.getItem('groups').then(function(groups) {
+                if (groups === null) {
+                    // we have never remembered any groups before
+                    groups = {};
+                }
+                if (!groups[group.id]) {
+                    // we have never remembered this group before
+                    groups[group.id] = group;  // maybe a bad idea
+                    groups[group.id].attempts = [];
+                    groups[group.id].days = 0;
+                }
+                groups[group.id].attempts.push(attempts);
+                groups[group.id].days++;
+                return $localForage.setItem('groups', groups);
+            });
+        },
+        // loadAttempts: function(group) {
+        //     return $localForage.getItem('group-' + group.id);
+        // }
+    };
 })
 ;

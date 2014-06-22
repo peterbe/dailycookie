@@ -11,6 +11,7 @@ urlpatterns = patterns('',
 )
 
 if settings.DEBUG:
+    urlpatterns += patterns('', url(r'^silk', include('silk.urls', namespace='silk')))
     urlpatterns += static(
         settings.MEDIA_URL,
         document_root=settings.MEDIA_ROOT

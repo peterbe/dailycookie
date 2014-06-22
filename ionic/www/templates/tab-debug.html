@@ -1,0 +1,15 @@
+<ion-view title="Debugger">
+  <ion-content class="has-header padding">
+    <p>
+      <a href="#/dashboard">Dashboard</a>
+    </p>
+
+    <em ng-if="!groups">no groups</em>
+    <pre ng-if="groups">{{ groups }}</pre>
+
+    <button class="button button-assertive" ng-click="clearGroups()">
+      Clear groups
+    </button>
+
+  </ion-content>
+</ion-view>

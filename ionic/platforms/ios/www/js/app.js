@@ -54,7 +54,7 @@ angular.module('starter', [
         controller: 'DashCtrl'
     })
     .state('play', {
-        url: '/play',
+        url: '/play/:id',
         templateUrl: "templates/tab-play.html",
         controller: 'PlayCtrl'
     })
@@ -62,6 +62,11 @@ angular.module('starter', [
         url: '/settings',
         templateUrl: "templates/tab-settings.html",
         controller: 'SettingsCtrl'
+    })
+    .state('debug', {
+        url: '/debug',
+        templateUrl: "templates/tab-debug.html",
+        controller: 'DebugCtrl'
     })
     ;
     $urlRouterProvider.otherwise('/dash');

@@ -2,6 +2,7 @@ import os
 import functools
 import time
 import stat
+from collections import defaultdict
 
 from django.db.utils import IntegrityError
 from django.contrib.sites.models import RequestSite
@@ -36,9 +37,8 @@ def thumbnail(filename, geometry, **options):
 
 @add_CORS_header
 @json_view
-def home(request):
-    group = request.GET.get('group', 'swedish')
-    group = QuestionGroup.objects.get(name__icontains=group)
+def questions(request, id):
+    group = QuestionGroup.objects.get(id=id)
     geometry = request.GET.get('geometry', '200x200')
     questions_qs = Question.objects.filter(group=group)
     questions = []
@@ -56,7 +56,7 @@ def home(request):
     def serialize_word(word):
         data = {
             'word': word.word,
-            'id': word.id,
+            'id': word.uuid,
         }
         if word.explanation:
             data['explanation'] = word.explanation
@@ -65,6 +65,19 @@ def home(request):
         if word.oggfile:
             data['oggfile'] = absolute_url(word.oggfile.url)
         return data
+
+    words_qs = (
+        Question.correct.through.objects
+        .filter(question__in=questions_qs)
+    )
+
+    words = defaultdict(list)
+    for correct in words_qs.select_related('word', 'question'):
+        word = correct.word
+        if has_audio_file(word):
+            words[correct.question.id].append(serialize_word(word))
+        else:
+            print repr(word), "lacks audio file"
 
     for item in questions_qs.order_by('created'):
         thumb = thumbnail(item.picture, geometry)
@@ -77,9 +90,10 @@ def home(request):
             'correct': [],
             # 'incorrect': [],
         }
-        for word in item.correct.all():
-            if has_audio_file(word):
-                question['correct'].append(word.id)
+        question['correct'] = words[item.id]
+        # for word in item.correct.all():
+        #     if has_audio_file(word):
+        #         question['correct'].append(word.id)
         # for word in item.incorrect.all():
         #     if has_audio_file(word):
         #         question['incorrect'].append(serialize_word(word))
@@ -88,17 +102,26 @@ def home(request):
         if question['correct']:
             questions.append(question)
 
-    words = {}
-    words_qs = Word.objects.filter(locale=group.locale, mp3file__isnull=False)
-    for word in words_qs:
-        if has_audio_file(word):
-            words[word.id] = serialize_word(word)
+    # words = {}
+    # words_qs = Word.objects.filter(locale=group.locale, mp3file__isnull=False)
+    # for word in words_qs:
+    #     if has_audio_file(word):
+    #         words[word.uuid] = serialize_word(word)
+
+    # correct_wordcount = 0
+    # for q in Question.objects.filter(group=group):
+    #     correct_wordcount += q.correct.all().count()
 
     context = {
         'locale': group.locale.code,
-        'name': group.name,
+        'group': {
+            # 'locale': group.locale.code,
+            'name': group.name,
+            'id': group.id,
+            # 'wordcount': correct_wordcount,
+        },
         'questions': questions,
-        'words': words,
+        # 'words': words,
     }
     return context
 
@@ -112,3 +135,31 @@ def has_audio_file(word):
                 word.mp3file = None
                 word.save()
     return False
+
+
+@add_CORS_header
+@json_view
+def groups(request):
+    def serialize_group(g):
+        correct_wordcount = 0
+        #for q in Question.objects.filter(group=g):
+        #    correct_wordcount += q.correct.all().count()
+        #print "correct_wordcount", correct_wordcount
+        correct_wordcount = (
+            Question.correct.through.objects
+            .filter(question__in=Question.objects.filter(group=g)).count()
+        )
+
+        return {
+            'name': g.name,
+            'id': g.id,
+            'locale': g.locale.code,
+            'word_count': correct_wordcount,
+        }
+    return {
+        'groups': [
+            serialize_group(x)
+            for x in
+            QuestionGroup.objects.all().select_related('locale')
+        ]
+    }

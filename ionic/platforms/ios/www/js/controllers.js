@@ -29,7 +29,55 @@ angular.module('starter.controllers', [])
     $scope.show = false;
 })
 
-.controller('DashCtrl', function($scope) {
+.controller('DebugCtrl', function($scope, $localForage) {
+    $localForage.getItem('groups').then(function(groups) {
+        $scope.groups = groups;
+    });
+
+    $scope.clearGroups = function() {
+        $localForage.removeItem('groups').then(function() {
+            $scope.groups = null;
+        });
+    };
+})
+
+.controller('DashCtrl', function($scope, $http, Past) {
+    $scope.days = null;
+    // $scope.all_groups = [];
+    $scope.groups = {};
+    $http.get('http://cookie/questions/groups/')
+    .success(function(response) {
+        Past.getGroups().then(function(groups) {
+            $scope.all_groups = response.groups;
+            $scope.groups = groups;
+        });
+    }).error(function() {
+        console.error(arguments);
+    });
+
+    $scope.countDaysPlayed = function(group, groups) {
+        if (!groups[group.id]) return 0;
+        return groups[group.id].attempts.length;
+
+    };
+
+    $scope.countPlayedWords = function(group, groups) {
+        // return how many words we have played
+        if (!groups[group.id]) return 0;
+        var attempts = groups[group.id].attempts;
+        var words = {};
+        var wordcount = 0;
+        attempts.forEach(function(round) {
+            for (var word in round) {
+                if (!words[word]) {
+                    words[word] = 1;
+                    wordcount++;
+                }
+            }
+        });
+
+        return wordcount;
+    };
 })
 
 .controller('SettingsCtrl', function($scope, $timeout, $localForage, Config) {
@@ -115,8 +163,11 @@ angular.module('starter.controllers', [])
 })
 
 
-.controller('PlayCtrl', function($scope, $http, $location, $timeout, $interval, $ionicModal, Config) {
-
+.controller('PlayCtrl',
+    function($scope, $http, $location, $timeout, $interval, $stateParams,
+             $ionicModal,
+             Past, Config) {
+    var group_id = $stateParams.id;
     // a database of ALL questions
     $scope.all_questions = [];
     $scope.questions = [];
@@ -153,42 +204,49 @@ angular.module('starter.controllers', [])
         return words;
     };
 
-    $http.get('http://cookie/questions/', {geometry: 'x300'})
+    $http.get('http://cookie/questions/' + group_id, {geometry: 'x300'})
     .success(function(response) {
         // the database contains multiple correct answers per
         // every picture, so flatten that list
-        $scope.all_words = response.words;
-        var all_questions = [];
-        response.questions.forEach(function(question) {
-            // console.log(question);
-            //var incorrects = shuffle(question.incorrect.slice());
-            var incorrects = pickRandomWords(question.correct, 3);
+        // $scope.group = response.group;
+        Past.getGroup(response.group).then(function(group) {
+            console.log('RESPONSE');console.log(response);
+            console.log('GROUP'); console.log(group);
+            $scope.group = group;
 
-            question.correct.forEach(function(correct) {
-                // console.log('CORRECT', correct);
-                all_questions.push({
-                    correct: $scope.all_words[correct],
-                    incorrects: incorrects,
-                    picture: question.picture,
-                    locale: response.locale
+            $scope.all_words = response.words;
+            var all_questions = [];
+            response.questions.forEach(function(question) {
+                // console.log(question);
+                //var incorrects = shuffle(question.incorrect.slice());
+                var incorrects = pickRandomWords(question.correct, 3);
+
+                question.correct.forEach(function(correct) {
+                    // console.log('CORRECT', correct);
+                    all_questions.push({
+                        correct: $scope.all_words[correct],
+                        incorrects: incorrects,
+                        picture: question.picture,
+                        locale: response.locale
+                    });
                 });
             });
-        });
 
-        $scope.all_questions = all_questions;
-        // console.log('Downloaded ' + $scope.all_questions.length + ' questions');
-        $scope.locale = response.locale;
-        Config.load().then(function() {
-            pickNextQuestions(function() {
-                initAttempts();
-                downloadPictures(function() {
-                    downloadAudioFiles();
+            $scope.all_questions = all_questions;
+            // console.log('Downloaded ' + $scope.all_questions.length + ' questions');
+            $scope.locale = response.locale;
+            Config.load().then(function() {
+                pickNextQuestions(function() {
+                    initAttempts();
+                    downloadPictures(function() {
+                        downloadAudioFiles();
+                    });
                 });
+                setNextQuestion();
             });
-            setNextQuestion();
-
 
         });
+
 
     })
     .error(function(status) {
@@ -268,15 +326,15 @@ angular.module('starter.controllers', [])
         var question = $scope.questions[$scope.next_question];
 
         question.choices = question.incorrects.slice();  // copy
-        console.log('INCORRECTS', question.choices);
+        // console.log('INCORRECTS', question.choices);
         question.choices.push(question.correct);
         question.choices = shuffle(question.choices);
 
-        console.log('CHOICES');
-        question.choices.forEach(function(alternative) {
-            console.log(alternative.id, alternative.word);
-        });
-        console.log(' ');
+        // console.log('CHOICES');
+        // question.choices.forEach(function(alternative) {
+        //     console.log(alternative.id, alternative.word);
+        // });
+        // console.log(' ');
         // question is ready to be displayed
         $scope.question = question;
     };
@@ -304,15 +362,14 @@ angular.module('starter.controllers', [])
         $scope.question = null;
         $scope.finished = true;
         $scope.questions.forEach(function(question, i) {
-            console.log(i);
             var attempts = $scope.attempts[question.correct.id];
             var sum = attempts.reduce(function(a, b) {
                 return a + b;
             });
             question._correct_rate = sum / attempts.length;
-            console.log(question._correct_rate);
-
         });
+        console.log('Calling rememberAttempts', $scope.group);
+        Past.rememberAttempts($scope.group, $scope.attempts);
     };
 
     $ionicModal.fromTemplateUrl('modal.html', {
