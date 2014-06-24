@@ -25,8 +25,8 @@
     </div>
 
     <div class="finished" ng-show="finished">
-        <p>You have finished your daily exercise. Well done!</p>
-        <p>Here, have a cookie:</p>
+        <p>Well done!</p>
+        <p>Here, have a cookie: <img src="img/cookie-128.png" width="64"></p>
         <div class="list">
           <a class="item" ng-repeat="word in words" ng-click="openWordModal(word.id)">
             <b>{{ word.word }}</b> {{ 100 * word._correct_rate | number:0 }}%

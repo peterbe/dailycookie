@@ -22,6 +22,12 @@ function _playWord(word) {
     }
 }
 
+function average(arr) {
+    var sum = arr.reduce(function(a, b) {
+        return a + b;
+    });
+    return sum / arr.length;
+}
 
 angular.module('starter.controllers', [])
 
@@ -39,6 +45,7 @@ angular.module('starter.controllers', [])
             $scope.groups = null;
         });
     };
+
 })
 
 .controller('DashCtrl', function($scope, $http, Past) {
@@ -52,6 +59,7 @@ angular.module('starter.controllers', [])
             $scope.groups = groups;
         });
     }).error(function() {
+        alert('Unable to download question groups');
         console.error(arguments);
     });
 
@@ -226,8 +234,8 @@ angular.module('starter.controllers', [])
         // every picture, so flatten that list
         // $scope.group = response.group;
         Past.getGroup(response.group).then(function(group) {
-            console.log('RESPONSE');console.log(response);
-            console.log('GROUP'); console.log(group);
+            // console.log('RESPONSE');console.log(response);
+            // console.log('GROUP'); console.log(group);
             $scope.group = group;
 
             // In the ajax response, all words are tucked under each
@@ -304,13 +312,6 @@ angular.module('starter.controllers', [])
         return $scope.clicked && word.id === $scope.clicked.id;
     };
 
-    var _calculateScore = function(arr) {
-        var sum = arr.reduce(function(a, b) {
-            return a + b;
-        });
-        return sum / arr.length;
-    };
-
     var calculateNextNoDays = function(score) {
         return parseInt(score * Config.get('max_range'), 10);
     };
@@ -326,7 +327,7 @@ angular.module('starter.controllers', [])
             // variable `i` is basically...
             age = i + 1;
             for (id in attempts[i]) {
-                var score = _calculateScore(attempts[i][id]);
+                var score = average(attempts[i][id]);
                 var days = calculateNextNoDays(score);
                 console.log(age, id, score, days);
                 // if it has been that many days, add it
@@ -541,7 +542,7 @@ angular.module('starter.controllers', [])
     $scope.submitAnswer = function(answer) {
         if ($scope.clicked) return;
         $scope.clicked = answer;
-        console.log("CLICKED", $scope.clicked);
+        // console.log("CLICKED", $scope.clicked);
         $scope.was_correct = $scope.word.id === answer.id;
         if (Config.get('playsounds') && $scope.was_correct) {
             $scope.playWord(answer);

@@ -22,6 +22,12 @@ function _playWord(word) {
     }
 }
 
+function average(arr) {
+    var sum = arr.reduce(function(a, b) {
+        return a + b;
+    });
+    return sum / arr.length;
+}
 
 angular.module('starter.controllers', [])
 
@@ -39,6 +45,7 @@ angular.module('starter.controllers', [])
             $scope.groups = null;
         });
     };
+
 })
 
 .controller('DashCtrl', function($scope, $http, Past) {
@@ -52,6 +59,7 @@ angular.module('starter.controllers', [])
             $scope.groups = groups;
         });
     }).error(function() {
+        alert('Unable to download question groups');
         console.error(arguments);
     });
 
@@ -92,6 +100,7 @@ angular.module('starter.controllers', [])
         $scope.settings.batch_size = Config.get('batch_size');
         $scope.settings.next_question_delay = Config.get('next_question_delay');
         $scope.settings.playsounds = Config.get('playsounds');
+        $scope.settings.max_range = Config.get('max_range');
     });
 
     $scope.saveSettings = function() {
@@ -99,7 +108,6 @@ angular.module('starter.controllers', [])
         if (_validate()) {
             _save();
         }
-
     };
 
     var _validate = function(data) {
@@ -131,6 +139,19 @@ angular.module('starter.controllers', [])
         } else {
             valid = false;
             $scope.invalid.next_question_delay = true;
+        }
+
+        // validate max_range
+        var max_range = $scope.settings.max_range;
+        if (_isInt(max_range)) {
+            max_range = parseInt(max_range, 10);
+            if (max_range < 0 || max_range > 30) {
+                valid = false;
+                $scope.invalid.max_range = true;
+            }
+        } else {
+            valid = false;
+            $scope.invalid.max_range = true;
         }
 
         return valid;
@@ -175,7 +196,7 @@ angular.module('starter.controllers', [])
     $scope.question = null;
     $scope.finished = false;
     $scope.was_correct = false;
-    $scope.next_question = 0;
+    $scope.next_word = 0;
     $scope.streak = 0;
     $scope.attempts = {};
 
@@ -187,21 +208,24 @@ angular.module('starter.controllers', [])
     $scope.words = [];
     $scope.pictures = [];
 
-    var pickRandomWords = function(not, length) {
-        // `not` is an array of words it can't be
-        // `length` is how many to return
-        var all_ids = [];
-        for (var id in $scope.all_words) {
-            if (!not[id]) {
-                all_ids.push(id);
+    var pickRandomWords = function(all_words, not, length) {
+        // @all_words is an array of all possible word objects
+        // @not is an array word objects it can't be
+        // @length is how many we're supposed to return
+        var not_ids = [];
+        not.forEach(function(word) {
+            not_ids.push(word.id);
+        });
+        all_words = shuffle(all_words);
+        var random_words = [];
+        var i = 0;
+        while (random_words.length < length) {
+            if (not_ids.indexOf(all_words[i].id) === -1) {
+                random_words.push(all_words[i]);
             }
+            i++;
         }
-        all_ids = shuffle(all_ids);
-        var words = [];
-        for (var i=0; i < length; i++) {
-            words.push($scope.all_words[all_ids[i]]);
-        }
-        return words;
+        return random_words;
     };
 
     $http.get('http://cookie/questions/' + group_id, {geometry: 'x300'})
@@ -210,41 +234,68 @@ angular.module('starter.controllers', [])
         // every picture, so flatten that list
         // $scope.group = response.group;
         Past.getGroup(response.group).then(function(group) {
-            console.log('RESPONSE');console.log(response);
-            console.log('GROUP'); console.log(group);
+            // console.log('RESPONSE');console.log(response);
+            // console.log('GROUP'); console.log(group);
             $scope.group = group;
 
-            $scope.all_words = response.words;
-            var all_questions = [];
+            // In the ajax response, all words are tucked under each
+            // question.             // $scope.all_words = response.words;
+            // $scope.all_words = [];
+            var all_word_words = [];
             response.questions.forEach(function(question) {
-                // console.log(question);
-                //var incorrects = shuffle(question.incorrect.slice());
-                var incorrects = pickRandomWords(question.correct, 3);
-
-                question.correct.forEach(function(correct) {
-                    // console.log('CORRECT', correct);
-                    all_questions.push({
-                        correct: $scope.all_words[correct],
-                        incorrects: incorrects,
-                        picture: question.picture,
-                        locale: response.locale
-                    });
+                question.correct.forEach(function(word) {
+                    all_word_words.push(word);
                 });
             });
-
-            $scope.all_questions = all_questions;
+            // console.log('all_word_words', all_word_words);
+            var all_words = {};
+            response.questions.forEach(function(question) {
+                question.correct.forEach(function(word) {
+                    word.picture = question.picture;
+                    word.incorrects = pickRandomWords(
+                        all_word_words,
+                        question.correct,
+                        3
+                    );
+                    // console.log("INCORRECTS");
+                    // console.log(word.incorrects);
+                    // throw "STOP"
+                    all_words[word.id] = word;
+                });
+            });
+            $scope.all_words = all_words;
+            // // var all_questions = {};
+            // response.questions.forEach(function(question) {
+            //     // console.log(question);
+            //     //var incorrects = shuffle(question.incorrect.slice());
+            //     var incorrects = pickRandomWords(
+            //         $scope.all_words, question.correct, 3
+            //     );
+            //
+            //     question.correct.forEach(function(correct) {
+            //         // console.log('CORRECT', correct);
+            //         all_questions.push({
+            //             correct: $scope.all_words[correct],
+            //             incorrects: incorrects,
+            //             picture: question.picture,
+            //             locale: response.locale
+            //         });
+            //     });
+            // });
+            // $scope.all_questions = all_questions;
             // console.log('Downloaded ' + $scope.all_questions.length + ' questions');
             $scope.locale = response.locale;
             Config.load().then(function() {
                 pickNextQuestions(function() {
                     initAttempts();
                     downloadPictures(function() {
-                        downloadAudioFiles();
+                        downloadAudioFiles(function() {
+                            // console.log("WOrds:", $scope.words);
+                            setNextQuestion();
+                        });
                     });
                 });
-                setNextQuestion();
             });
-
         });
 
 
@@ -261,22 +312,57 @@ angular.module('starter.controllers', [])
         return $scope.clicked && word.id === $scope.clicked.id;
     };
 
+    var calculateNextNoDays = function(score) {
+        return parseInt(score * Config.get('max_range'), 10);
+    };
+
     var pickNextQuestions = function(callback) {
-        // let's suppose you have no previous questions
-        // pick `batch_size` new questions now
-        var questions = shuffle($scope.all_questions).slice(
+        // loop over past played questions in reverse,
+        var attempts = $scope.group.attempts;
+        var words = [];
+        var not_words = [];
+        var id;
+        var age;
+        for (var i=attempts.length - 1; i>=0; i--) {
+            // variable `i` is basically...
+            age = i + 1;
+            for (id in attempts[i]) {
+                var score = average(attempts[i][id]);
+                var days = calculateNextNoDays(score);
+                console.log(age, id, score, days);
+                // if it has been that many days, add it
+                if (age >= days) {
+                    words.push(id);
+                } else {
+                    not_words.push(id);
+                }
+            }
+        }
+        var remaining_words = [];
+        for (id in $scope.all_words) {
+            if (words.indexOf(id) === -1 && not_words.indexOf(id) === -1) {
+                remaining_words.push(id);
+            }
+        }
+        // fill up with more random other words
+        words.push.apply(words, shuffle(remaining_words).slice(
             0,
-            Config.get('batch_size')
-        );
-        $scope.questions = questions;
+            Config.get('batch_size') - words.length
+        ));
+        // console.log('Words:', words);
+        var today_words = [];
+        words.forEach(function(id) {
+            today_words.push($scope.all_words[id]);
+        });
+        $scope.words = today_words;
         callback();
     };
 
     var initAttempts = function() {
         var attempts = {};
-        $scope.questions.forEach(function(question) {
+        $scope.words.forEach(function(word) {
             // console.log(question.correct);
-            attempts[question.correct.id] = [];
+            attempts[word.id] = [];
         });
         $scope.attempts = attempts;
     };
@@ -284,37 +370,35 @@ angular.module('starter.controllers', [])
     var downloadPictures = function(callback) {
         var pictures = [];
         var ids = {};
-        $scope.questions.forEach(function(question) {
-            if (!ids[question.picture.url]) {
-                pictures.push(question.picture);
-                ids[question.picture.url] = 1;
+        $scope.words.forEach(function(word) {
+            if (!ids[word.picture.url]) {
+                pictures.push(word.picture);
+                ids[word.picture.url] = 1;
             }
         });
+        // XXX
+        // Consider loading it into the DOM here all in parallel and
+        // count the number of callbacks and when the last is in then
+        // we execute the callback.
         $scope.pictures = pictures;
         callback();
     };
 
-    var downloadAudioFiles = function() {
-        var words = [];
-        var ids = {};
-        $scope.questions.forEach(function(question) {
-            if (!ids[question.correct.id]) {
-                words.push(question.correct);
-                ids[question.correct.id] = 1;
-            }
-            question.incorrects.forEach(function(incorrect) {
-                if (!ids[incorrect.id]) {
-                    words.push(incorrect);
-                    ids[incorrect.id] = 1;
-                }
+    var downloadAudioFiles = function(callback) {
+        var audiofiles = [];
+        $scope.words.forEach(function(word) {
+            audiofiles.push({
+                mp3file: word.mp3file,
+                id: word.id
             });
         });
-        $scope.words = words;
+        $scope.audiofiles = audiofiles;
+        callback();
     };
 
     var setNextQuestion = function() {
         _updatePageTitle();
-        if ($scope.next_question >= $scope.questions.length) {
+        if ($scope.next_word >= $scope.words.length) {
             finishedQuestions();
             _updatePageTitle();
             return;
@@ -323,24 +407,23 @@ angular.module('starter.controllers', [])
         $scope.clicked = null;
         $scope.question = null;
         $scope.was_correct = false;
-        var question = $scope.questions[$scope.next_question];
+        var word = $scope.words[$scope.next_word];
 
-        question.choices = question.incorrects.slice();  // copy
-        // console.log('INCORRECTS', question.choices);
-        question.choices.push(question.correct);
-        question.choices = shuffle(question.choices);
+        word.choices = word.incorrects.slice();  // copy
+        word.choices.push(word);
+        word.choices = shuffle(word.choices);
 
         // console.log('CHOICES');
-        // question.choices.forEach(function(alternative) {
+        // word.choices.forEach(function(alternative) {
         //     console.log(alternative.id, alternative.word);
         // });
         // console.log(' ');
         // question is ready to be displayed
-        $scope.question = question;
+        $scope.word = word;
     };
 
     var _updatePageTitle = function() {
-        if ($scope.next_question >= $scope.questions.length) {
+        if ($scope.next_word >= $scope.words.length) {
             $scope.title = 'Finished';
         } else {
             $scope.title = 'Play (' + $scope.streak + '/' + Config.get('batch_size') + ')';
@@ -359,14 +442,14 @@ angular.module('starter.controllers', [])
     };
 
     var finishedQuestions = function() {
-        $scope.question = null;
+        $scope.word = null;
         $scope.finished = true;
-        $scope.questions.forEach(function(question, i) {
-            var attempts = $scope.attempts[question.correct.id];
+        $scope.words.forEach(function(word, i) {
+            var attempts = $scope.attempts[word.id];
             var sum = attempts.reduce(function(a, b) {
                 return a + b;
             });
-            question._correct_rate = sum / attempts.length;
+            word._correct_rate = sum / attempts.length;
         });
         console.log('Calling rememberAttempts', $scope.group);
         Past.rememberAttempts($scope.group, $scope.attempts);
@@ -399,14 +482,14 @@ angular.module('starter.controllers', [])
         $scope.word_modal.show();
         $scope.word = $scope.all_words[id];
         var attempts = $scope.attempts[$scope.word.id];
-        console.log('all attempts', $scope.attempts);
-        console.log('attempts', attempts);
+        // console.log('all attempts', $scope.attempts);
+        // console.log('attempts', attempts);
         var sum = attempts.reduce(function(a, b) {
             return a + b;
         });
-        console.log('sum', sum);
+        // console.log('sum', sum);
         $scope.correct_rate = sum / attempts.length;
-        console.log('correct_rate', $scope.correct_rate);
+        // console.log('correct_rate', $scope.correct_rate);
     };
     $scope.closeWordModal = function() {
         $scope.word_modal.hide();
@@ -426,8 +509,8 @@ angular.module('starter.controllers', [])
     // });
 
     $scope.closeModalAndNextQuestion = function() {
-        if (next_question_timeout) {
-            $timeout.cancel(next_question_timeout);
+        if (next_word_timeout) {
+            $timeout.cancel(next_word_timeout);
         }
         $scope.modal.hide();
         $timeout(function() {
@@ -437,10 +520,10 @@ angular.module('starter.controllers', [])
 
     $scope.modal_close_time_left = null;
     var close_countdown = null;
-    var next_question_timeout = null;
+    var next_word_timeout = null;
     $scope.startModalCloseCountdown = function() {
         $scope.modal_close_time_left = Config.get('next_question_delay');
-        next_question_timeout = $timeout(function() {
+        next_word_timeout = $timeout(function() {
             $scope.closeModalAndNextQuestion();
             if (close_countdown) {
                 $interval.cancel(close_countdown);
@@ -459,24 +542,24 @@ angular.module('starter.controllers', [])
     $scope.submitAnswer = function(answer) {
         if ($scope.clicked) return;
         $scope.clicked = answer;
-        $scope.was_correct = $scope.question.correct === answer;
+        // console.log("CLICKED", $scope.clicked);
+        $scope.was_correct = $scope.word.id === answer.id;
         if (Config.get('playsounds') && $scope.was_correct) {
             $scope.playWord(answer);
         }
-
         $scope.modal.show();
         $scope.startModalCloseCountdown();
 
         // console.log('$scope.attempts', $scope.attempts);
         // the `0 + bool` turns the bool into 0 or 1
-        $scope.attempts[$scope.question.correct.id].push(0 + $scope.was_correct);
+        $scope.attempts[$scope.word.id].push(0 + $scope.was_correct);
 
         var next_question_delay = Config.get('next_question_delay');
         // console.log('next_question_delay=', next_question_delay);
         if ($scope.was_correct) {
             _temporaryPageTitle('Correct!', next_question_delay);
             $scope.streak++;
-            $scope.next_question++;
+            $scope.next_word++;
             // next_timer = $timeout(function() {
             //     setNextQuestion();
             // }, next_question_delay * 1000);
@@ -484,8 +567,8 @@ angular.module('starter.controllers', [])
             // start over!
             _temporaryPageTitle('Starting over', next_question_delay);
             $scope.streak = 0;
-            $scope.next_question = 0;
-            $scope.questions = shuffle($scope.questions);
+            $scope.next_word = 0;
+            $scope.words = shuffle($scope.words);
             // next_timer = $timeout(function() {
             //     setNextQuestion();
             // }, next_question_delay * 1000);
@@ -500,17 +583,17 @@ angular.module('starter.controllers', [])
     };
 
     $scope.isCorrect = function(alternative) {
-        if (!$scope.question) return;
-        return $scope.clicked === alternative && $scope.clicked === $scope.question.correct;
+        if (!$scope.word) return;
+        return $scope.clicked === alternative && $scope.clicked === $scope.word;
     };
 
     $scope.isIncorrect = function(alternative) {
-        if (!$scope.question) return;
-        return $scope.clicked === alternative && $scope.clicked !== $scope.question.correct;
+        if (!$scope.word) return;
+        return $scope.clicked === alternative && $scope.clicked !== $scope.word;
     };
 
     $scope.showLoading = function() {
-        return !$scope.question && !$scope.finished;
+        return !$scope.word && !$scope.finished;
     };
 
     $scope.showCorrect = function() {
