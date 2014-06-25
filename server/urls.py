@@ -6,7 +6,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^questions/', include('server.questions.urls')),
+    url(r'^questions/', include('server.questions.urls', namespace='questions')),
     url(r'^admin/', include(admin.site.urls)),
 )
 

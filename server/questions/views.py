@@ -6,6 +6,8 @@ from collections import defaultdict
 
 from django.db.utils import IntegrityError
 from django.contrib.sites.models import RequestSite
+from django.core.urlresolvers import reverse
+
 from jsonview.decorators import json_view
 from sorl.thumbnail import get_thumbnail
 
@@ -140,11 +142,14 @@ def has_audio_file(word):
 @add_CORS_header
 @json_view
 def groups(request):
+
+    base_url = '%s://%s' % (
+        request.is_secure() and 'https' or 'http',
+        RequestSite(request).domain
+    )
+
     def serialize_group(g):
         correct_wordcount = 0
-        #for q in Question.objects.filter(group=g):
-        #    correct_wordcount += q.correct.all().count()
-        #print "correct_wordcount", correct_wordcount
         correct_wordcount = (
             Question.correct.through.objects
             .filter(question__in=Question.objects.filter(group=g)).count()
@@ -155,11 +160,13 @@ def groups(request):
             'id': g.id,
             'locale': g.locale.code,
             'word_count': correct_wordcount,
+            'url': base_url + reverse('questions:questions', args=(g.id,)),
         }
     return {
         'groups': [
             serialize_group(x)
             for x in
             QuestionGroup.objects.all().select_related('locale')
+            if Question.objects.filter(group=x)
         ]
     }
