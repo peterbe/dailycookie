@@ -37,7 +37,6 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     'sorl.thumbnail',
     'server.questions',
-    'django_extensions',
 )
 
 MIDDLEWARE_CLASSES = (
