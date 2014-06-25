@@ -71,6 +71,7 @@ def questions(request, id):
     words_qs = (
         Question.correct.through.objects
         .filter(question__in=questions_qs)
+        .filter(word__mp3file__isnull=False)
     )
 
     words = defaultdict(list)
@@ -130,12 +131,13 @@ def questions(request, id):
 
 def has_audio_file(word):
     if word.mp3file:
-        if os.path.isfile(word.mp3file.path):
-            if os.stat(word.mp3file.path)[stat.ST_SIZE]:
-                return True
-            else:
-                word.mp3file = None
-                word.save()
+        return True
+        # if os.path.isfile(word.mp3file.path):
+        #     if os.stat(word.mp3file.path)[stat.ST_SIZE]:
+        #         return True
+        #     else:
+        #         word.mp3file = None
+        #         word.save()
     return False
 
 
