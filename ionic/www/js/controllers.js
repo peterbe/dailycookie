@@ -52,7 +52,7 @@ angular.module('starter.controllers', [])
     $scope.days = null;
     // $scope.all_groups = [];
     $scope.groups = {};
-    $http.get('http://cookie/questions/groups/')
+    $http.get('/questions/groups')
     .success(function(response) {
         Past.getGroups().then(function(groups) {
             $scope.all_groups = response.groups;
@@ -228,7 +228,7 @@ angular.module('starter.controllers', [])
         return random_words;
     };
 
-    $http.get('http://cookie/questions/' + group_id, {geometry: 'x300'})
+    $http.get('/questions/' + group_id, {geometry: 'x300'})
     .success(function(response) {
         // the database contains multiple correct answers per
         // every picture, so flatten that list
