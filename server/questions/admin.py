@@ -80,7 +80,7 @@ class LocaleAdmin(admin.ModelAdmin):
 
 class WordAdmin(admin.ModelAdmin):
     list_display = ('word', 'uuid', 'explanation', 'mp3file_', 'question_')
-    exclude = ('created', 'modified')
+    exclude = ('uuid', 'created', 'modified')
     search_fields = ['word']
 
     def mp3file_(self, obj):
