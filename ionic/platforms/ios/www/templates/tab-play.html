@@ -78,7 +78,9 @@
             </p>
             <button class="button button-block button-positive icon-right ion-chevron-right"
               ng-click="closeModalAndNextQuestion()">
-            Next question in <b>{{ modal_close_time_left }}</b>
+              <span ng-show="was_correct">Next question</span>
+              <span ng-show="!was_correct">Starting over</span>
+              in <b>{{ modal_close_time_left }}</b>
             </button>
         </ion-content>
     </div>
