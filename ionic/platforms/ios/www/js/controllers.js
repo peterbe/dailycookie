@@ -29,6 +29,13 @@ function average(arr) {
     return sum / arr.length;
 }
 
+var BASE_HOST = '';
+
+if (location.hostname === '' || location.hostname === 'index.html') {
+    // Debugging in emulator
+    BASE_HOST = 'http://cookie';
+}
+
 angular.module('starter.controllers', [])
 
 .controller('TabsController', function($scope) {
@@ -59,7 +66,7 @@ angular.module('starter.controllers', [])
     $scope.groups = {};
     $scope.loading_groups = true;
 
-    $http.get('/questions/groups')
+    $http.get(BASE_HOST + '/questions/groups')
     .success(function(response) {
         $scope.download_error = false;
         Past.getGroups().then(function(groups) {
@@ -241,7 +248,7 @@ angular.module('starter.controllers', [])
 
     $scope.loading_questions = true;
 
-    $http.get('/questions/' + group_id, {geometry: 'x300'})
+    $http.get(BASE_HOST + '/questions/' + group_id, {geometry: 'x300'})
     .success(function(response) {
         // the database contains multiple correct answers per
         // every picture, so flatten that list
