@@ -94,26 +94,9 @@ def questions(request, id):
             # 'incorrect': [],
         }
         question['correct'] = words[item.id]
-        # for word in item.correct.all():
-        #     if has_audio_file(word):
-        #         question['correct'].append(word.id)
-        # for word in item.incorrect.all():
-        #     if has_audio_file(word):
-        #         question['incorrect'].append(serialize_word(word))
 
-        # if question['correct'] and question['incorrect']:
         if question['correct']:
             questions.append(question)
-
-    # words = {}
-    # words_qs = Word.objects.filter(locale=group.locale, mp3file__isnull=False)
-    # for word in words_qs:
-    #     if has_audio_file(word):
-    #         words[word.uuid] = serialize_word(word)
-
-    # correct_wordcount = 0
-    # for q in Question.objects.filter(group=group):
-    #     correct_wordcount += q.correct.all().count()
 
     context = {
         'locale': group.locale.code,
@@ -126,18 +109,12 @@ def questions(request, id):
         'questions': questions,
         # 'words': words,
     }
-    return context
+    return context, 200, {'Access-Control-Allow-Origin': '*'}
 
 
 def has_audio_file(word):
     if word.mp3file:
         return True
-        # if os.path.isfile(word.mp3file.path):
-        #     if os.stat(word.mp3file.path)[stat.ST_SIZE]:
-        #         return True
-        #     else:
-        #         word.mp3file = None
-        #         word.save()
     return False
 
 
@@ -164,7 +141,7 @@ def groups(request):
             'word_count': correct_wordcount,
             'url': base_url + reverse('questions:questions', args=(g.id,)),
         }
-    return {
+    context = {
         'groups': [
             serialize_group(x)
             for x in
@@ -172,3 +149,4 @@ def groups(request):
             if Question.objects.filter(group=x)
         ]
     }
+    return context, 200, {'Access-Control-Allow-Origin': '*'}

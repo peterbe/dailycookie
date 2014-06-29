@@ -68,6 +68,11 @@ angular.module('starter', [
         templateUrl: "templates/tab-debug.html",
         controller: 'DebugCtrl'
     })
+    .state('howtoplay', {
+        url: '/howtoplay',
+        templateUrl: "templates/tab-howtoplay.html",
+        controller: 'HowToPlayCtrl'
+    })
     ;
     $urlRouterProvider.otherwise('/dash');
 

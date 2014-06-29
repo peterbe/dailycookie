@@ -30,10 +30,10 @@ angular.module('starter.services', [])
 
     var config = {};
     // defaults
-    config.batch_size = 5;
-    config.next_question_delay = 2;
+    config.batch_size = 10;
+    config.next_question_delay = 5;
     config.playsounds = true;
-    config.max_range = 10;  // days
+    config.max_range = 20;  // days
 
     return {
         get: function(key) {

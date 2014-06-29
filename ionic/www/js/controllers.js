@@ -48,19 +48,27 @@ angular.module('starter.controllers', [])
 
 })
 
+.controller('HowToPlayCtrl', function($scope, Config) {
+    $scope.batch_size = Config.get('batch_size');
+    $scope.max_range = Config.get('max_range');
+})
+
 .controller('DashCtrl', function($scope, $http, Past) {
     $scope.days = null;
     // $scope.all_groups = [];
     $scope.groups = {};
+
     $http.get('/questions/groups')
     .success(function(response) {
+        $scope.download_error = false;
         Past.getGroups().then(function(groups) {
             $scope.all_groups = response.groups;
             $scope.groups = groups;
         });
-    }).error(function() {
-        alert('Unable to download question groups');
+    }).error(function(response, code) {
+        // alert('Unable to download question groups');
         console.error(arguments);
+        $scope.download_error = code;
     });
 
     $scope.countDaysPlayed = function(group, groups) {

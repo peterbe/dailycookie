@@ -1,10 +1,10 @@
 <ion-view title="Dashboard">
   <ion-content class="has-header padding">
-    <a href="#/settings">Settings</a>
-    <a href="#/debug">Debug</a>
 
-
-    <div class="list">
+    <div class="list" ng-show="!download_error">
+      <div class="item item-divider">
+        Available decks
+      </div>
       <a class="item" href="#/play/{{ group.id }}"
          ng-repeat="group in all_groups track by group.id"
          >
@@ -16,6 +16,20 @@
       </a>
     </div>
 
+    <div ng-show="download_error" class="card">
+      <div class="item item-divider">Download Error</div>
+      <div class="item item-text-wrap">
+        Error code: <code>{{ download_error }}</code>
+      </div>
+    </div>
+
+    <p>
+      <a class="button icon-left ion-help" href="#/howtoplay">How to play</a>
+
+      <a class="button icon-left ion-settings" href="#/settings">Settings</a>
+
+      <a class="button icon-left ion-hammer" href="#/debug">Debug</a>
+    </p>
 
   </ion-content>
 </ion-view>
