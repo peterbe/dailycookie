@@ -109,6 +109,7 @@ def questions(request, id):
         'questions': questions,
         # 'words': words,
     }
+
     return context, 200, {'Access-Control-Allow-Origin': '*'}
 
 
@@ -121,7 +122,6 @@ def has_audio_file(word):
 @add_CORS_header
 @json_view
 def groups(request):
-
     base_url = '%s://%s' % (
         request.is_secure() and 'https' or 'http',
         RequestSite(request).domain

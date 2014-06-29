@@ -1,8 +1,15 @@
 <ion-view title="Dashboard">
   <ion-content class="has-header padding">
 
+    <div ng-show="loading_groups" class="card">
+      <div class="item item-text-wrap">
+        <i class="icon ion-loading-d"></i>
+        Loading decks...
+      </div>
+    </div>
+
     <div class="list" ng-show="!download_error">
-      <div class="item item-divider">
+      <div class="item item-divider" ng-show="!loading_groups">
         Available decks
       </div>
       <a class="item" href="#/play/{{ group.id }}"

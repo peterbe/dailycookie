@@ -79,9 +79,15 @@ class LocaleAdmin(admin.ModelAdmin):
 
 
 class WordAdmin(admin.ModelAdmin):
-    list_display = ('word', 'uuid', 'explanation', 'mp3file_', 'question_')
+    list_display = ('word', 'uuid', 'explanation_', 'mp3file_', 'question_')
     exclude = ('uuid', 'created', 'modified')
     search_fields = ['word']
+
+    def explanation_(self, obj):
+        if obj.explanation:
+            return obj.explanation
+        return '<b style="color:red">no explanation!</b>'
+    explanation_.allow_tags = True
 
     def mp3file_(self, obj):
         if obj.mp3file:

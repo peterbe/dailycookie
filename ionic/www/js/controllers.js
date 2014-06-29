@@ -57,6 +57,7 @@ angular.module('starter.controllers', [])
     $scope.days = null;
     // $scope.all_groups = [];
     $scope.groups = {};
+    $scope.loading_groups = true;
 
     $http.get('/questions/groups')
     .success(function(response) {
@@ -69,6 +70,8 @@ angular.module('starter.controllers', [])
         // alert('Unable to download question groups');
         console.error(arguments);
         $scope.download_error = code;
+    }).finally(function() {
+        $scope.loading_groups = false;
     });
 
     $scope.countDaysPlayed = function(group, groups) {
@@ -236,6 +239,8 @@ angular.module('starter.controllers', [])
         return random_words;
     };
 
+    $scope.loading_questions = true;
+
     $http.get('/questions/' + group_id, {geometry: 'x300'})
     .success(function(response) {
         // the database contains multiple correct answers per
@@ -310,6 +315,9 @@ angular.module('starter.controllers', [])
     })
     .error(function(status) {
         console.error(status);
+    })
+    .finally(function() {
+        $scope.loading_questions = false;
     });
 
     $scope.playWord = function(word) {
@@ -600,9 +608,9 @@ angular.module('starter.controllers', [])
         return $scope.clicked === alternative && $scope.clicked !== $scope.word;
     };
 
-    $scope.showLoading = function() {
-        return !$scope.word && !$scope.finished;
-    };
+    // $scope.showLoading = function() {
+    //     return !$scope.word && !$scope.finished;
+    // };
 
     $scope.showCorrect = function() {
         return $scope.clicked && $scope.was_correct;
