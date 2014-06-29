@@ -352,10 +352,12 @@ angular.module('starter.controllers', [])
             for (id in attempts[i]) {
                 var score = average(attempts[i][id]);
                 var days = calculateNextNoDays(score);
-                console.log(age, id, score, days);
+                // console.log(age, id, score, days);
                 // if it has been that many days, add it
                 if (age >= days) {
-                    words.push(id);
+                    if (words.indexOf(id) === -1) {
+                        words.push(id);
+                    }
                 } else {
                     not_words.push(id);
                 }
@@ -367,6 +369,7 @@ angular.module('starter.controllers', [])
                 remaining_words.push(id);
             }
         }
+
         // fill up with more random other words
         words.push.apply(words, shuffle(remaining_words).slice(
             0,
@@ -503,8 +506,8 @@ angular.module('starter.controllers', [])
     });
     $scope.openWordModal = function(id) {
         $scope.word_modal.show();
-        $scope.word = $scope.all_words[id];
-        var attempts = $scope.attempts[$scope.word.id];
+        $scope.info_word = $scope.all_words[id];
+        var attempts = $scope.attempts[$scope.info_word.id];
         // console.log('all attempts', $scope.attempts);
         // console.log('attempts', attempts);
         var sum = attempts.reduce(function(a, b) {

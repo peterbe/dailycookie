@@ -31,8 +31,8 @@
         <p>Well done!</p>
         <p>Here, have a cookie: <img src="img/cookie-128.png" width="64"></p>
         <div class="list">
-          <a class="item" ng-repeat="word in words" ng-click="openWordModal(word.id)">
-            <b>{{ word.word }}</b> {{ 100 * word._correct_rate | number:0 }}%
+          <a class="item" ng-repeat="w in words" ng-click="openWordModal(w.id)">
+            <b>{{ w.word }}</b> {{ 100 * w._correct_rate | number:0 }}%
           </a>
         </div>
 
@@ -89,17 +89,17 @@
 <script id="word-modal.html" type="text/ng-template">
     <div class="modal">
         <ion-header-bar class="bar-header">
-            <h1 class="title">{{ word.word }}</h1>
+            <h1 class="title">{{ info_word.word }}</h1>
         </ion-header-bar>
         <ion-content>
             <p>
-              Means <b>{{ word.explanation }}</b>.
+              Means <b>{{ info_word.explanation }}</b>.
             </p>
             <p>
             You get this word right <strong>{{ 100 * correct_rate | number:0 }}%</strong> of the time.
             </p>
 
-            <button class="button icon ion-volume-medium" ng-click="playWord(word)"></button>
+            <button class="button icon ion-volume-medium" ng-click="playWord(info_word)"></button>
 
             <button class="button button-full button-positive"
               ng-click="closeWordModal()">
