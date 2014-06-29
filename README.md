@@ -1,8 +1,6 @@
 dailycookie
 ===========
 
-Language learning by associating
+Language learning a little bit every day.
 
-
-A mobile app that uses cognitive techniques to help you learn foreign language glossery. 
-
+Site: http://dailycookieapp.com

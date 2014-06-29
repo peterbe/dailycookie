@@ -64,13 +64,14 @@
               <img ng-src="{{ word.picture.url }}"></img>
           </div>
             <p ng-show="!was_correct">
-              The right answer was <strong>{{ word.word }}</strong>.<br>
+              The right answer was <b>{{ word.word }}</b> which means
+              <b>{{ word.explanation }}</b>.<br>
               <span ng-show="!word.explanation">
-                You clicked on <strong>{{ clicked.word }}</strong>.
+                You clicked on <b>{{ clicked.word }}</b>.
               </span>
             </p>
             <p ng-show="clicked.explanation">
-              <strong>{{ clicked.word }}</strong> means <strong>{{ clicked.explanation }}</strong>
+              <b>{{ clicked.word }}</b> means <b>{{ clicked.explanation }}</b>
             </p>
             <button class="button button-block button-positive icon-right ion-chevron-right"
               ng-click="closeModalAndNextQuestion()">
