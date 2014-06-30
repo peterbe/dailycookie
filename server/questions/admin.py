@@ -33,9 +33,16 @@ class QuestionAdminForm(forms.ModelForm):
 
 
 class QuestionAdmin(admin.ModelAdmin):
-    list_display = ('picture_', 'correct_',)
+    list_display = ('picture_', 'correct_', 'author')
     exclude = ('created', 'modified')
     form = QuestionAdminForm
+
+    def formfield_for_foreignkey(self, db_field, request, **kwargs):
+        if db_field.name == 'author':
+            kwargs['initial'] = request.user.id
+        return super(QuestionAdmin, self).formfield_for_foreignkey(
+            db_field, request, **kwargs
+        )
 
     def correct_(self, obj):
         words = [x.word for x in obj.correct.all()]
@@ -56,7 +63,14 @@ class QuestionAdmin(admin.ModelAdmin):
 
 class QuestionGroupAdmin(admin.ModelAdmin):
     exclude = ('created', 'modified')
-    list_display = ('name', 'locale', 'pictures_', 'correct_words_',)
+    list_display = ('name', 'locale', 'pictures_', 'correct_words_', 'author')
+
+    def formfield_for_foreignkey(self, db_field, request, **kwargs):
+        if db_field.name == 'author':
+            kwargs['initial'] = request.user.id
+        return super(QuestionAdmin, self).formfield_for_foreignkey(
+            db_field, request, **kwargs
+        )
 
     def pictures_(self, obj):
         return Question.objects.filter(group=obj).count()
@@ -79,9 +93,16 @@ class LocaleAdmin(admin.ModelAdmin):
 
 
 class WordAdmin(admin.ModelAdmin):
-    list_display = ('word', 'uuid', 'explanation_', 'mp3file_', 'question_')
+    list_display = ('word', 'uuid', 'explanation_', 'mp3file_', 'question_', 'author')
     exclude = ('uuid', 'created', 'modified')
     search_fields = ['word']
+
+    def formfield_for_foreignkey(self, db_field, request, **kwargs):
+        if db_field.name == 'author':
+            kwargs['initial'] = request.user.id
+        return super(WordAdmin, self).formfield_for_foreignkey(
+            db_field, request, **kwargs
+        )
 
     def explanation_(self, obj):
         if obj.explanation:
