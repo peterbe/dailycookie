@@ -7,3 +7,4 @@ requests==2.3.0
 Unidecode==0.04.16
 django-jsonview==0.4.2
 simplejson==3.5.2
+South==0.8.4

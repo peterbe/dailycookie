@@ -8,6 +8,7 @@ from unidecode import unidecode
 
 from django.db import models
 from django.utils.timezone import utc
+from django.contrib.auth.models import User
 from django.dispatch import receiver
 
 
@@ -85,6 +86,7 @@ class Word(models.Model):
     )
     explanation = models.TextField(null=True, blank=True)
 
+    # author = models.ForeignKey(User, null=True)
     created = models.DateTimeField(default=now)
     modified = models.DateTimeField(default=now)
 
@@ -126,6 +128,8 @@ class Question(models.Model):
     question = models.TextField(null=True, blank=True)
     correct = models.ManyToManyField(Word, related_name='correct')
     incorrect = models.ManyToManyField(Word, related_name='incorrect', blank=True)
+
+    #author = models.ForeignKey(User, null=True)
 
     created = models.DateTimeField(default=now)
     modified = models.DateTimeField(default=now)
