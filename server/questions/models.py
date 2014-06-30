@@ -61,7 +61,6 @@ def upload_path(tag):
 
 
 def get_default_locale():
-    return Locale.objects.get(code='sv')#XXX temporary
     for word in Word.objects.all().order_by('-created')[:1]:
         return word.locale
     return Locale.objects.get(code='sv')
@@ -115,7 +114,6 @@ def set_uuid(sender, instance, *args, **kwargs):
 
 
 def get_default_group():
-    return None
     for q in Question.objects.all().order_by('-created')[:1]:
         return q.group
     return None
