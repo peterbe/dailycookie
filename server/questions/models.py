@@ -32,6 +32,7 @@ class QuestionGroup(models.Model):
     locale = models.ForeignKey(Locale)
     created = models.DateTimeField(default=now)
     modified = models.DateTimeField(default=now)
+    author = models.ForeignKey(User, null=True)
 
     def __unicode__(self):
         return self.name
@@ -60,6 +61,7 @@ def upload_path(tag):
 
 
 def get_default_locale():
+    return Locale.objects.get(code='sv')#XXX temporary
     for word in Word.objects.all().order_by('-created')[:1]:
         return word.locale
     return Locale.objects.get(code='sv')
@@ -86,7 +88,7 @@ class Word(models.Model):
     )
     explanation = models.TextField(null=True, blank=True)
 
-    # author = models.ForeignKey(User, null=True)
+    author = models.ForeignKey(User, null=True)
     created = models.DateTimeField(default=now)
     modified = models.DateTimeField(default=now)
 
@@ -113,6 +115,7 @@ def set_uuid(sender, instance, *args, **kwargs):
 
 
 def get_default_group():
+    return None
     for q in Question.objects.all().order_by('-created')[:1]:
         return q.group
     return None
@@ -129,8 +132,7 @@ class Question(models.Model):
     correct = models.ManyToManyField(Word, related_name='correct')
     incorrect = models.ManyToManyField(Word, related_name='incorrect', blank=True)
 
-    #author = models.ForeignKey(User, null=True)
-
+    author = models.ForeignKey(User, null=True)
     created = models.DateTimeField(default=now)
     modified = models.DateTimeField(default=now)
 
