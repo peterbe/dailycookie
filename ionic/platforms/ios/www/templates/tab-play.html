@@ -1,0 +1,110 @@
+<ion-view title="{{ temporary_title || title }}">
+
+  <ion-content class="has-header padding">
+
+    <div ng-show="loading_questions" class="card">
+      <div class="item item-text-wrap">
+        <i class="icon ion-loading-d"></i>
+        Loading words...
+      </div>
+    </div>
+
+    <div ng-show="word" class="question">
+        <div class="picture">
+            <img ng-src="{{ word.picture.url }}"></img>
+        </div>
+
+        <div class="list">
+
+          <div class="item item-button-right item-outline"
+               ng-class="{'item-assertive': isIncorrect(alternative), 'item-balanced': isCorrect(alternative)}"
+               ng-repeat="alternative in word.choices track by alternative.id"
+               ng-click="submitAnswer(alternative)">
+            {{ alternative.word }}
+          </div>
+
+        </div>
+
+    </div>
+
+    <div class="finished" ng-show="finished">
+        <p>Well done!</p>
+        <p>Here, have a cookie: <img src="img/cookie-128.png" width="64"></p>
+        <div class="list">
+          <a class="item" ng-repeat="w in words" ng-click="openWordModal(w.id)">
+            <b>{{ w.word }}</b> {{ 100 * w._correct_rate | number:0 }}%
+          </a>
+        </div>
+
+        <p>
+          <a href="#/dash" class="button button-block button-positive">
+            Go to the Dashboard
+          </a>
+        </p>
+
+    </div>
+
+    <!-- preloading -->
+    <img ng-repeat="picture in pictures"
+         ng-src="{{ picture.url }}" style="display:none">
+    <audio ng-repeat="audiofile in audiofiles"
+           ng-src="{{ audiofile.mp3file }}"
+           id="audio-{{ audiofile.id }}"></audio>
+    <!-- end preloading -->
+
+  </ion-content>
+</ion-view>
+
+<script id="modal.html" type="text/ng-template">
+    <div class="modal">
+        <ion-header-bar class="bar-header"
+         ng-class="{'bar-balanced': was_correct, 'bar-assertive': !was_correct}">
+            <h1 class="title" ng-show="was_correct">Correct!</h1>
+            <h1 class="title" ng-show="!was_correct">Incorrect</h1>
+        </ion-header-bar>
+        <ion-content>
+          <div class="picture">
+              <img ng-src="{{ word.picture.url }}"></img>
+          </div>
+            <p ng-show="!was_correct">
+              The right answer was <b>{{ word.word }}</b> which means
+              <b>{{ word.explanation }}</b>.<br>
+              <span ng-show="!word.explanation">
+                You clicked on <b>{{ clicked.word }}</b>.
+              </span>
+            </p>
+            <p ng-show="clicked.explanation">
+              <b>{{ clicked.word }}</b> means <b>{{ clicked.explanation }}</b>
+            </p>
+            <button class="button button-block button-positive icon-right ion-chevron-right"
+              ng-click="closeModalAndNextQuestion()">
+              <span ng-show="was_correct">Next question</span>
+              <span ng-show="!was_correct">Starting over</span>
+              in <b>{{ modal_close_time_left }}</b>
+            </button>
+        </ion-content>
+    </div>
+</script>
+
+<script id="word-modal.html" type="text/ng-template">
+    <div class="modal">
+        <ion-header-bar class="bar-header">
+            <h1 class="title">{{ info_word.word }}</h1>
+        </ion-header-bar>
+        <ion-content>
+            <p>
+              Means <b>{{ info_word.explanation }}</b>.
+            </p>
+            <p>
+            You get this word right <strong>{{ 100 * correct_rate | number:0 }}%</strong> of the time.
+            </p>
+
+            <button class="button icon ion-volume-medium" ng-click="playWord(info_word)"></button>
+
+            <button class="button button-full button-positive"
+              ng-click="closeWordModal()">
+              Close
+            </button>
+        </ion-content>
+    </div>
+</script>
