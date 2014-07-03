@@ -34,6 +34,8 @@ var BASE_HOST = '';
 if (location.hostname === '' || location.hostname === 'index.html') {
     // Debugging in emulator
     BASE_HOST = 'http://cookie';
+} else {
+    BASE_HOST = 'http://dailycookieapp.com';
 }
 
 angular.module('starter.controllers', [])
