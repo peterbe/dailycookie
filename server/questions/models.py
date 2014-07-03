@@ -93,6 +93,7 @@ class Word(models.Model):
 
     class Meta:
         ordering = ['word']
+        unique_together = ['word', 'locale']
 
     def __unicode__(self):
         return self.word
