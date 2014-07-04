@@ -1,0 +1,21 @@
+<h1 class="page-header">Dashboard</h1>
+{% verbatim %}
+<table class="table">
+  <thead>
+    <tr>
+      <th>Locale</th>
+      <th>Name</th>
+      <th>Word count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="group in groups"
+        ng-click="gotoGroup(group.id)">
+      <td>{{ group.locale }}</td>
+      <td>{{ group.name }}</td>
+      <td>{{ group.word_count }}</td>
+    </tr>
+  </tbody>
+</table>
+
+{% endverbatim %}

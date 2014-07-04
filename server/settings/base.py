@@ -36,7 +36,9 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'south',
     'sorl.thumbnail',
+    'pipeline',
     'server.questions',
+    'server.cms',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -53,6 +55,8 @@ ROOT_URLCONF = 'server.urls'
 WSGI_APPLICATION = 'server.wsgi.application'
 
 MEDIA_URL = '/'
+
+STATICFILES_STORAGE = 'pipeline.storage.PipelineCachedStorage'
 
 # Use memcached for session storage
 SESSION_ENGINE = 'django.contrib.sessions.backends.cached_db'
@@ -86,3 +90,30 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+PIPELINE_CSS = {
+    'cms': {
+        'source_filenames': (
+            'cms/bootstrap/css/bootstrap.min.css',
+            'cms/dashboard.css',
+        ),
+        'output_filename': 'css/cms.css',
+        #'extra_context': {
+        #    'media': 'screen,projection',
+        #},
+    },
+}
+
+PIPELINE_JS = {
+    'cms': {
+        'source_filenames': (
+          'cms/jquery.min.js',
+          'cms/bootstrap/js/bootstrap.min.js',
+          'cms/angular/angular.min.js',
+          'cms/angular/angular-route.min.js',
+          'cms/app.js',
+          'cms/controllers.js',
+        ),
+        'output_filename': 'js/cms.js',
+    }
+}
