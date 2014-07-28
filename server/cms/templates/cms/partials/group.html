@@ -1,6 +1,9 @@
 {% verbatim %}
 
-<h1 >{{ group.name }}
+<h1 ng-show="!group">Loading</span>
+</h1>
+
+<h1 ng-show="group">{{ group.name }}
 <span class="label label-default">{{ words.length }} words</span>
 </h1>
 
@@ -13,8 +16,22 @@
 </form>
 
 <p>
-  <span class="label label-default"
-    ng-repeat="word in words">{{ word.word }}</span>
+  <span ng-repeat="word in filtered_words = (words | filter:foundWords | orderBy:'word')">
+    <button class="label label-default"
+     data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus"
+     popover-title="{{ word.word }}"
+     popover="{{ word.explanation }}"
+     Popover-animation="true" popover-trigger="mouseenter">{{ word.word }}</span>
+  </button>
+  <i ng-show="!filtered_words.length && search.word">Nothing found</i>
 </p>
+
+
+<div ng-repeat="picture in filtered_pictures = (pictures | filter:foundPictures)" class="crop">
+  <img ng-src="{{ picture.url }}" xwidth="50" alt="{{ picture.words.join(', ') }}" class="img-thumbnailx"
+   popover="{{ picture.words.join(', ') }}"
+   Popover-animation="true" popover-trigger="mouseenter">
+</div>
+
 
 {% endverbatim %}

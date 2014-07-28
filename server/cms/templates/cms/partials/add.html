@@ -1,0 +1,18 @@
+{% verbatim %}
+
+<h1 ng-show="!group">Loading</span>
+</h1>
+
+<h1 ng-show="group">Add word to {{ group.name }}</h1>
+
+
+<form action="/file-upload"
+      class="dropzone"
+      id="dropzone">
+</form>
+
+
+{% endverbatim %}
+
+{% load compressed %}
+{% compressed_js 'dropzone' %}

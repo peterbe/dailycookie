@@ -102,18 +102,32 @@ PIPELINE_CSS = {
         #    'media': 'screen,projection',
         #},
     },
+    'dropzone': {
+        'source_filenames': (
+            'cms/dropzone/css/dropzone.css',
+        ),
+        'output_filename': 'css/dropzone.css',
+    }
 }
 
 PIPELINE_JS = {
     'cms': {
         'source_filenames': (
           'cms/jquery.min.js',
-          'cms/bootstrap/js/bootstrap.min.js',
+        #   'cms/bootstrap/js/bootstrap.min.js',
           'cms/angular/angular.min.js',
           'cms/angular/angular-route.min.js',
+          'cms/angular-bootstrap/ui-bootstrap.min.js',
+          'cms/angular-bootstrap/ui-bootstrap-tpls.min.js',
           'cms/app.js',
           'cms/controllers.js',
         ),
         'output_filename': 'js/cms.js',
+    },
+    'dropzone': {
+        'source_filenames': (
+            'cms/dropzone/dropzone.min.js',
+        ),
+        'output_filename': 'js/dropzone.js',
     }
 }

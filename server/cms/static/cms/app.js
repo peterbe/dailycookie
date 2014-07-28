@@ -12,6 +12,10 @@ angular.module('cms', [
         templateUrl: "/cms/partials/group.html",
         controller: 'GroupController'
     })
+    .when('/cms/:group/add', {
+        templateUrl: "/cms/partials/add.html",
+        controller: 'AddController'
+    })
     .when('/cms/', {
         templateUrl: "/cms/partials/dashboard.html",
         controller:'DashController'
