@@ -115,5 +115,18 @@ app.controller('AddController',
             console.error(arguments);
         });
 
+        var myDropzone = new Dropzone("#dropzone", {
+            url: "/file/post",
+            init: function() {
+                this.on("addedfile", function(file) {
+                    console.log("Added file.");
+                });
+            }
+
+        });
+        Dropzone.options.Dropzone = false;
+        Dropzone.autoDiscover = false;
+
+
     }]
 );

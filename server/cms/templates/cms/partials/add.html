@@ -5,14 +5,17 @@
 
 <h1 ng-show="group">Add word to {{ group.name }}</h1>
 
+{% endverbatim %}
 
 <form action="/file-upload"
       class="dropzone"
       id="dropzone">
+      {% csrf_token %}
+
+      {% verbatim %}
+      <input ng-model="word.word">
+
+      {{ word.word }}
+      {% endverbatim %}
+
 </form>
-
-
-{% endverbatim %}
-
-{% load compressed %}
-{% compressed_js 'dropzone' %}
