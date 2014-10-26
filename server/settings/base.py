@@ -96,6 +96,7 @@ PIPELINE_CSS = {
         'source_filenames': (
             'cms/bootstrap/css/bootstrap.min.css',
             'cms/dashboard.css',
+            'cms/group.css',
         ),
         'output_filename': 'css/cms.css',
         #'extra_context': {
@@ -117,8 +118,9 @@ PIPELINE_JS = {
         #   'cms/bootstrap/js/bootstrap.min.js',
           'cms/angular/angular.min.js',
           'cms/angular/angular-route.min.js',
-          'cms/angular-bootstrap/ui-bootstrap.min.js',
-          'cms/angular-bootstrap/ui-bootstrap-tpls.min.js',
+        #   'cms/angular-bootstrap/ui-bootstrap.min.js',
+        #   'cms/angular-bootstrap/ui-bootstrap-tpls.min.js',
+          'cms/angular-bootstrap/ui-bootstrap-tpls-0.11.2.min.js',
           'cms/app.js',
           'cms/controllers.js',
         ),

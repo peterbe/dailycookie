@@ -1,16 +1,22 @@
 {% verbatim %}
 
-<h1 ng-show="!group">Loading</span>
-</h1>
+<h1 ng-show="!group">Loading</h1>
 
 <h1 ng-show="group">{{ group.name }}
 <span class="label label-default">{{ words.length }} words</span>
+<a href="/cms/{{ group.id }}/add" class="btn btn-primary">
+  Upload more pictures
+  <i class="glyphicon glyphicon-upload"></i>
+</a>
 </h1>
 
 <form class="form-horizontal" role="form" style="margin-top:40px">
   <div class="form-group form-group-lg">
-    <div class="col-sm-10">
+    <div class="col-sm-10 input-group">
       <input class="form-control" type="text" ng-model="search.word" id="formGroupInputLarge" placeholder="Search words">
+      <span class="input-group-addon" ng-click="search.word=''" ng-show="search.word.length">
+        <i class="glyphicon glyphicon-remove" ng-click="search.word=''"></i>
+      </span>
     </div>
   </div>
 </form>
@@ -27,9 +33,13 @@
 </p>
 
 
-<div ng-repeat="picture in filtered_pictures = (pictures | filter:foundPictures)" class="crop">
-  <img ng-src="{{ picture.url }}" xwidth="50" alt="{{ picture.words.join(', ') }}" class="img-thumbnailx"
-   popover="{{ picture.words.join(', ') }}"
+<div ng-repeat="question in filtered_questions = (questions | filter:foundPictures)" class="crop">
+  <img ng-src="{{ question.thumbnail.url }}"
+       width="{{ question.thumbnail.width }}"
+       height="{{ question.thumbnail.height }}"
+       alt="{{ question._words.join(', ') }}"
+       class="img-thumbnailx"
+   popover="{{ question._words.join(', ') }}"
    Popover-animation="true" popover-trigger="mouseenter">
 </div>
 

@@ -9,15 +9,15 @@ angular.module('cms', [
 
     $routeProvider
     .when('/cms/:group', {
-        templateUrl: "/cms/partials/group.html",
+        templateUrl: "group.html",
         controller: 'GroupController'
     })
     .when('/cms/:group/add', {
-        templateUrl: "/cms/partials/add.html",
+        templateUrl: "add.html",
         controller: 'AddController'
     })
     .when('/cms/', {
-        templateUrl: "/cms/partials/dashboard.html",
+        templateUrl: "dashboard.html",
         controller:'DashController'
     })
     ;
