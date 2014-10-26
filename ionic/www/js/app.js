@@ -40,7 +40,7 @@ angular.module('starter', [
 
 .config(function($localForageProvider) {
     $localForageProvider.config({
-        //driver      : 'localStorageWrapper', // if you want to force a driver
+        driver      : 'localStorageWrapper', // if you want to force a driver
         name        : 'cookie', // name of the database and prefix for your data
     });
 })

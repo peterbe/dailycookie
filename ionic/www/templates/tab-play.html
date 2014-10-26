@@ -49,7 +49,8 @@
          ng-src="{{ picture.url }}" style="display:none">
     <audio ng-repeat="audiofile in audiofiles"
            ng-src="{{ audiofile.mp3file }}"
-           id="audio-{{ audiofile.id }}"></audio>
+           id="audio-{{ audiofile.id }}"
+           preload="auto"></audio>
     <!-- end preloading -->
 
   </ion-content>

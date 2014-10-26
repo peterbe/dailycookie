@@ -31,7 +31,7 @@ function average(arr) {
 
 var BASE_HOST = '';
 
-if (location.hostname === '' || location.hostname === 'index.html') {
+if (location.hostname === '' || location.hostname === 'index.html' || location.hostname === 'cookie') {
     // Debugging in emulator
     BASE_HOST = 'http://cookie';
 } else {
@@ -419,6 +419,17 @@ angular.module('starter.controllers', [])
                 mp3file: word.mp3file,
                 id: word.id
             });
+
+            // XXX this doesn't work! :()
+            // var a = new Audio(word.mp3file);
+            // a.addEventListener("seeked", function() {
+            //     console.log('seeked', word.mp3file);
+            //     // document.getElementsByTagName("video")[0].play();
+            // }, true);
+            // a.addEventListener('canplaythrough', function() {
+            //     console.log('canplaythrough', word.mp3file);
+            // }, false);
+
         });
         $scope.audiofiles = audiofiles;
         callback();
