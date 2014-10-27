@@ -1,3 +1,22 @@
 .input-group-addon {
     cursor: pointer;
 }
+
+div.crop {
+    position: relative;
+}
+div.crop img + span.badge {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+
+span.badge-0 {
+    background-color: #D9534F;
+}
+span.badge-1 {
+    background-color: #F0AD4E;
+}
+span.badge-N {
+    background-color: #5CB85C;
+}

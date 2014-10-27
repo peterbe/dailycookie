@@ -33,14 +33,22 @@
 </p>
 
 
-<div ng-repeat="question in filtered_questions = (questions | filter:foundPictures)" class="crop">
+<div ng-repeat="question in filtered_questions = (questions | filter:foundPictures)" class="crop"
+popover-title="Words that use this"
+popover="{{ (question._words && question._words.join(', ')) || 'None! :('  }}"
+Popover-animation="true" popover-trigger="mouseenter"
+
+>
   <img ng-src="{{ question.thumbnail.url }}"
        width="{{ question.thumbnail.width }}"
        height="{{ question.thumbnail.height }}"
        alt="{{ question._words.join(', ') }}"
-       class="img-thumbnailx"
-   popover="{{ question._words.join(', ') }}"
-   Popover-animation="true" popover-trigger="mouseenter">
+
+       class="img-thumbnailx">
+   <span class="badge"
+    ng-class="{'badge-0': question._words.length==0,'badge-1': question._words.length==1,'badge-N': question._words.length>1}"
+   title="{{ question._words.join(', ') }}"
+   >{{ question._words.length }}</span>
 </div>
 
 

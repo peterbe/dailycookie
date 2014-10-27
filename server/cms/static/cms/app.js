@@ -1,6 +1,7 @@
 angular.module('cms', [
     'ngRoute',
     'cms.controllers',
+    'ui.bootstrap',
 ])
 
 .config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
