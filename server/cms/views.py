@@ -12,6 +12,7 @@ from django.template.loader import TemplateDoesNotExist
 from django import http
 from django.views.decorators.http import require_POST
 from django.contrib.auth.decorators import login_required
+from django.db import transaction
 
 from jsonview.decorators import json_view
 
@@ -49,6 +50,7 @@ def partial(request, template):
 def group(request, group_id):
     group = get_object_or_404(QuestionGroup, id=group_id)
     return {
+        'id': group.id,
         'name': group.name,
         'locale': {
             'name': group.locale.name,
@@ -68,26 +70,99 @@ def group_questions(request, group_id):
         words = []
         thumb = thumbnail(question.picture, geometry, crop='center')
         for word in question.correct.all().select_related('author'):
-            words.append({
-                'word': word.word,
-                'mp3file': word.mp3file.url,
-                'explanation': word.explanation,
-                'author': word.author.username,
-                'created': word.created.isoformat(),
-                'modified': word.modified.isoformat(),
-            })
+            words.append(serialize_word(word))
         questions.append({
             'thumbnail': {
                 'url': thumb.url,
                 'width': thumb.width,
                 'height': thumb.height
             },
+            'id': question.id,
             'words': words,
             'author': question.author.username,
             'created': question.created.isoformat(),
             'modified': question.modified.isoformat(),
         })
     return {'questions': questions}
+
+
+def serialize_word(word):
+    return {
+        'id': word.id,
+        'word': word.word,
+        'mp3file': word.mp3file and word.mp3file.url or None,
+        'explanation': word.explanation,
+        'author': word.author.username,
+        'created': word.created.isoformat(),
+        'modified': word.modified.isoformat(),
+    }
+
+@transaction.commit_on_success
+@login_required
+@json_view
+def question(request, question_id):
+    question = get_object_or_404(Question, id=question_id)
+
+    if request.method == 'POST':
+        if request.POST.get('remove'):
+            word = request.POST['remove']
+            word_obj = Word.objects.get(
+                word__iexact=word,
+                locale=question.group.locale,
+            )
+            question.correct.remove(word_obj)
+            # Now, is anybody using this word?
+            if not Question.correct.through.objects.filter(
+                word=word_obj
+            ):
+                # nobody's using the word
+                word_obj.delete()
+            return True
+
+        word = request.POST['word']
+        assert word
+        explanation = request.POST['explanation']
+        locale = question.group.locale
+        matches = Word.objects.filter(
+            locale=locale,
+            word__iexact=word
+        )
+        if matches:
+            word_obj, = matches
+            created = False
+        else:
+            word_obj = Word.objects.create(
+                locale=locale,
+                word=word,
+                author=request.user
+            )
+        if explanation and word_obj.explanation != explanation:
+            word_obj.explanation = explanation
+            word_obj.save()
+
+        question.correct.add(word_obj)
+
+        return {'word': serialize_word(word_obj)}
+
+    geometry = request.GET.get('geometry', '300x300')
+    crop = request.GET.get('crop', 'center')
+    words = []
+    thumb = thumbnail(question.picture, geometry, crop='center')
+    for word in question.correct.all().select_related('author'):
+        words.append(serialize_word(word))
+    question = {
+        'id': question.id,
+        'thumbnail': {
+            'url': thumb.url,
+            'width': thumb.width,
+            'height': thumb.height
+        },
+        'words': words,
+        'author': question.author.username,
+        'created': question.created.isoformat(),
+        'modified': question.modified.isoformat(),
+    }
+    return {'question': question}
 
 
 @login_required
@@ -106,3 +181,9 @@ def upload(request, group_id):
 
     return {'question': {'id': question.id}}
     # raise NotImplementedError(group)
+
+
+@login_required
+@json_view
+def csrf_token(request):
+    return {'csrf_token': request.META["CSRF_COOKIE"]}

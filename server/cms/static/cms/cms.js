@@ -1,10 +1,11 @@
 angular.module('cms', [
     'ngRoute',
-    'cms.controllers',
+    'ngCookies',
     'ui.bootstrap',
 ])
 
-.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
+.config(['$routeProvider', '$locationProvider', '$httpProvider',
+function ($routeProvider, $locationProvider, $httpProvider) {
     $locationProvider.html5Mode(true);
     // $locationProvider.html5Mode(false);
 
@@ -24,5 +25,8 @@ angular.module('cms', [
     ;
 }])
 
+.run(['$http', '$cookies', function($http, $cookies) {
+    $http.defaults.headers.post['X-CSRFToken'] = $cookies.csrftoken;
+}])
 
 ;

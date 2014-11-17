@@ -1,6 +1,6 @@
-angular.module('cms.controllers').controller('GroupController',
-['$scope', '$location', '$routeParams', '$http',
-function($scope, $location, $routeParams, $http) {
+angular.module('cms').controller('GroupController',
+['$scope', '$location', '$routeParams', '$http', '$modal',
+function($scope, $location, $routeParams, $http, $modal) {
 
     $scope.search = {};
 
@@ -77,6 +77,29 @@ function($scope, $location, $routeParams, $http) {
         }
         return false;
     };
+
+    $scope.openQuestionModal = function(question) {
+
+        var modalInstance = $modal.open({
+          templateUrl: 'question.html',
+          controller: 'QuestionController',
+          // size: 'sm',
+          resolve: {
+            question: function() {
+              return question;
+            },
+            questions: function() {
+              return $scope.questions;
+            },
+          }
+        });
+
+        modalInstance.result.then(function () {
+          // $scope.selected = selectedItem;
+        }, function () {
+          console.log('modal closed');
+        });
+  };
 
 }]
 );

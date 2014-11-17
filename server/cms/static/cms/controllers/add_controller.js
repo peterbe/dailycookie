@@ -1,4 +1,4 @@
-angular.module('cms.controllers').controller('AddController',
+angular.module('cms').controller('AddController',
 ['$scope', '$location', '$routeParams', '$http',
 function($scope, $location, $routeParams, $http) {
 

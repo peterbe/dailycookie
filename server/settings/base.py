@@ -48,6 +48,7 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'server.cms.middleware.JSONMiddleware',
 )
 
 ROOT_URLCONF = 'server.urls'
@@ -104,7 +105,7 @@ PIPELINE_CSS = {
         #},
     },
     'dropzone': {
-        'source_filenames': (
+    'source_filenames': (
             'cms/dropzone/css/dropzone.css',
         ),
         'output_filename': 'css/dropzone.css',
@@ -114,18 +115,26 @@ PIPELINE_CSS = {
 PIPELINE_JS = {
     'cms': {
         'source_filenames': (
-          'cms/jquery.min.js',
+        #   'cms/jquery.min.js',
         #   'cms/bootstrap/js/bootstrap.min.js',
           'cms/angular/angular.min.js',
           'cms/angular/angular-route.min.js',
+          'cms/angular/angular-cookies.min.js',
         #   'cms/angular-bootstrap/ui-bootstrap.min.js',
         #   'cms/angular-bootstrap/ui-bootstrap-tpls.min.js',
           'cms/angular-bootstrap/ui-bootstrap-tpls-0.11.2.min.js',
-          'cms/app.js',
+
+
+        #   'cms/controllers/*.js',
+          'cms/cms.js',
           'cms/controllers/app_controller.js',
           'cms/controllers/dash_controller.js',
           'cms/controllers/group_controller.js',
           'cms/controllers/add_controller.js',
+          'cms/controllers/question_controller.js',
+
+        #   'cms/services/*.js',
+
         ),
         'output_filename': 'js/cms.js',
     },

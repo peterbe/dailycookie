@@ -1,4 +1,4 @@
-angular.module('cms.controllers').controller('DashController',
+angular.module('cms').controller('DashController',
 ['$scope', '$location', '$http',
 function($scope, $location, $http) {
 
