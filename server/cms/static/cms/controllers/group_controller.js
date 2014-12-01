@@ -70,8 +70,8 @@ function($scope, $location, $routeParams, $http, $modal) {
     $scope.foundPictures = function(picture) {
         if (!$scope.search.word) return true;
         var length = $scope.search.word.length;
-        for (var i=0, len=picture.words.length;i<len;i++) {
-            if (picture.words[i].substring(0, length) === $scope.search.word) {
+        for (var i=0, len=picture.words.length; i<len; i++) {
+            if (picture.words[i].word.substring(0, length) === $scope.search.word) {
                 return true;
             }
         }
@@ -99,7 +99,15 @@ function($scope, $location, $routeParams, $http, $modal) {
         }, function () {
           console.log('modal closed');
         });
-  };
+    };
+
+    $scope.highlightPictures = function(word) {
+        if (word.word === $scope.search.word) {
+            $scope.search.word = '';
+        } else {
+            $scope.search.word = word.word;
+        }
+    };
 
 }]
 );

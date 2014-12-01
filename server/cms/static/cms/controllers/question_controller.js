@@ -43,9 +43,7 @@ function($scope, $http, $modalInstance, question, questions) {
         };
         $http.post('/cms/questions/' + $scope.question.id, data)
         .success(function(response) {
-            console.log('BEFORE', $scope.question.words.length, $scope.question.words);
             $scope.question.words.push(response.word);
-            console.log('AFTER', $scope.question.words.length, $scope.question.words);
             $scope.new_word = '';
             $scope.new_word_explanation = '';
         })
