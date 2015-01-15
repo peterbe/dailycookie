@@ -59,6 +59,12 @@ MEDIA_URL = '/'
 
 STATICFILES_STORAGE = 'pipeline.storage.PipelineCachedStorage'
 
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'pipeline.finders.PipelineFinder',
+)
+
 # Use memcached for session storage
 SESSION_ENGINE = 'django.contrib.sessions.backends.cached_db'
 

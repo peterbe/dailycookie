@@ -8,4 +8,4 @@ Unidecode==0.04.16
 django-jsonview==0.4.2
 simplejson==3.5.2
 South==0.8.4
-django-pipeline==1.3.25
+django-pipeline==1.4.3

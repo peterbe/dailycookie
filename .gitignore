@@ -7,3 +7,4 @@ app/questions.json
 myApp-june7/
 myAppTabs/
 server/settings/local.py
+server/static/
