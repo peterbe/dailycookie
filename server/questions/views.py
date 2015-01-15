@@ -146,7 +146,7 @@ def groups(request):
             serialize_group(x)
             for x in
             QuestionGroup.objects.all().select_related('locale')
-            if Question.objects.filter(group=x)
+            #if Question.objects.filter(group=x)
         ]
     }
     return context, 200, {'Access-Control-Allow-Origin': '*'}

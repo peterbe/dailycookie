@@ -7,13 +7,9 @@ import random
 from unidecode import unidecode
 
 from django.db import models
-from django.utils.timezone import utc
+from django.utils import timezone
 from django.contrib.auth.models import User
 from django.dispatch import receiver
-
-
-def now():
-    return datetime.datetime.utcnow().replace(tzinfo=utc)
 
 
 class Locale(models.Model):
@@ -30,8 +26,8 @@ class Locale(models.Model):
 class QuestionGroup(models.Model):
     name = models.CharField(max_length=200)
     locale = models.ForeignKey(Locale)
-    created = models.DateTimeField(default=now)
-    modified = models.DateTimeField(default=now)
+    created = models.DateTimeField(default=timezone.now)
+    modified = models.DateTimeField(default=timezone.now)
     author = models.ForeignKey(User, null=True)
 
     def __unicode__(self):
@@ -46,14 +42,16 @@ def upload_path(tag):
                 .normalize('NFD', filename)
                 .encode('ascii', 'ignore')
             )
-        _now = now()
+        _now = timezone.now()
         path = os.path.join(
             _now.strftime('%Y'),
             _now.strftime('%m'),
             _now.strftime('%d'),
         )
         hashed_filename = (
-            hashlib.md5(filename + str(now().microsecond)).hexdigest()
+            hashlib.md5(
+                filename + str(timezone.now().microsecond)
+            ).hexdigest()
         )[:5]
         __, extension = os.path.splitext(filename)
         return os.path.join(tag, path, hashed_filename + extension)
@@ -88,8 +86,8 @@ class Word(models.Model):
     explanation = models.TextField(null=True, blank=True)
 
     author = models.ForeignKey(User, null=True)
-    created = models.DateTimeField(default=now)
-    modified = models.DateTimeField(default=now)
+    created = models.DateTimeField(default=timezone.now)
+    modified = models.DateTimeField(default=timezone.now)
 
     class Meta:
         ordering = ['word']
@@ -132,8 +130,8 @@ class Question(models.Model):
     incorrect = models.ManyToManyField(Word, related_name='incorrect', blank=True)
 
     author = models.ForeignKey(User, null=True)
-    created = models.DateTimeField(default=now)
-    modified = models.DateTimeField(default=now)
+    created = models.DateTimeField(default=timezone.now)
+    modified = models.DateTimeField(default=timezone.now)
 
 
 @receiver(models.signals.pre_save, sender=Word)
@@ -142,4 +140,4 @@ class Question(models.Model):
 def update_modified(sender, instance, raw, *args, **kwargs):
     if raw:
         return
-    instance.modified = now()
+    instance.modified = timezone.now()
