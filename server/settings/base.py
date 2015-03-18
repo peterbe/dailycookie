@@ -121,17 +121,10 @@ PIPELINE_CSS = {
 PIPELINE_JS = {
     'cms': {
         'source_filenames': (
-        #   'cms/jquery.min.js',
-        #   'cms/bootstrap/js/bootstrap.min.js',
           'cms/angular/angular.min.js',
           'cms/angular/angular-route.min.js',
           'cms/angular/angular-cookies.min.js',
-        #   'cms/angular-bootstrap/ui-bootstrap.min.js',
-        #   'cms/angular-bootstrap/ui-bootstrap-tpls.min.js',
           'cms/angular-bootstrap/ui-bootstrap-tpls-0.11.2.min.js',
-
-
-        #   'cms/controllers/*.js',
           'cms/cms.js',
           'cms/controllers/app_controller.js',
           'cms/controllers/dash_controller.js',

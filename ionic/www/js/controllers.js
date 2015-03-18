@@ -29,14 +29,12 @@ function average(arr) {
     return sum / arr.length;
 }
 
-var BASE_HOST = '';
+var BASE_HOST = 'http://dailycookieapp.com';
+// if (location.hostname === '' || location.hostname === 'index.html' || location.hostname === 'cookie') {
+//     // Debugging in emulator
+//     BASE_HOST = 'http://cookie';
+// }
 
-if (location.hostname === '' || location.hostname === 'index.html' || location.hostname === 'cookie') {
-    // Debugging in emulator
-    BASE_HOST = 'http://cookie';
-} else {
-    BASE_HOST = 'http://dailycookieapp.com';
-}
 
 angular.module('starter.controllers', [])
 
