@@ -107,7 +107,6 @@ angular.module('starter.controllers', [])
 })
 
 .controller('SettingsCtrl', function($scope, $timeout, $localForage, Config) {
-    $scope.saving = false;
     $scope.saved = false;
     $scope.invalid = [];
 
@@ -181,18 +180,16 @@ angular.module('starter.controllers', [])
     };
 
     var _save = function() {
-        $scope.saving = true;
         // final cast before it goes into JSON save
         //$scope.settings.batch_size = parseInt($scope.settings.batch_size, 10);
         //$scope.settings.next_question_delay = parseInt($scope.settings.next_question_delay, 10);
         //console.log('About to save', $scope.settings);
 
         $localForage.setItem('settings', $scope.settings).then(function() {
-            $scope.saving = false;
             $scope.saved = true;
             $timeout(function() {
                 $scope.saved = false;
-            }, 2 * 1000);
+            }, 1.5 * 1000);
         });
     };
 })
